@@ -48,6 +48,7 @@ export default function Home() {
   const [screen, setScreen] = useState('empty');
   const questionRef = useRef(null);
   const optionsRef = useRef(null);
+  const quizRef = useRef(null);
 
   useEffect(() => {
     try {
@@ -80,6 +81,7 @@ export default function Home() {
 
   useEffect(() => {
     if (screen === 'play') {
+      quizRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       const timer = window.setTimeout(() => typeset([questionRef.current, optionsRef.current]), 0);
       return () => window.clearTimeout(timer);
     }
@@ -224,7 +226,7 @@ export default function Home() {
           <p className="fine">Javoblar faqat shu brauzerda saqlanadi. Manbada javobi noaniq savollar natijaga qo‘shilmaydi.</p>
         </aside>
 
-        <section className="quiz">
+        <section className="quiz" ref={quizRef}>
           {screen === 'empty' && (
             <div className="empty">
               <div><div className="eyebrow">Boshlashga tayyor</div><h2>{data.questions.length ? 'Chapdan mavzuni tanlang' : 'Savollar yuklanmadi'}</h2><p>{data.questions.length ? 'Masalan, faqat “Integrallar va Furye qatorlari”ni tanlab, 10 ta savol ishlang.' : 'Savollar JSON fayli topilmadi.'}</p></div>
