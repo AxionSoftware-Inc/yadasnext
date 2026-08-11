@@ -1,0 +1,1319 @@
+{
+  "source_file": "YaDas_2024-2025_Matematika va informatika.pdf",
+  "page_range": "21-40",
+  "question_count": 99,
+  "extraction_method": "PDF page-image visual verification + source text-layer as secondary aid",
+  "answer_key_in_source": false,
+  "answer_policy": "correct_answer is model-solved where source is clear; source_or_options_issue marks cases where the printed formula/options need additional visual verification and no answer was guessed",
+  "questions": [
+    {
+      "id": 101,
+      "page": 21,
+      "question": "$A$ va $B$ to‘plamlar uchun $A\\cup B=U$ ekanligidan quyidagi munosabat kelib chiqadi.",
+      "options": {
+        "A": "$\\overline A\\subseteq B$",
+        "B": "$\\overline A\\subset B$",
+        "C": "$A\\cap B=\\varnothing$",
+        "D": "$A\\subset B$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 102,
+      "page": 21,
+      "question": "$A$ va $B$ to‘plamlar uchun $A\\cup B=U$ ekanligidan quyidagi munosabat kelib chiqadi.",
+      "options": {
+        "A": "$\\overline B\\subseteq A$",
+        "B": "$A\\subset B$",
+        "C": "$\\overline A\\subset B$",
+        "D": "$A\\cap B=\\varnothing$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 103,
+      "page": 21,
+      "question": "$\\displaystyle \\bigcup_{k=1}^{\\infty} [1/k,1]$ yig‘indini toping.",
+      "options": {
+        "A": "$[0,1]$",
+        "B": "$\\{1\\}$",
+        "C": "$\\{0\\}$",
+        "D": "$\\varnothing$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 104,
+      "page": 21,
+      "question": "$\\displaystyle \\bigcap_{k=2}^{\\infty} [(k-1)/k,1]$ ko‘paytmani toping.",
+      "options": {
+        "A": "$\\{1\\}$",
+        "B": "$[0,1]$",
+        "C": "$\\{0\\}$",
+        "D": "$\\varnothing$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 105,
+      "page": 21,
+      "question": "$A\\times B=\\varnothing$ ekanligidan quyidagi munosabat kelib chiqadi.",
+      "options": {
+        "A": "$A=\\varnothing$ yoki $B=\\varnothing$",
+        "B": "$A\\cap B=\\varnothing$",
+        "C": "$A\\setminus B=\\varnothing$",
+        "D": "$A\\cup B=\\varnothing$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 106,
+      "page": 21,
+      "question": "$A,B,C,D$ to‘plamlar uchun $A\\times B\\subseteq C\\times D$ ekanligidan quyidagi munosabat kelib chiqadi.",
+      "options": {
+        "A": "$A\\subseteq C$ va $B\\subseteq D$",
+        "B": "$A\\subset C$ va $B\\subset D$",
+        "C": "$\\overline A\\subseteq C$ va $\\overline B\\subseteq D$",
+        "D": "$A\\cup B\\subseteq C\\cup D$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "Manbadagi shart bo‘sh to‘plam holatlarida qo‘shimcha faraz talab qilishi mumkin."
+    },
+    {
+      "id": 107,
+      "page": 21,
+      "question": "Agar $A=\\{1,2,3\\}$, $B=\\{2,4\\}$ va $p=\\{(1,2),(2,4)\\}$ binar munosabat bo‘lsa, uning aniqlanish sohasini toping.",
+      "options": {
+        "A": "$\\{1,2\\}$",
+        "B": "$\\{2,3\\}$",
+        "C": "$\\{2,4\\}$",
+        "D": "$\\{1,4\\}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 108,
+      "page": 22,
+      "question": "Agar $A=\\{1,2,3\\}$, $B=\\{2,4\\}$ va $p=\\{(1,2),(2,4)\\}$ binar munosabat bo‘lsa, uning o‘zgarish sohasini toping.",
+      "options": {
+        "A": "$\\{2,4\\}$",
+        "B": "$\\{2,3\\}$",
+        "C": "$\\{1,2\\}$",
+        "D": "$\\{1,4\\}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 109,
+      "page": 22,
+      "question": "Agar $A=\\{1,2,3\\}$, $B=\\{2,4\\}$ va $p=\\{(1,2),(2,4)\\}$ bo‘lsa, unga teskari $p^{-1}$ munosabatni toping.",
+      "options": {
+        "A": "$\\{(2,1),(4,2)\\}$",
+        "B": "$\\{(2,3),(1,4)\\}$",
+        "C": "$\\{(2,4),(3,4)\\}$",
+        "D": "$\\{(1,4),(2,4)\\}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 110,
+      "page": 22,
+      "question": "$\\begin{vmatrix}3&-1\\\\2&-5\\end{vmatrix}$ determinantni hisoblang.",
+      "options": {
+        "A": "-13",
+        "B": "13",
+        "C": "17",
+        "D": "-17"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 111,
+      "page": 22,
+      "question": "$\\begin{vmatrix}\\cos\\alpha&\\cos\\beta\\\\\\sin\\alpha&\\sin\\beta\\end{vmatrix}$ determinantni hisoblang.",
+      "options": {
+        "A": "$\\sin(\\beta-\\alpha)$",
+        "B": "$\\cos(\\beta-\\alpha)$",
+        "C": "$\\sin(\\alpha+\\beta)$",
+        "D": "$\\cos(\\alpha+\\beta)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 112,
+      "page": 22,
+      "question": "$\\begin{vmatrix}1&-1\\\\1&\\cos\\alpha\\end{vmatrix}$ determinantni hisoblang.",
+      "options": {
+        "A": "$2\\cos^2(\\alpha/2)$",
+        "B": "$\\cos^2(\\alpha/2)$",
+        "C": "$-2\\cos^2(\\alpha/2)$",
+        "D": "$2\\sin^2(\\alpha/2)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 113,
+      "page": 23,
+      "question": "$\\begin{vmatrix}x+1&x\\\\x^2&x^2-x+1\\end{vmatrix}$ determinantni hisoblang.",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "$x$",
+        "D": "$-x$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 114,
+      "page": 23,
+      "question": "$\\begin{vmatrix}2&1&3\\\\4&3&7\\\\1&7&8\\end{vmatrix}$ determinantni hisoblang.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 115,
+      "page": 23,
+      "question": "$\\begin{vmatrix}1&1&1\\\\2&4&8\\\\3&9&27\\end{vmatrix}$ determinantni hisoblang.",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "11",
+        "D": "15"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 116,
+      "page": 23,
+      "question": "Yuqori uchburchak $n\\times n$ matritsa determinantini hisoblang: diagonal elementlari $a_{11},a_{22},\\ldots,a_{nn}$.",
+      "options": {
+        "A": "$a_{11}a_{22}\\cdots a_{nn}$",
+        "B": "$-a_{11}a_{22}\\cdots a_{nn}$",
+        "C": "$(-1)^n a_{11}a_{22}\\cdots a_{nn}$",
+        "D": "$(-1)^{n-1}a_{11}a_{22}\\cdots a_{nn}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 117,
+      "page": 23,
+      "question": "Yon diagonal bo‘yicha $a_{1n},a_{2,n-1},\\ldots,a_{n1}$ elementlari joylashgan uchburchak determinantni hisoblang.",
+      "options": {
+        "A": "$(-1)^{n(n-1)/2}a_{1n}a_{2,n-1}\\cdots a_{n1}$",
+        "B": "$(-1)^n a_{1n}a_{2,n-1}\\cdots a_{n1}$",
+        "C": "$a_{1n}a_{2,n-1}\\cdots a_{n1}$",
+        "D": "$-a_{1n}a_{2,n-1}\\cdots a_{n1}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 118,
+      "page": 24,
+      "question": "Vandermond determinantini hisoblang: birinchi satr $1,1,\\ldots,1$, keyingi satrlar $a_i,a_i^2,\\ldots,a_i^{n-1}$.",
+      "options": {
+        "A": "$\\displaystyle\\prod_{1\\le i<j\\le n}(a_j-a_i)$",
+        "B": "$\\displaystyle\\prod_{1\\le i\\le j\\le n}(a_j-a_i)$",
+        "C": "$\\displaystyle\\prod_{1\\le i<j\\le n}(a_j+a_i)$",
+        "D": "$\\displaystyle\\sum_{1\\le i<j\\le n}(a_j-a_i)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 119,
+      "page": 24,
+      "question": "$\\begin{pmatrix}2&-4&3&-3&5\\\\1&-2&1&5&3\\\\1&-2&4&-34&0\\end{pmatrix}$ matritsaning rangini toping.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 120,
+      "page": 24,
+      "question": "$\\begin{pmatrix}1&2&3\\\\2&3&5\\\\0&-1&-1\\end{pmatrix}$ matritsaning rangini toping.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 121,
+      "page": 24,
+      "question": "$\\begin{pmatrix}-2&3\\\\-5&6\\end{pmatrix}\\begin{pmatrix}5&2\\\\4&-7\\end{pmatrix}$ ko‘paytmani toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}2&-25\\\\-1&-52\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}2&25\\\\-49&32\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}2&-25\\\\1&-52\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}-25&2\\\\-49&32\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 122,
+      "page": 25,
+      "question": "$\\begin{pmatrix}1&1&-3\\\\2&2&-1\\\\3&-2&1\\end{pmatrix}\\begin{pmatrix}1&1&2\\\\2&1&2\\\\1&0&1\\end{pmatrix}$ ko‘paytmani toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}2&0&1\\\\1&0&7\\\\0&1&9\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}2&1&1\\\\1&3&7\\\\0&1&9\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}2&0&1\\\\1&0&7\\\\2&1&9\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}2&0&1\\\\1&0&7\\\\0&-1&9\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 123,
+      "page": 25,
+      "question": "$\\begin{pmatrix}a&0\\\\0&b\\end{pmatrix}^n$ matritsani toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}a^n&0\\\\0&b^n\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}b^n&0\\\\0&a^n\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}a^n&a^n\\\\b^n&b^n\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}a^n&0\\\\b^n&0\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 124,
+      "page": 25,
+      "question": "$\\begin{pmatrix}a&a\\\\0&a\\end{pmatrix}^n$ matritsani toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}a^n&na^{n-1}a\\\\0&a^n\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}a^n&na^n\\\\0&a^n\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}a^n&na^{n-1}\\\\a^n&a^n\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}a^n&na^{n-2}\\\\0&a^n\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "A variant manbadagi yozuv bo‘yicha $na^{n-1}a=na^n$."
+    },
+    {
+      "id": 125,
+      "page": 26,
+      "question": "$\\begin{pmatrix}2&4\\\\3&5\\end{pmatrix}$ matritsaga teskari matritsani toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}-5/2&2\\\\3/2&-1\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}5/2&2\\\\3/2&-1\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}-5/2&2\\\\3/2&1\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}-5/2&-2\\\\-3/2&-1\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 126,
+      "page": 26,
+      "question": "$\\begin{pmatrix}a&b\\\\b&-a\\end{pmatrix}$ matritsaga teskari matritsani toping.",
+      "options": {
+        "A": "$\\frac1{a^2+b^2}\\begin{pmatrix}a&b\\\\b&-a\\end{pmatrix}$",
+        "B": "$\\frac1{a^2+b^2}\\begin{pmatrix}a&-b\\\\b&a\\end{pmatrix}$",
+        "C": "$\\frac1{a^2-b^2}\\begin{pmatrix}a&b\\\\b&a\\end{pmatrix}$",
+        "D": "$\\frac1{a^2+b^2}\\begin{pmatrix}a&b\\\\-b&a\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 127,
+      "page": 26,
+      "question": "$\\begin{pmatrix}1&-2&3\\\\0&1&2\\\\1&0&4\\end{pmatrix}$ matritsaga teskari matritsani toping.",
+      "options": {
+        "A": "$\\frac1{11}\\begin{pmatrix}4&8&-7\\\\2&-1&-2\\\\-1&2&1\\end{pmatrix}$",
+        "B": "$\\frac1{11}\\begin{pmatrix}4&8&-7\\\\2&-7&-2\\\\-1&2&1\\end{pmatrix}$",
+        "C": "$\\frac1{11}\\begin{pmatrix}4&8&7\\\\2&7&2\\\\-1&2&1\\end{pmatrix}$",
+        "D": "$\\frac1{11}\\begin{pmatrix}4&-8&7\\\\-2&7&-2\\\\-1&2&1\\end{pmatrix}$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manbadagi variantlar tasviri bilan hisoblangan teskari matritsa to‘liq mos kelmasligi mumkin; vizual qayta tekshiruv talab qiladi."
+    },
+    {
+      "id": 128,
+      "page": 27,
+      "question": "$\\begin{pmatrix}3&5\\\\2&4\\end{pmatrix}X=\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}$ tenglamadan $X$ matritsani toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}-3&-6\\\\2&4\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}-3&6\\\\2&4\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}-3&-6\\\\-2&4\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}-3&6\\\\-2&4\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 129,
+      "page": 27,
+      "question": "$\\begin{pmatrix}2&-1\\\\3&2\\end{pmatrix}X\\begin{pmatrix}5&1&1\\\\-2&3&2\\end{pmatrix}=\\begin{pmatrix}1&1&1\\\\3&2&3\\end{pmatrix}$ tenglamadan $X$ matritsani toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}1&10&25\\\\17&21&44\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}-1&10&25\\\\17&21&44\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}1&10&25\\\\-17&21&44\\end{pmatrix}$",
+        "D": "$-\\begin{pmatrix}1&10&25\\\\17&21&44\\end{pmatrix}$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Matritsa o‘lchamlari manba tasvirida noaniq; avtomatik matn qatlami ishonchsiz."
+    },
+    {
+      "id": 130,
+      "page": 27,
+      "question": "Bir xil tartibli $A$ va $B$ kvadrat matritsalar uchun umumiy holda qaysi munosabat o‘rinli?",
+      "options": {
+        "A": "$AB\\ne BA$",
+        "B": "$AB=BA$",
+        "C": "$AB=E$",
+        "D": "$AB$ aniqlanmagan"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 131,
+      "page": 27,
+      "question": "$(5-8i)x+(7+3i)y=2-i$ tenglikda $x,y$ haqiqiy sonlarni toping.",
+      "options": {
+        "A": "$x=13/71,\\ y=11/71$",
+        "B": "$x=-13/71,\\ y=11/71$",
+        "C": "$x=13/71,\\ y=-11/71$",
+        "D": "$x=11/71,\\ y=13/71$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 132,
+      "page": 28,
+      "question": "$(7+2i)x-(5-4i)y=-1-i$ tenglikda $x,y$ haqiqiy sonlarni toping.",
+      "options": {
+        "A": "$x=-9/38,\\ y=-5/38$",
+        "B": "$x=9/38,\\ y=-5/38$",
+        "C": "$x=-9/38,\\ y=5/38$",
+        "D": "$x=-5/38,\\ y=-9/38$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 133,
+      "page": 28,
+      "question": "$-i$ kompleks sonni trigonometrik shaklda ifodalang.",
+      "options": {
+        "A": "$\\cos(\\pi/2)+i\\sin(\\pi/2)$",
+        "B": "$\\cos\\pi+i\\sin\\pi$",
+        "C": "$\\cos(3\\pi/2)+i\\sin(3\\pi/2)$",
+        "D": "$\\cos(\\pi/2)-i\\sin(\\pi/2)$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 134,
+      "page": 28,
+      "question": "$\\sqrt3+i$ kompleks sonni trigonometrik ko‘rinishga keltiring.",
+      "options": {
+        "A": "$2(\\cos(\\pi/6)+i\\sin(\\pi/6))$",
+        "B": "$2(\\cos(\\pi/6)-i\\sin(\\pi/6))$",
+        "C": "$2(\\cos(\\pi/3)+i\\sin(\\pi/3))$",
+        "D": "$3(\\cos(\\pi/6)+i\\sin(\\pi/6))$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 135,
+      "page": 28,
+      "question": "$x^2-(4+3i)x+(1+5i)=0$ tenglamani yeching.",
+      "options": {
+        "A": "$x_1=3+2i,\\ x_2=1+i$",
+        "B": "$x_1=3+i,\\ x_2=1+i$",
+        "C": "$x_1=3-2i,\\ x_2=1+i$",
+        "D": "$x_1=3+2i,\\ x_2=1-i$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 136,
+      "page": 29,
+      "question": "$\\sqrt{-15+8i}$ ni hisoblang.",
+      "options": {
+        "A": "$\\pm(1+4i)$",
+        "B": "$\\pm(1-4i)$",
+        "C": "$\\pm(4+i)$",
+        "D": "$\\pm(4-i)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 137,
+      "page": 29,
+      "question": "$\\dfrac{(1-i)^{2n}}{(1+i)^n}$ ni hisoblang.",
+      "options": {
+        "A": "$2^{n-1}i$",
+        "B": "$(2i)^{n-1}$",
+        "C": "$2^n i$",
+        "D": "$i^{n-1}$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manba formulasi/variantlari vizual tekshiruv talab qiladi."
+    },
+    {
+      "id": 138,
+      "page": 29,
+      "question": "$(1+i)^n$ ni hisoblang.",
+      "options": {
+        "A": "$2^{n/2}(\\cos(n\\pi/4)+i\\sin(n\\pi/4))$",
+        "B": "$2^{n/2}(\\cos(n\\pi/4)-i\\sin(n\\pi/4))$",
+        "C": "$2^n(\\cos(n\\pi/4)+i\\sin(n\\pi/4))$",
+        "D": "$2^{n/2}(\\cos(n\\pi/2)+i\\sin(n\\pi/2))$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 139,
+      "page": 29,
+      "question": "$a_1=(-2,3,1),a_2=(3,-1,5),a_3=(1,-4,-3)$ vektorlar sistemasidagi chiziqli erkli vektorlar sonini toping.",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "4"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 140,
+      "page": 29,
+      "question": "$a_1=(4,-1,-3,2),a_2=(8,-2,-6,4),a_3=(3,-1,-4,2),a_4=(6,-2,-8,4)$ vektorlar sistemasining rangini toping.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 141,
+      "page": 29,
+      "question": "$\\begin{cases}2x_1-x_2-4x_3=3\\\\3x_1+4x_2-2x_3=11\\\\3x_1-2x_2+4x_3=11\\end{cases}$ tenglamalar sistemasini yeching.",
+      "options": {
+        "A": "$x_1=3,x_2=1,x_3=1$",
+        "B": "$x_1=1,x_2=3,x_3=1$",
+        "C": "$x_1=-3,x_2=1,x_3=1$",
+        "D": "$x_1=3,x_2=-1,x_3=1$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Tenglama koeffitsientlari text-layerdan buzilgan bo‘lishi mumkin; sahifa tasviri bilan qo‘shimcha tekshiruv kerak."
+    },
+    {
+      "id": 142,
+      "page": 30,
+      "question": "$f(x)=3x^3-2x^2-x-1$ ko‘phadni $x-1$ ga qoldiqli bo‘ling.",
+      "options": {
+        "A": "$f(x)=(x-1)(3x^2+x)+1$",
+        "B": "$f(x)=(x-1)(3x^2-x)-1$",
+        "C": "$f(x)=(x-1)(3x^2+x)+1$",
+        "D": "$f(x)=(x-1)(x^2-3x+1)-1$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "A va C manbada bir xil ko‘rinadi."
+    },
+    {
+      "id": 143,
+      "page": 30,
+      "question": "$f(x)=x^3+3$ va $g(x)=x+1$ ko‘phadlarning EKUBini toping.",
+      "options": {
+        "A": "1",
+        "B": "$x+1$",
+        "C": "$x^3+3$",
+        "D": "$x-1$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 144,
+      "page": 30,
+      "question": "$f(x)=x^5-5x^4+7x^3-2x^2+4x-8$ ko‘phadning 2 soni necha karrali ildizi bo‘ladi.",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "4"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manbadagi ko‘phad ifodasi bilan $x=2$ ildiz bo‘lmasligi mumkin; formula vizual tekshiruv talab qiladi."
+    },
+    {
+      "id": 145,
+      "page": 30,
+      "question": "$x^4+Ax^3+Bx+1$ ko‘phadda $A,B$ ni shunday tanlangki, u $(x-1)^2$ ga bo‘linsin.",
+      "options": {
+        "A": "$A=3,B=-4$",
+        "B": "$A=-3,B=-4$",
+        "C": "$A=3,B=4$",
+        "D": "$A=-3,B=4$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 146,
+      "page": 30,
+      "question": "$x_1^2+x_2^2-3x_1x_2$ simmetrik ko‘phadni elementar simmetrik ko‘phadlar orqali ifodalang.",
+      "options": {
+        "A": "$f_1^2-5f_2$",
+        "B": "$f_1^2-3f_2$",
+        "C": "$f_1^2+5f_2$",
+        "D": "$f_1^2+3f_2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 147,
+      "page": 30,
+      "question": "$f(x)=x^2-2x-1$ va $g(x)=x^2-2x+1$ ko‘phadlarning rezultantini hisoblang.",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "3",
+        "D": "-2"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Hisoblangan rezultant variantlarda ko‘rsatilmagan bo‘lishi mumkin."
+    },
+    {
+      "id": 148,
+      "page": 30,
+      "question": "$f(x)=x^3+x^2-x-1$ ko‘phadning diskriminantini toping.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 149,
+      "page": 31,
+      "question": "$23^{15}$ ni 14 ga bo‘lgandagi qoldiqni toping.",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 150,
+      "page": 31,
+      "question": "$7x\\equiv8\\pmod{13}$ taqqoslamani yeching.",
+      "options": {
+        "A": "$x\\equiv3\\pmod{13}$",
+        "B": "$x\\equiv1\\pmod{13}$",
+        "C": "$x\\equiv2\\pmod{13}$",
+        "D": "$x\\equiv4\\pmod{13}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 151,
+      "page": 31,
+      "question": "$\\begin{vmatrix}a-b&a^2\\\\-1&a+b\\end{vmatrix}$ determinantni hisoblang.",
+      "options": {
+        "A": "$-b^2$",
+        "B": "$b^2$",
+        "C": "$a^2$",
+        "D": "$a$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 152,
+      "page": 31,
+      "question": "$\\begin{vmatrix}2&-1&1\\\\0&1&-1\\\\0&1&1\\end{vmatrix}$ determinantni hisoblang.",
+      "options": {
+        "A": "-4",
+        "B": "-2",
+        "C": "0",
+        "D": "2"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 153,
+      "page": 31,
+      "question": "$A=\\begin{pmatrix}1&1&1\\\\2&-1&1\\end{pmatrix}$ va $B=\\begin{pmatrix}1&2\\\\-2&1\\\\1&1\\end{pmatrix}$ uchun $AB$ ni toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}0&4\\\\1&4\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}1&1\\\\-1&1\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}1&4\\\\1&4\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}1&0\\\\-1&0\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 154,
+      "page": 32,
+      "question": "$A=\\begin{pmatrix}1&-1\\\\0&1\\end{pmatrix}$ uchun $A^2$ ni toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}1&-2\\\\0&1\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}1&5\\\\0&1\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}1&4\\\\0&1\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}1&8\\\\0&1\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 155,
+      "page": 32,
+      "question": "$A=\\begin{pmatrix}1&-1\\\\0&1\\end{pmatrix}$ uchun $A^{-1}$ ni toping.",
+      "options": {
+        "A": "$\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}1&3\\\\0&2\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}1&5\\\\0&-4\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 156,
+      "page": 32,
+      "question": "$A=\\begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&2\\end{pmatrix}$ matritsaga teskari matritsani toping.",
+      "options": {
+        "A": "$\\frac12 I_3$",
+        "B": "$2I_3$",
+        "C": "$I_3$",
+        "D": "Mavjud emas"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 157,
+      "page": 33,
+      "question": "$-1$ kompleks sonini trigonometrik shaklda yozing.",
+      "options": {
+        "A": "$\\cos\\pi+i\\sin\\pi$",
+        "B": "$\\cos0+i\\sin\\pi$",
+        "C": "$-\\cos0+i\\sin0$",
+        "D": "$-\\cos0+i\\sin\\pi$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 158,
+      "page": 33,
+      "question": "$\\operatorname{Re}\\alpha=-3$, $\\operatorname{Im}\\alpha=1$ bo‘ladigan $\\alpha$ kompleks sonini yozing.",
+      "options": {
+        "A": "$-3+i$",
+        "B": "$-1-3i$",
+        "C": "$3+i$",
+        "D": "$-1-3i$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 159,
+      "page": 33,
+      "question": "$\\cos(\\pi/2)+i\\sin(\\pi/2)$ ifoda qaysi kompleks sonning trigonometrik shakli?",
+      "options": {
+        "A": "$i$",
+        "B": "$i-1$",
+        "C": "$i+1$",
+        "D": "$1-i$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 160,
+      "page": 33,
+      "question": "$\\alpha=3-2i$ kompleks soni uchun $\\alpha+\\overline\\alpha$ ni hisoblang.",
+      "options": {
+        "A": "6",
+        "B": "$4i$",
+        "C": "$6+4i$",
+        "D": "$6-4i$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 161,
+      "page": 33,
+      "question": "$\\alpha=3+4i$ kompleks sonining modulini hisoblang.",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "4",
+        "D": "2"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 162,
+      "page": 33,
+      "question": "$z=3-3i$ ning moduli va argumentini toping.",
+      "options": {
+        "A": "$|z|=3\\sqrt2,\\arg z=7\\pi/4$",
+        "B": "$|z|=2,\\arg z=\\pi/4$",
+        "C": "$|z|=4,\\arg z=2\\pi/3$",
+        "D": "$|z|=2,\\arg z=\\pi/2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 163,
+      "page": 33,
+      "question": "$z=1-i$ kompleks sonning moduli va argumentini toping.",
+      "options": {
+        "A": "$|z|=\\sqrt2,\\arg z=7\\pi/4$",
+        "B": "$|z|=\\sqrt2,\\arg z=7\\pi/4$",
+        "C": "$|z|=4,\\arg z=2\\pi/3$",
+        "D": "$|z|=2,\\arg z=\\pi/2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "A va B manbada bir xil ko‘rinadi."
+    },
+    {
+      "id": 164,
+      "page": 34,
+      "question": "$x=1+2i$, $y=1-2i$ kompleks sonlar ko‘paytmasini hisoblang.",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "2",
+        "D": "3"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 165,
+      "page": 34,
+      "question": "$\\dfrac{3-2i}{1+i}$ ni hisoblang.",
+      "options": {
+        "A": "$\\frac12-\\frac52 i$",
+        "B": "$-\\frac12-\\frac52 i$",
+        "C": "$\\frac12+\\frac52 i$",
+        "D": "$-\\frac12+\\frac52 i$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 166,
+      "page": 34,
+      "question": "$\\dfrac{16}{1+i}$ ni hisoblang.",
+      "options": {
+        "A": "$8-8i$",
+        "B": "$7-7i$",
+        "C": "$7(1-i)$",
+        "D": "$9(1+i)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 167,
+      "page": 34,
+      "question": "$(2+3i)(1+2i)$ ni hisoblang.",
+      "options": {
+        "A": "$-4+7i$",
+        "B": "$-4-7i$",
+        "C": "$4+7i$",
+        "D": "$4-7i$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 168,
+      "page": 34,
+      "question": "Gorner sxemasidan foydalanib $f(x)=x^4-2x^3+4x^2-6x+8$ uchun $f(1)$ ni hisoblang.",
+      "options": {
+        "A": "5",
+        "B": "-5",
+        "C": "4",
+        "D": "8"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 169,
+      "page": 35,
+      "question": "$f(x)=x^3-8$ ko‘phadni haqiqiy sonlar maydonida keltirilmas ko‘phadlar ko‘paytmasiga yoying.",
+      "options": {
+        "A": "$(x-2)(x^2+2x+4)$",
+        "B": "$(x-2)(x^2-2x+4)$",
+        "C": "$(x-2)(x^2+2x-4)$",
+        "D": "$(x-2)(x^2-2x-4)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 170,
+      "page": 35,
+      "question": "$R[x]$ da $f(x)=x^4-5x^2+6$ ni $g(x)=x^2+3x+2$ ga bo‘lganda bo‘linma va qoldiqni toping.",
+      "options": {
+        "A": "$q=x^2-3x+2,\\ r=3x+2$",
+        "B": "$q=x^2-3x+2,\\ r=3x-2$",
+        "C": "$q=x^2+3x+2,\\ r=3x+2$",
+        "D": "$q=x^2-3x+2,\\ r=-3x-2$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Parsed textdagi koeffitsientlar va variantlar buzilgan; vizual qayta tekshiruv kerak."
+    },
+    {
+      "id": 171,
+      "page": 35,
+      "question": "Kompleks sonlar maydonida $\\sqrt{5+12i}$ ildizning hamma qiymatlarini toping.",
+      "options": {
+        "A": "$3+2i,\\ -3-2i$",
+        "B": "$3+2i,\\ 3-2i$",
+        "C": "$3+2i,\\ -3+2i$",
+        "D": "To‘g‘ri javob keltirilmagan"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 172,
+      "page": 35,
+      "question": "Manbadagi kompleks ifodani hisoblang: $\\left(\\frac{1+i}{1-2i}\\right)^2$ ko‘rinishidagi ifoda.",
+      "options": {
+        "A": "$1/4$",
+        "B": "$1/4+i$",
+        "C": "$1/4-i",
+        "D": "$i/4$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Formula PDF text-layerida jiddiy buzilgan; original sahifa tasviri bo‘yicha qayta tekshirish kerak."
+    },
+    {
+      "id": 173,
+      "page": 35,
+      "question": "$a_1=(1,2,5)$, $a_2=(5,3,1)$, $a_3=(-15,-2,-21)$ vektorlar chiziqli bog‘liq, chunki…",
+      "options": {
+        "A": "$5a_1-a_2-a_3=0$",
+        "B": "$5a_1+4a_2+a_3=0$",
+        "C": "$5a_1-4a_2+3a_3=0$",
+        "D": "$5a_1+2a_2-a_3=0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 174,
+      "page": 36,
+      "question": "$(1+3i)(2+i)+(-2+i)(3-i)$ ifodaning qiymati nechaga teng?",
+      "options": {
+        "A": "$-6+12i$",
+        "B": "$5-11i$",
+        "C": "$6-12i$",
+        "D": "$8-4i$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 175,
+      "page": 36,
+      "question": "$\\left(\\frac{1-3i}{2}\\right)^2$ ifodaning qiymati nimaga teng?",
+      "options": {
+        "A": "$-\\frac12-\\frac32 i$",
+        "B": "$-\\frac12+\\frac32 i$",
+        "C": "-1",
+        "D": "1"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manba formulasi tasvirida daraja/joylashuv noaniq."
+    },
+    {
+      "id": 176,
+      "page": 36,
+      "question": "$\\sqrt{6+8i}$ ildizning qiymatlaridan birini aniqlang.",
+      "options": {
+        "A": "$-2-2i",
+        "B": "$-2+2i$",
+        "C": "$1+i$",
+        "D": "$i$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 177,
+      "page": 36,
+      "question": "$(1-3i)x^2-(16-15i)=0$ tenglamaning ildizlaridan birini ko‘rsating.",
+      "options": {
+        "A": "$2+3i$",
+        "B": "$2-3i$",
+        "C": "$4+3i$",
+        "D": "$-4+i$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 178,
+      "page": 36,
+      "question": "$\\sqrt3-i$ kompleks sonning trigonometrik shaklini aniqlang.",
+      "options": {
+        "A": "$2(\\cos(11\\pi/6)+i\\sin(11\\pi/6))$",
+        "B": "$4(\\cos(5\\pi/3)+i\\sin(5\\pi/3))$",
+        "C": "$3(\\cos(\\pi/3)+i\\sin(\\pi/3))$",
+        "D": "$3(\\cos(\\pi/2)+i\\sin(\\pi/2))$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 179,
+      "page": 37,
+      "question": "$x^3+1$ va $x^2-x+1$ ko‘phadlarning yig‘indisini toping.",
+      "options": {
+        "A": "$x^3+x^2-x+2$",
+        "B": "$x^2+1$",
+        "C": "$x^3+x^2+3$",
+        "D": "$x^2+x+2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 180,
+      "page": 37,
+      "question": "$x^3+3x^2-x+1$ ni $x^2+x-1$ ga bo‘lishdan chiqqan qoldiqni toping.",
+      "options": {
+        "A": "$3-2x$",
+        "B": "1",
+        "C": "0",
+        "D": "$1+x$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manbadagi ko‘phad koeffitsientlari text-layerda buzilgan bo‘lishi mumkin."
+    },
+    {
+      "id": 181,
+      "page": 37,
+      "question": "$x^7-4x^4+22x^3+4x^2+3x+2$ ni $x-2$ ga bo‘lishdan chiqqan qoldiqni toping.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manbadagi ko‘phad ifodasi bilan variantlar mosligi qayta tekshirilsin."
+    },
+    {
+      "id": 182,
+      "page": 37,
+      "question": "$x^4-4x^3+8x^2-5x+1$ ko‘phadning ildizi bo‘lgan 1 necha karrali ildiz?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manba koeffitsientlari vizual tekshiruv talab qiladi."
+    },
+    {
+      "id": 183,
+      "page": 37,
+      "question": "$x^4-8x^3-13x^2+24x-2$ ko‘phadning ildizini ko‘rsating.",
+      "options": {
+        "A": "-3",
+        "B": "$2/3$",
+        "C": "1",
+        "D": "$1/2$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manba ko‘phad ifodasi buzilgan bo‘lishi mumkin."
+    },
+    {
+      "id": 184,
+      "page": 37,
+      "question": "$x^2-2x+1$ ni $x-1$ ning darajalari bo‘yicha yoyilmasini toping.",
+      "options": {
+        "A": "$1+(x-1)+(x-1)^2$",
+        "B": "$1-(x-1)-2(x-1)^2$",
+        "C": "$1+(x-1)+(x-1)^2$",
+        "D": "$1-2(x-1)+(x-1)^2$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Savol ifodasi/variantlar text-layerda buzilgan; A va C bir xil ko‘rinadi."
+    },
+    {
+      "id": 185,
+      "page": 38,
+      "question": "Ko‘phadlarning EKUBini toping: $x^4+3x^3-x^2-x-4$ va $x^3+x^2-x-1$.",
+      "options": {
+        "A": "$x+1$",
+        "B": "$x-2$",
+        "C": "$x+3$",
+        "D": "$x-3$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 186,
+      "page": 38,
+      "question": "$x^6-4x^4-9x^3+12x^2+4x+6$ ko‘phadning keltirilmas ko‘paytuvchisini aniqlang.",
+      "options": {
+        "A": "$x-2$",
+        "B": "$x+3$",
+        "C": "$x+5$",
+        "D": "$x-3$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manba koeffitsientlari text-layerdan aniq tiklanmagan."
+    },
+    {
+      "id": 187,
+      "page": 38,
+      "question": "Haqiqiy sonlar to‘plami ustida keltirilmas ko‘phadni ko‘rsating.",
+      "options": {
+        "A": "$x^2+1$",
+        "B": "$x^2-1$",
+        "C": "$x^3+8$",
+        "D": "$x^3-8$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 188,
+      "page": 38,
+      "question": "Ratsional sonlar to‘plami ustida keltirilmas ko‘phadni ko‘rsating.",
+      "options": {
+        "A": "$x^2-2$",
+        "B": "$x^2-1$",
+        "C": "$x^3+8$",
+        "D": "$x^3-8$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 189,
+      "page": 38,
+      "question": "$-\\frac12-\\frac{\\sqrt3}{2}i$ kompleks sonning trigonometrik shaklini toping.",
+      "options": {
+        "A": "$\\cos(4\\pi/3)+i\\sin(4\\pi/3)$",
+        "B": "$\\cos(5\\pi/3)+i\\sin(5\\pi/3)$",
+        "C": "$\\cos(5\\pi/6)+i\\sin(5\\pi/6)$",
+        "D": "$\\cos(7\\pi/6)+i\\sin(7\\pi/6)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 190,
+      "page": 39,
+      "question": "$x^3-4x^2+4x-? $ ko‘phad uchun 2 necha karrali ildiz bo‘ladi?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Savol ko‘phadi PDF text-layerida to‘liq tiklanmagan."
+    },
+    {
+      "id": 191,
+      "page": 39,
+      "question": "$x^3-2x^2-3x+9$ ni $x+2$ ga bo‘lgandan chiqqan qoldiqni toping.",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manba koeffitsientlari bilan qoldiq variantlari mosligini vizual tekshirish kerak."
+    },
+    {
+      "id": 192,
+      "page": 39,
+      "question": "Ko‘phadlarning EKUBini toping: $x^3-1$ va $x^2-2x+1$.",
+      "options": {
+        "A": "$x-1$",
+        "B": "$(x-1)^2$",
+        "C": "$x^2-1$",
+        "D": "$x^3-1$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 193,
+      "page": 39,
+      "question": "Uzluksiz kasrni oddiy kasrga aylantiring: $[2,1,1,1,2,3]$.",
+      "options": {
+        "A": "$71/27$",
+        "B": "$57/17$",
+        "C": "$31/8$",
+        "D": "$13/3$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 194,
+      "page": 39,
+      "question": "$31/12$ kasrga qaysi uzluksiz kasr teng?",
+      "options": {
+        "A": "$[2,1,1,2,2]$",
+        "B": "$[2,1,1,3,2]$",
+        "C": "$[2,1,2,2,3]$",
+        "D": "$[2,1,1,1,2]$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 195,
+      "page": 39,
+      "question": "$\\{-3,15\\}$ ning kasr qismini toping.",
+      "options": {
+        "A": "0,85",
+        "B": "0,8",
+        "C": "0,95",
+        "D": "0,9"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 196,
+      "page": 40,
+      "question": "$[x]$ — butun qism, $\\{x\\}$ — kasr qism. Manbadagi $3\\frac13$ bilan bog‘liq yig‘indini toping.",
+      "options": {
+        "A": "$3\\frac23$",
+        "B": "$3\\frac24$",
+        "C": "$3\\frac25$",
+        "D": "4"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Formula matn qatlamida buzilgan; sahifa tasviri bo‘yicha qayta tekshirish kerak."
+    },
+    {
+      "id": 197,
+      "page": 40,
+      "question": "$\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}X=\\begin{pmatrix}3&5\\\\5&9\\end{pmatrix}$ matritsaviy tenglamani yeching.",
+      "options": {
+        "A": "$X=\\begin{pmatrix}-1&-1\\\\2&3\\end{pmatrix}$",
+        "B": "$X=\\begin{pmatrix}-1&1\\\\2&3\\end{pmatrix}$",
+        "C": "$X=\\begin{pmatrix}1&1\\\\2&3\\end{pmatrix}$",
+        "D": "$X=\\begin{pmatrix}1&-1\\\\2&3\\end{pmatrix}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 198,
+      "page": 40,
+      "question": "3 ga bo‘linganda 1, 5 ga bo‘linganda 4 qoldiq qoladigan sonlarni toping.",
+      "options": {
+        "A": "$x\\equiv4\\pmod{15}$",
+        "B": "$x\\equiv5\\pmod{15}$",
+        "C": "$x\\equiv6\\pmod{15}$",
+        "D": "$x\\equiv7\\pmod{15}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 199,
+      "page": 40,
+      "question": "440 kg donni tashish uchun 60 va 80 kg sig‘imli qoplardan nechtadan olish kerak?",
+      "options": {
+        "A": "6 va 1 ta",
+        "B": "5 va 2 ta",
+        "C": "4 va 3 ta",
+        "D": "3 va 4 ta"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YaDas — mavzu bo‘yicha test</title>
+  <meta name="description" content="YaDas matematika va informatika savollarini mavzu bo‘yicha takrorlash va test qilish.">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    :root { --ink:#17211b; --muted:#68746b; --paper:#f5f7f1; --card:#fff; --line:#dde5dc; --green:#236b4d; --green-dark:#174d38; --mint:#e4f1e8; --red:#a6443f; --gold:#a86b16; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:radial-gradient(circle at 5% 0%, #e8f3e9 0 17rem, transparent 34rem), var(--paper); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    button, select { font:inherit; }
+    .shell { width:100%; min-height:100vh; max-width:1540px; margin:0 auto; padding:22px clamp(18px,4vw,64px) 28px; display:flex; flex-direction:column; }
+    .top { display:flex; justify-content:space-between; align-items:center; gap:20px; margin-bottom:18px; }
+    .eyebrow { color:var(--green); font-weight:800; letter-spacing:.12em; text-transform:uppercase; font-size:12px; }
+    h1 { margin:7px 0 4px; font-size:clamp(28px,3.3vw,48px); letter-spacing:-.055em; line-height:1; }
+    .lead { max-width:700px; color:var(--muted); margin:0; font-size:15px; line-height:1.5; }
+    .badge { background:var(--green-dark); color:white; border-radius:999px; padding:11px 15px; font-size:13px; white-space:nowrap; box-shadow:0 6px 18px rgba(23,77,56,.18); }
+    .layout { flex:1; min-height:0; display:grid; grid-template-columns:300px minmax(0,1fr); gap:18px; align-items:stretch; }
+    .panel, .quiz { background:rgba(255,255,255,.9); border:1px solid var(--line); border-radius:22px; box-shadow:0 12px 40px rgba(29,67,44,.07); }
+    .panel { padding:18px; position:sticky; top:16px; max-height:calc(100vh - 140px); overflow:auto; }
+    .panel h2 { font-size:15px; margin:0 0 15px; }
+    label { display:block; color:var(--muted); font-size:12px; font-weight:750; margin:15px 0 7px; }
+    select { width:100%; border:1px solid var(--line); border-radius:12px; padding:11px 12px; color:var(--ink); background:white; }
+    .topic-list { display:grid; gap:6px; margin-top:13px; max-height:390px; overflow:auto; padding-right:3px; }
+    .topic-chip { display:flex; justify-content:space-between; gap:8px; width:100%; text-align:left; border:0; background:transparent; color:var(--ink); padding:9px 10px; border-radius:11px; cursor:pointer; font-size:13px; }
+    .topic-chip:hover, .topic-chip.active { background:var(--mint); color:var(--green-dark); }
+    .topic-chip span:last-child { color:var(--muted); font-variant-numeric:tabular-nums; }
+    .primary, .ghost { width:100%; border-radius:12px; padding:12px 14px; cursor:pointer; font-weight:800; }
+    .primary { border:1px solid var(--green); background:var(--green); color:#fff; margin-top:16px; }
+    .primary:hover { background:var(--green-dark); }
+    .ghost { border:1px solid var(--line); background:white; color:var(--green-dark); margin-top:8px; }
+    .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:7px; margin-top:17px; }
+    .stat { background:#f1f5ef; padding:10px 8px; border-radius:12px; text-align:center; }
+    .stat strong { display:block; font-size:20px; }
+    .stat small { color:var(--muted); font-size:10px; }
+    .quiz { padding:clamp(22px,4vw,52px); min-height:calc(100vh - 140px); display:flex; flex-direction:column; justify-content:center; overflow:hidden; background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(247,251,246,.92)); }
+    #play { width:100%; max-width:900px; margin:0 auto; }
+    .quiz-head { display:flex; justify-content:space-between; align-items:center; gap:14px; color:var(--muted); font-size:13px; }
+    .progress { height:8px; background:#edf1ec; border-radius:99px; overflow:hidden; margin:13px 0 26px; }
+    .progress i { display:block; height:100%; width:0; background:var(--green); border-radius:99px; transition:width .25s ease; }
+    .topic-tag { display:inline-flex; color:var(--green-dark); background:var(--mint); border-radius:999px; padding:6px 10px; font-size:12px; font-weight:800; }
+    .question { font-size:clamp(21px,2.5vw,31px); line-height:1.48; letter-spacing:-.025em; margin:20px 0 28px; max-width:860px; }
+    .options { display:grid; gap:10px; }
+    .option { display:flex; align-items:flex-start; gap:13px; text-align:left; width:100%; border:1px solid var(--line); background:white; padding:17px 18px; border-radius:15px; color:var(--ink); cursor:pointer; line-height:1.5; font-size:15px; transition:.15s ease; }
+    .option:hover:not(:disabled) { border-color:var(--green); background:#f8fcf8; transform:translateY(-1px); }
+    .option b { display:grid; place-items:center; flex:0 0 27px; height:27px; border-radius:50%; background:#edf3ec; color:var(--green-dark); font-size:13px; }
+    .option.correct { border-color:#4d9a67; background:#eaf7ed; }
+    .option.wrong { border-color:#d4776f; background:#fff0ee; }
+    .option:disabled { cursor:default; }
+    .feedback { margin-top:18px; padding:14px 16px; background:#f4f6f2; border-radius:14px; color:var(--muted); line-height:1.5; display:none; }
+    .feedback.show { display:block; }
+    .feedback.good { background:#eaf7ed; color:#245e38; }
+    .feedback.bad { background:#fff0ee; color:#853c38; }
+    .next { margin-top:15px; display:none; width:auto; }
+    .empty { display:grid; place-items:center; text-align:center; min-height:calc(100vh - 190px); color:var(--muted); }
+    .empty h2 { color:var(--ink); }
+    .summary { display:none; text-align:center; padding:55px 15px; }
+    .summary.show { display:block; }
+    .summary h2 { font-size:34px; margin:10px 0; }
+    .summary p { color:var(--muted); line-height:1.6; }
+    .fine { color:var(--muted); font-size:11px; line-height:1.5; margin-top:15px; }
+    @media (max-width:800px) { .shell { padding:18px 13px 22px; } .top { display:block; } .badge { display:inline-block; margin-top:13px; } .layout { grid-template-columns:1fr; } .panel { position:static; max-height:none; } .topic-list { max-height:180px; } .quiz { min-height:calc(100vh - 360px); padding:22px 16px; } .empty { min-height:360px; } }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <div><div class="eyebrow">YaDas · 1–80-sahifalar</div><h1>Mavzu tanla. Ishla. Qayta takrorla.</h1><p class="lead">Integrallarni alohida, differensial tenglamalarni alohida yoki hammasini aralashtirib test qil. Har bir sessiya savollarni qayta aralashtiradi.</p></div>
+      <div class="badge" id="questionTotal">351 ta savol</div>
+    </header>
+    <section class="layout">
+      <aside class="panel">
+        <h2>Test sozlamalari</h2>
+        <label for="count">Sessiyada nechta savol?</label>
+        <select id="count"><option value="5">5 ta</option><option value="10" selected>10 ta</option><option value="20">20 ta</option><option value="all">Tanlanganlarning hammasi</option></select>
+        <label for="status">Savol turi</label>
+        <select id="status"><option value="all">Barcha savollar</option><option value="answered">Javobi bor savollar</option><option value="unseen">Avval ishlanmaganlar</option><option value="wrong">Oldin xato qilinganlar</option></select>
+        <label>Mavzu</label>
+        <div class="topic-list" id="topicList"></div>
+        <button class="primary" id="start">Testni boshlash</button>
+        <button class="ghost" id="resetStats">Natijalarni tozalash</button>
+        <div class="stats"><div class="stat"><strong id="statAnswered">0</strong><small>ishlangan</small></div><div class="stat"><strong id="statAccuracy">—</strong><small>aniqlik</small></div><div class="stat"><strong id="statSessions">0</strong><small>sessiya</small></div></div>
+        <p class="fine">Javoblar faqat shu brauzerda saqlanadi. Manbada javobi noaniq savollar natijaga qo‘shilmaydi.</p>
+      </aside>
+      <section class="quiz" id="quiz">
+        <div class="empty" id="empty"><div><div class="eyebrow">Boshlashga tayyor</div><h2>Chapdan mavzuni tanlang</h2><p>Masalan, faqat “Integrallar va Furye qatorlari”ni tanlab, 10 ta savol ishlang.</p></div></div>
+        <div id="play" hidden>
+          <div class="quiz-head"><span id="counter">1 / 10</span><span id="score">0 to‘g‘ri</span></div><div class="progress"><i id="bar"></i></div><div class="topic-tag" id="topicTag"></div><div class="question" id="question"></div><div class="options" id="options"></div><div class="feedback" id="feedback"></div><button class="primary next" id="next">Keyingi savol →</button>
+        </div>
+        <div class="summary" id="summary"><div class="eyebrow">Sessiya tugadi</div><h2 id="summaryTitle"></h2><p id="summaryText"></p><button class="primary" id="again">Yana shu mavzuni ishlash</button></div>
+      </section>
+    </section>
+  </main>
+  <script src="questions.js"></script>
+  <script>
+    const data = window.YADAS_DATA;
+    const $ = (id) => document.getElementById(id);
+    const letters = ['A','B','C','D'];
+    const storeKey = 'yadas-study-v2';
+
+    const emptyState = () => ({
+      answered: {},
+      correct: 0,
+      attempts: 0,
+      sessions: 0
+    });
+
+    const storage = (() => {
+      try {
+        const s = window.localStorage;
+        const k = '__yadas_test__';
+        s.setItem(k, '1');
+        s.removeItem(k);
+        return s;
+      } catch (_) {
+        return null;
+      }
+    })();
+
+    let state = (() => {
+      try {
+        if (!storage) return emptyState();
+        const saved = JSON.parse(storage.getItem(storeKey) || '{}');
+        return {
+          ...emptyState(),
+          ...saved,
+          answered: saved && typeof saved.answered === 'object' && saved.answered ? saved.answered : {}
+        };
+      } catch (_) {
+        return emptyState();
+      }
+    })();
+
+    let selectedTopic = 'all';
+    let deck = [];
+    let index = 0;
+    let score = 0;
+    let sessionAttempts = 0;
+    let currentAnswered = false;
+
+    const escapeHtml = (s) =>
+      String(s ?? '').replace(/[&<>"']/g, c => ({
+        '&':'&amp;',
+        '<':'&lt;',
+        '>':'&gt;',
+        '"':'&quot;',
+        "'":'&#39;'
+      }[c]));
+
+    function renderMath(el) {
+      if (!el || !window.MathJax?.typesetPromise) return;
+      MathJax.typesetPromise([el]).catch(() => {});
+    }
+
+    function save() {
+      try {
+        storage?.setItem(storeKey, JSON.stringify(state));
+      } catch (_) {}
+      updateStats();
+    }
+
+    function updateStats() {
+      const vals = Object.values(state.answered || {});
+      $('statAnswered').textContent = vals.length;
+      $('statAccuracy').textContent = state.attempts
+        ? Math.round((state.correct / state.attempts) * 100) + '%'
+        : '—';
+      $('statSessions').textContent = state.sessions;
+    }
+
+    function topicQuestions() {
+      if (!data || !Array.isArray(data.questions)) return [];
+      return data.questions.filter(q => selectedTopic === 'all' || q.topic === selectedTopic);
+    }
+
+    function buildTopics() {
+      const topics = Array.isArray(data.topics) ? data.topics : [];
+      const all = { id:'all', title:'Barcha mavzular', count:data.questions.length };
+      const list = [all, ...topics];
+
+      $('topicList').innerHTML = list.map(t => `
+        <button class="topic-chip ${t.id === selectedTopic ? 'active' : ''}" data-topic="${escapeHtml(t.id)}">
+          <span>${escapeHtml(t.title)}</span>
+          <span>${Number.isFinite(Number(t.count)) ? Number(t.count) : ''}</span>
+        </button>
+      `).join('');
+
+      document.querySelectorAll('.topic-chip').forEach(button => {
+        button.onclick = () => {
+          selectedTopic = button.dataset.topic;
+          buildTopics();
+        };
+      });
+    }
+
+    function shuffle(items) {
+      const a = [...items];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function correctSet(q) {
+      const ca = q?.correct_answer;
+      const raw = Array.isArray(ca) ? ca : (ca ? [ca] : []);
+      return new Set(
+        raw
+          .map(v => String(v).trim().toUpperCase())
+          .filter(v => letters.includes(v))
+      );
+    }
+
+    function start() {
+      let pool = topicQuestions();
+      const mode = $('status').value;
+
+      if (mode === 'answered') {
+        pool = pool.filter(q => correctSet(q).size > 0);
+      }
+      if (mode === 'unseen') {
+        pool = pool.filter(q => !state.answered[q.id]);
+      }
+      if (mode === 'wrong') {
+        pool = pool.filter(q => state.answered[q.id]?.correct === false);
+      }
+
+      pool = shuffle(pool);
+
+      const requested = $('count').value;
+      const n = requested === 'all' ? pool.length : Math.max(0, Number(requested) || 0);
+
+      deck = pool.slice(0, n);
+      index = 0;
+      score = 0;
+      sessionAttempts = 0;
+      currentAnswered = false;
+
+      $('summary').classList.remove('show');
+
+      if (!deck.length) {
+        $('play').hidden = true;
+        $('empty').hidden = false;
+        $('empty').innerHTML = '<div><h2>Savol topilmadi</h2><p>Bu filtr bo‘yicha hozircha savol yo‘q.</p></div>';
+        return;
+      }
+
+      $('empty').hidden = true;
+      $('play').hidden = false;
+      state.sessions++;
+      save();
+      showQuestion();
+    }
+
+    function showQuestion() {
+      const q = deck[index];
+      if (!q) {
+        finish();
+        return;
+      }
+
+      currentAnswered = false;
+      $('counter').textContent = `${index + 1} / ${deck.length}`;
+      $('score').textContent = `${score} to‘g‘ri`;
+      $('bar').style.width = `${(index / deck.length) * 100}%`;
+      $('topicTag').textContent = q.topic_title || q.topic || 'Mavzu';
+      $('question').innerHTML = escapeHtml(q.question || 'Savol matni yo‘q');
+
+      $('options').innerHTML = letters.map(letter => `
+        <button class="option" data-answer="${letter}">
+          <b>${letter}</b>
+          <span>${escapeHtml(q.options?.[letter] ?? '—')}</span>
+        </button>
+      `).join('');
+
+      $('feedback').className = 'feedback';
+      $('feedback').innerHTML = '';
+      $('next').style.display = 'none';
+
+      renderMath($('question'));
+      renderMath($('options'));
+
+      document.querySelectorAll('.option').forEach(button => {
+        button.onclick = () => answer(button.dataset.answer);
+      });
+    }
+
+    function answer(choice) {
+      if (currentAnswered) return;
+
+      const q = deck[index];
+      if (!q) return;
+
+      currentAnswered = true;
+
+      const set = correctSet(q);
+      const known = set.size > 0;
+      const good = known && set.has(choice);
+
+      document.querySelectorAll('.option').forEach(button => {
+        button.disabled = true;
+
+        if (known && set.has(button.dataset.answer)) {
+          button.classList.add('correct');
+        }
+        if (known && button.dataset.answer === choice && !good) {
+          button.classList.add('wrong');
+        }
+      });
+
+      const fb = $('feedback');
+      fb.className = 'feedback show';
+
+      if (!known) {
+        fb.classList.add('bad');
+        fb.innerHTML = '<strong>Bu savol tekshiruv talab qiladi.</strong><br>JSONda ishonchli javob kaliti yo‘q. U statistika va “xato qilinganlar” ro‘yxatiga qo‘shilmaydi.';
+      } else {
+        sessionAttempts++;
+        state.attempts++;
+
+        if (good) {
+          score++;
+          state.correct++;
+          fb.classList.add('good');
+          fb.innerHTML = '<strong>To‘g‘ri.</strong> Davom etamiz.';
+        } else {
+          fb.classList.add('bad');
+          fb.innerHTML = `<strong>Bu safar xato.</strong> To‘g‘ri javob: ${[...set].join(', ')}.`;
+        }
+
+        if (q.id != null) {
+          state.answered[q.id] = {
+            correct: good,
+            at: Date.now()
+          };
+        }
+
+        save();
+      }
+
+      $('score').textContent = `${score} to‘g‘ri`;
+      $('next').style.display = 'inline-block';
+      $('bar').style.width = `${((index + 1) / deck.length) * 100}%`;
+    }
+
+    function next() {
+      if (index < deck.length - 1) {
+        index++;
+        showQuestion();
+      } else {
+        finish();
+      }
+    }
+
+    function finish() {
+      $('play').hidden = true;
+      $('summary').classList.add('show');
+
+      const pct = sessionAttempts
+        ? Math.round((score / sessionAttempts) * 100)
+        : 0;
+
+      if (sessionAttempts) {
+        $('summaryTitle').textContent = `${score} / ${sessionAttempts} — ${pct}%`;
+      } else {
+        $('summaryTitle').textContent = 'Tekshiriladigan javoblar yo‘q';
+      }
+
+      const skipped = deck.length - sessionAttempts;
+      const skippedText = skipped > 0
+        ? ` ${skipped} ta savolda ishonchli javob kaliti bo‘lmagani uchun foizga qo‘shilmadi.`
+        : '';
+
+      $('summaryText').textContent =
+        (selectedTopic === 'all'
+          ? 'Istasangiz yana aralashtirib ishlang yoki bitta mavzuni tanlang.'
+          : 'Shu bo‘limni yana ishlasangiz, xato qilingan savollarni alohida filtrlab takrorlashingiz mumkin.')
+        + skippedText;
+    }
+
+    $('start').onclick = start;
+    $('again').onclick = start;
+    $('next').onclick = next;
+
+    $('resetStats').onclick = () => {
+      if (confirm('Saqlangan natijalar tozalansinmi?')) {
+        state = emptyState();
+        save();
+      }
+    };
+
+    document.addEventListener('keydown', event => {
+      if ($('play').hidden) return;
+
+      const key = event.key.toUpperCase();
+
+      if (letters.includes(key) && !currentAnswered) {
+        document.querySelector(`.option[data-answer="${key}"]`)?.click();
+      }
+
+      if (event.key === 'Enter' && currentAnswered) {
+        next();
+      }
+    });
+
+    if (!data || !Array.isArray(data.questions)) {
+      $('start').disabled = true;
+      $('questionTotal').textContent = '0 ta savol';
+      $('empty').innerHTML = '<div><h2>Savollar yuklanmadi</h2><p><b>questions.js</b> fayli index.html bilan bir papkada ekanini va unda <code>window.YADAS_DATA</code> mavjudligini tekshiring.</p></div>';
+    } else {
+      $('questionTotal').textContent = `${data.questions.length} ta savol`;
+      buildTopics();
+      updateStats();
+    }
+  </script>
+</body>
+</html>

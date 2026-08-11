@@ -1,0 +1,951 @@
+{
+  "source": "YaDas_2024-2025_Matematika va informatika.pdf",
+  "pages": "41-60",
+  "question_count": 72,
+  "questions": [
+    {
+      "id": 200,
+      "page": 41,
+      "question": "$f:\\mathbb R\\to\\mathbb R$, $f(x)=\\left[\\frac1x\\right]$ akslantirish berilgan. Bu yerda $[x]$ belgi $x$ ning butun qismi. Agar $A=(0;2]$ bo‘lsa, $f(A)$ ni toping.",
+      "options": {
+        "A": "$N$ — natural sonlar to‘plami",
+        "B": "$N\\cup\\{0\\}$",
+        "C": "$[1;+\\infty)$",
+        "D": "$Q$ — ratsional sonlar to‘plami"
+      },
+      "correct_answer": "B",
+      "answer_status": "verified"
+    },
+    {
+      "id": 201,
+      "page": 41,
+      "question": "To‘g‘ri tasdiqni toping.",
+      "options": {
+        "A": "$m$ fazo $c$ fazoning qism fazosi bo‘ladi",
+        "B": "$\\ell_2$ fazo $\\ell_1$ fazoning qism fazosi bo‘ladi",
+        "C": "$\\ell_2$ fazo $c_0$ fazoning qism fazosi bo‘ladi",
+        "D": "$c$ fazo $c_0$ fazoning qism fazosi bo‘ladi"
+      },
+      "correct_answer": "C",
+      "answer_status": "verified"
+    },
+    {
+      "id": 202,
+      "page": 41,
+      "question": "Hilbert fazolari keltirilgan javobni toping.",
+      "options": {
+        "A": "$L_2[a,b],\\ \\ell_2$",
+        "B": "$C_2[a,b],\\ \\ell_2$",
+        "C": "$C[a,b],\\ C^n$",
+        "D": "$\\ell_1,\\ C^n$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 203,
+      "page": 41,
+      "question": "Evklid fazosida noldan farqli $\\{x_\u0007lpha\\}$ elementlar sistemasi uchun … bo‘lsa, u ortonormal sistema deyiladi?",
+      "options": {
+        "A": "Ixtiyoriy $\\alpha\\ne\\beta$ uchun $(x_\\alpha,x_\\beta)=0$ va ixtiyoriy $\\alpha$ uchun $\\|x_\\alpha\\|=1$",
+        "B": "$\\{x_\\alpha\\}$ sistema chiziqli bog‘lanmagan",
+        "C": "Ixtiyoriy $\\alpha$ uchun $(x_\\alpha,x_\\alpha)=1$",
+        "D": "Ixtiyoriy $\\alpha\\ne\\beta$ uchun $(x_\\alpha,x_\\beta)=0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 204,
+      "page": 42,
+      "question": "$E$ normallangan fazo Evklid fazosi bo‘lishi uchun qaysi shart zarur va yetarli?",
+      "options": {
+        "A": "$\\|x+y\\|^2+\\|x-y\\|^2=2(\\|x\\|^2+\\|y\\|^2)$",
+        "B": "$\\|x+y\\|\\le \\|x\\|+\\|y\\|$",
+        "C": "$\\|x+y\\|+\\|x-y\\|=2(\\|x\\|+\\|y\\|)$",
+        "D": "Bunday shart yo‘q"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 205,
+      "page": 42,
+      "question": "$L_2[a,b]$ kompleks Hilbert fazosidagi skalyar ko‘paytmani ko‘rsating.",
+      "options": {
+        "A": "$(x,y)=\\int_a^b x(t)\\overline{y(t)}\\,dt$",
+        "B": "$(x,y)=\\int_a^b \\sqrt{x(t)y(t)}\\,e^{it}\\,dt$",
+        "C": "$(x,y)=\\max_{a\\le t\\le b}|x(t)-y(t)|$",
+        "D": "$(x,y)=\\sqrt{\\sum_{k=1}^{\\infty}|x_k-y_k|^2}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 206,
+      "page": 42,
+      "question": "Ratsional sonlar to‘plami $\\mathbb Q$ ning barcha limitik nuqtalari to‘plamini toping.",
+      "options": {
+        "A": "Haqiqiy sonlar to‘plami",
+        "B": "Ratsional sonlar to‘plami",
+        "C": "Butun sonlar to‘plami",
+        "D": "Irratsional sonlar to‘plami"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 207,
+      "page": 42,
+      "question": "Agar $A_1,A_2,\\ldots,A_n$ lar o‘zaro kesishmaydigan o‘lchovli to‘plamlar bo‘lsa, qaysi munosabat doimo o‘rinli?",
+      "options": {
+        "A": "$\\mu\\left(\\bigcup_{k=1}^n A_k\\right)=\\sum_{k=1}^n\\mu(A_k)$",
+        "B": "$\\mu\\left(\\bigcup_{k=1}^n A_k\\right)<\\sum_{k=1}^n\\mu(A_k)$",
+        "C": "$\\lim_{n\\to\\infty}\\mu(A_n)=\\mu(A)$",
+        "D": "$\\mu\\left(\\bigcup_{k=1}^n A_k\\right)>\\sum_{k=1}^n\\mu(A_k)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 208,
+      "page": 43,
+      "question": "$A:\\mathbb R^n\\to\\mathbb R^n$, $Ax=(a_1x_1,a_2x_2,\\ldots,a_nx_n)$ operator normasini toping.",
+      "options": {
+        "A": "$\\max_{1\\le k\\le n}|a_k|$",
+        "B": "$|a_n|$",
+        "C": "$n$",
+        "D": "$\\sqrt{a_1^2+a_2^2+\\cdots+a_n^2}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 209,
+      "page": 43,
+      "question": "$D(x)=\\begin{cases}1,&x\\in\\mathbb Q\\\\0,&x\\in\\mathbb R\\setminus\\mathbb Q\\end{cases}$ Dirixle funksiyasida $A=(2;4)$ to‘plamning aslini toping.",
+      "options": {
+        "A": "$\u000barnothing$",
+        "B": "$\\mathbb Q$",
+        "C": "$(0,1)$",
+        "D": "$\\mathbb R\\setminus\\mathbb Q$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 210,
+      "page": 43,
+      "question": "$T:\\ell_1\\to\\ell_1$, $Tx=(0,x_1,x_2,\\ldots,x_n,\\ldots)$ ga qo‘shma operatorni toping.",
+      "options": {
+        "A": "$T^*:m\\to m,\\ T^*x=(x_2,x_3,\\ldots,x_n,\\ldots)$",
+        "B": "$T^*:\\ell_1\\to\\ell_1,\\ T^*x=(x_2,x_3,\\ldots,x_n,\\ldots)$",
+        "C": "$T^*:\\ell_p\\to\\ell_p,\\ T^*y=(y_2,y_3,\\ldots,y_n,\\ldots)$",
+        "D": "$T^*:\\ell_1\\to\\ell_1,\\ T^*y=(y_1,y_2,\\ldots,y_n,\\ldots)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "source_or_options_issue",
+      "note": "Qo‘shma operatorning tabiiy dual fazosi $m=\\ell_\\infty$ bo‘lgani uchun A tanlandi; manba yozuvi juda ixcham."
+    },
+    {
+      "id": 211,
+      "page": 43,
+      "question": "$1-\\frac12+\\frac14-\\frac18+\\cdots+\\frac{(-1)^{n-1}}{2^{n-1}}+\\cdots$ qatorning yig‘indisini toping.",
+      "options": {
+        "A": "$1$",
+        "B": "$\frac23$",
+        "C": "$2$",
+        "D": "$4$"
+      },
+      "correct_answer": "B",
+      "answer_status": "verified"
+    },
+    {
+      "id": 212,
+      "page": 43,
+      "question": "$\\left(\\frac12+\\frac13\\right)+\\left(\\frac1{2^2}+\\frac1{3^2}\\right)+\\cdots+\\left(\\frac1{2^n}+\\frac1{3^n}\\right)+\\cdots$ qatorning yig‘indisini toping.",
+      "options": {
+        "A": "$1$",
+        "B": "$\frac32$",
+        "C": "$2$",
+        "D": "$4$"
+      },
+      "correct_answer": "B",
+      "answer_status": "verified"
+    },
+    {
+      "id": 213,
+      "page": 44,
+      "question": "$\\frac12+\\frac3{2^2}+\\frac5{2^2}+\\cdots+\\frac{2n-1}{2^2}+\\cdots$ qatorning yig‘indisini toping.",
+      "options": {
+        "A": "$1$",
+        "B": "$5$",
+        "C": "$2$",
+        "D": "$4$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "PDF sahifasida uchinchi va umumiy had maxrajlari ham $2^2$ deb bosilgan; shu ko‘rinishda qator uzoqlashadi va variantlardan hech biri mos emas."
+    },
+    {
+      "id": 214,
+      "page": 44,
+      "question": "$\\frac25+\\frac2{5^2}+\\cdots+\\frac2{5^n}+\\cdots$ qatorning yig‘indisini toping.",
+      "options": {
+        "A": "$\frac12$",
+        "B": "$\frac32$",
+        "C": "$\frac5{36}$",
+        "D": "$4$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 215,
+      "page": 44,
+      "question": "$\\sum_{n=1}^{\\infty}\\frac1{16n^2-8n-3}$ qatorning yig‘indisini toping.",
+      "options": {
+        "A": "$\frac12$",
+        "B": "$\frac14$",
+        "C": "$\frac5{36}$",
+        "D": "$\frac1{15}$"
+      },
+      "correct_answer": "B",
+      "answer_status": "verified"
+    },
+    {
+      "id": 216,
+      "page": 45,
+      "question": "$\\sum_{n=1}^{\\infty}\\frac1{25n^2+5n-6}$ qatorning yig‘indisini toping.",
+      "options": {
+        "A": "$\frac12$",
+        "B": "$\frac14$",
+        "C": "$\frac5{36}$",
+        "D": "$\frac1{15}$"
+      },
+      "correct_answer": "D",
+      "answer_status": "verified"
+    },
+    {
+      "id": 217,
+      "page": 45,
+      "question": "$\\sum_{n=1}^{\\infty}\\frac1{49n^2+7n-12}$ qatorning yig‘indisini toping.",
+      "options": {
+        "A": "$\frac12$",
+        "B": "$\frac14$",
+        "C": "$\frac1{28}$",
+        "D": "$\frac1{15}$"
+      },
+      "correct_answer": "C",
+      "answer_status": "verified"
+    },
+    {
+      "id": 218,
+      "page": 45,
+      "question": "$\\sum_{n=2}^{\\infty}\\frac1{n^2-1}$ qatorning yig‘indisini toping.",
+      "options": {
+        "A": "$\frac12$",
+        "B": "$\frac34$",
+        "C": "$\frac5{36}$",
+        "D": "$\frac1{15}$"
+      },
+      "correct_answer": "B",
+      "answer_status": "verified"
+    },
+    {
+      "id": 219,
+      "page": 46,
+      "question": "$\\sum_{n=1}^{\\infty}\\frac{x^n}{n}$ qatorning yaqinlashish to‘plami topilsin.",
+      "options": {
+        "A": "$|x|<1$",
+        "B": "$|x|\\le1$",
+        "C": "$x\\in\\mathbb R$",
+        "D": "$-1\\le x<1$"
+      },
+      "correct_answer": "D",
+      "answer_status": "verified"
+    },
+    {
+      "id": 220,
+      "page": 46,
+      "question": "$\\sum_{n=1}^{\\infty}\\frac{x^n}{n^2}$ qatorning tekis yaqinlashish to‘plami topilsin.",
+      "options": {
+        "A": "$|x|<1$",
+        "B": "$|x|\\le1$",
+        "C": "$x\\in\\mathbb R$",
+        "D": "$-1\\le x<1$"
+      },
+      "correct_answer": "B",
+      "answer_status": "verified"
+    },
+    {
+      "id": 221,
+      "page": 46,
+      "question": "$\\int_0^{\\infty}e^{-x^2}\\,dx$ Eyler integrali hisoblansin.",
+      "options": {
+        "A": "$\frac{\\pi}{2\\sqrt2}$",
+        "B": "$\frac{\\pi}{\\sqrt2}$",
+        "C": "$\frac{\\sqrt\\pi}{2}$",
+        "D": "$1$"
+      },
+      "correct_answer": "C",
+      "answer_status": "verified"
+    },
+    {
+      "id": 222,
+      "page": 46,
+      "question": "$\\int_0^{\\infty}\\frac{x^2}{1+x^4}\\,dx$ xosmas integral hisoblansin.",
+      "options": {
+        "A": "$\frac{\\pi}{2\\sqrt2}$",
+        "B": "$\frac{\\pi}{2\\sqrt2}$",
+        "C": "$\frac{\\sqrt\\pi}{2}$",
+        "D": "$1$"
+      },
+      "correct_answer": "A",
+      "answer_status": "multiple_correct_in_source",
+      "note": "PDFda A va B bir xil ko‘rinishda bosilgan."
+    },
+    {
+      "id": 223,
+      "page": 47,
+      "question": "$\\int_0^1\\sqrt{x-x^2}\\,dx$ integral hisoblansin.",
+      "options": {
+        "A": "$\frac\\pi8$",
+        "B": "$\frac{\\pi}{2\\sqrt2}$",
+        "C": "$\frac{\\sqrt\\pi}{2}$",
+        "D": "$1$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 224,
+      "page": 47,
+      "question": "$\\int_0^{1/2}\\frac{1}{x\\ln^2x}\\,dx$ xosmas integralni hisoblang.",
+      "options": {
+        "A": "$\frac1{\\ln2}$",
+        "B": "$\frac2{\\ln3}$",
+        "C": "$2$",
+        "D": "aniqlab bo‘lmaydi"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 225,
+      "page": 47,
+      "question": "$\\int_0^{\\infty}\\frac1{4+x^2}\\,dx$ xosmas integralni hisoblang.",
+      "options": {
+        "A": "$\frac\\pi8$",
+        "B": "$\frac{\\pi}{2\\sqrt2}$",
+        "C": "$\frac\\pi4$",
+        "D": "$1$"
+      },
+      "correct_answer": "C",
+      "answer_status": "verified"
+    },
+    {
+      "id": 226,
+      "page": 48,
+      "question": "$\\int_1^{\\infty}\\frac{\\arctan x}{1+x^2}\\,dx$ xosmas integralni hisoblang.",
+      "options": {
+        "A": "$\frac\\pi8$",
+        "B": "$\frac{\\pi}{2\\sqrt2}$",
+        "C": "$\frac\\pi4$",
+        "D": "$\frac{\\pi^2}{8}$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Integralning qiymati $3\\pi^2/32$; berilgan variantlarda bu qiymat yo‘q."
+    },
+    {
+      "id": 227,
+      "page": 48,
+      "question": "$\\int_1^{\\infty}\\frac{dx}{x\\sqrt{x^2+1}}$ xosmas integralni hisoblang.",
+      "options": {
+        "A": "$\\ln2$",
+        "B": "$2$",
+        "C": "$0$",
+        "D": "$\\ln(1+\\sqrt2)$"
+      },
+      "correct_answer": "D",
+      "answer_status": "verified"
+    },
+    {
+      "id": 228,
+      "page": 48,
+      "question": "$\\int_0^1\\ln x\\,dx$ xosmas integralni hisoblang.",
+      "options": {
+        "A": "$-1$",
+        "B": "$2$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 229,
+      "page": 49,
+      "question": "Agar $f(x)=x^2$ funksiyani $(-\\pi,\\pi)$ oraliqda sinuslar bo‘yicha Furye qatoriga yoyilsa, qator yig‘indisining $x=\\pi$ nuqtadagi qiymatini toping.",
+      "options": {
+        "A": "$0$",
+        "B": "$\\pi^2$",
+        "C": "mavjud emas",
+        "D": "to‘g‘ri javob yo‘q"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 230,
+      "page": 49,
+      "question": "Agar $f(x)=\\sin\\frac{x}{2}$ funksiyani $(-\\pi,\\pi)$ oraliqda Furye qatoriga yoyilsa, qator yig‘indisining $x=\\pi$ nuqtadagi qiymatini toping.",
+      "options": {
+        "A": "$0$",
+        "B": "$\\pi^2$",
+        "C": "mavjud emas",
+        "D": "to‘g‘ri javob yo‘q"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 231,
+      "page": 49,
+      "question": "Agar $f(x)=\\cos\\frac{2x}{3}$ funksiyani $(-\\pi,\\pi)$ oraliqda Furye qatoriga yoyilsa, qator yig‘indisining $x=\\pi$ nuqtadagi qiymatini toping.",
+      "options": {
+        "A": "$0$",
+        "B": "$\\pi^2$",
+        "C": "$1$",
+        "D": "$-\frac12$"
+      },
+      "correct_answer": "D",
+      "answer_status": "verified"
+    },
+    {
+      "id": 232,
+      "page": 49,
+      "question": "Agar $f(x)=x$ funksiyani $(0,2)$ oraliqda Furye qatoriga yoyilsa, qator yig‘indisining $x=0$ nuqtadagi qiymatini toping.",
+      "options": {
+        "A": "$0$",
+        "B": "$\\pi^2$",
+        "C": "$1$",
+        "D": "$-\frac12$"
+      },
+      "correct_answer": "C",
+      "answer_status": "verified"
+    },
+    {
+      "id": 233,
+      "page": 50,
+      "question": "$\\lim_{n\\to\\infty}(\\sqrt{n^2-3n+2}-n)$ limitni hisoblang.",
+      "options": {
+        "A": "$-\frac12$",
+        "B": "$-\frac32$",
+        "C": "$0$",
+        "D": "$2$"
+      },
+      "correct_answer": "B",
+      "answer_status": "verified"
+    },
+    {
+      "id": 234,
+      "page": 50,
+      "question": "$\\lim_{n\\to\\infty}\\sqrt[n]{5^n+4^n}$ limitni hisoblang.",
+      "options": {
+        "A": "$3$",
+        "B": "$4$",
+        "C": "$5$",
+        "D": "$2$"
+      },
+      "correct_answer": "C",
+      "answer_status": "verified"
+    },
+    {
+      "id": 235,
+      "page": 50,
+      "question": "$\\lim_{n\\to\\infty}\\left(\\frac{3n+4}{3n+5}\\right)^n$ limitni hisoblang.",
+      "options": {
+        "A": "$\frac1{\\sqrt[3]e}$",
+        "B": "$0$",
+        "C": "$1$",
+        "D": "$2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 236,
+      "page": 50,
+      "question": "$y=3\\sin3x$ funksiya hosilasini toping.",
+      "options": {
+        "A": "$\\cos3x$",
+        "B": "$3\\cos3x$",
+        "C": "$2$",
+        "D": "$\\sin3x$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Hosila $9\\cos3x$; variantlarda yo‘q."
+    },
+    {
+      "id": 237,
+      "page": 51,
+      "question": "$y=\\operatorname{sh}^2x-\\operatorname{ch}^2x+2$ hosilasini toping.",
+      "options": {
+        "A": "$\\cos x$",
+        "B": "$0$",
+        "C": "$1$",
+        "D": "$\\sin2x$"
+      },
+      "correct_answer": "B",
+      "answer_status": "verified"
+    },
+    {
+      "id": 238,
+      "page": 51,
+      "question": "$\\sum_{n=1}^{\\infty}a_n$ ($a_n>0$) albatta yaqinlashuvchi bo‘ladi agar:",
+      "options": {
+        "A": "$\\lim_{n\\to\\infty}\\frac{a_{n+1}}{a_n}<1$ bo‘lsa",
+        "B": "$\\frac{a_{n+1}}{a_n}<q<3$ bo‘lsa",
+        "C": "$\\lim_{n\\to\\infty}\\sqrt[n]{a_n}>1$ bo‘lsa",
+        "D": "qismiy yig‘indilar ketma-ketligi $S_n$ quyidan chegaralangan bo‘lsa"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 239,
+      "page": 51,
+      "question": "$y=\\frac{u(x)}{v(x)}$ ning hosilasini toping.",
+      "options": {
+        "A": "$\\frac{u'v-uv'}{v^2}$",
+        "B": "$\\frac{u'}v$",
+        "C": "$\\frac{u'v+uv'}{v^2}$",
+        "D": "$\\frac{u'v'}{v^2}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 240,
+      "page": 52,
+      "question": "$f(x,y)$ funksiyaning $D$ sohadagi tebranishi — bu",
+      "options": {
+        "A": "$\\sup_{(x,y)\\in D}f(x,y)-\\inf_{(x,y)\\in D}f(x,y)$",
+        "B": "$\\sup_{(x,y)\\in D}f(x,y)$",
+        "C": "$\\inf_{(x,y)\\in D}f(x,y)$",
+        "D": "$\\sup_{(x,y)\\in D}f(x,y)+\\inf_{(x,y)\\in D}f(x,y)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 241,
+      "page": 52,
+      "question": "Koshining radikal alomatini tatbiq qilish uchun qaysi limitdan foydalanish kerak?",
+      "options": {
+        "A": "$\\lim_{n\\to\\infty}\\sqrt[n]{a_n}$",
+        "B": "$\\lim_{n\\to\\infty}n\\left(1-\\frac{a_{n+1}}{a_n}\\right)$",
+        "C": "$\\lim_{n\\to\\infty}\\frac{a_{n+1}}{a_n}$",
+        "D": "$\\lim_{x\\to\\infty}\\int_1^x f(t)\\,dt$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 242,
+      "page": 52,
+      "question": "Qator yaqinlashishining zaruriy shartini ko‘rsating (bunda $S_n=a_1+a_2+\\cdots+a_n$).",
+      "options": {
+        "A": "$\\lim_{n\\to\\infty}a_n=0$",
+        "B": "$\\lim_{n\\to\\infty}S_n=S$",
+        "C": "$\\lim_{n\\to\\infty}\\sqrt[n]{a_n}=k$",
+        "D": "$\\lim_{n\\to\\infty}r_n=0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 243,
+      "page": 52,
+      "question": "Qaysi shart bajarilganda $f(x)=f(x_1,x_2,\\ldots,x_m)$ funksiya $x^0=(x_1^0,x_2^0,\\ldots,x_m^0)$ nuqtada uzluksiz deyiladi?",
+      "options": {
+        "A": "$\\lim_{x\\to x^0}f(x)=f(x^0)$",
+        "B": "$\\lim_{x\\to x^0}f(x)=\\infty$",
+        "C": "$\\lim_{x\\to x^0}f(x)=b\\ne f(x^0)$",
+        "D": "$\\lim_{x\\to x^0}f(x)$ limit mavjud bo‘lmasa"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 244,
+      "page": 53,
+      "question": "1) $\\sum_{n=1}^{\\infty}\\sqrt{\\frac1{n^5+1}}$; 2) $\\sum_{n=1}^{\\infty}\\sqrt{\\frac1{n^4+1}}$; 3) $\\sum_{n=1}^{\\infty}\\frac1{\\sqrt{n^2+2n}}$. Qatorlardan qaysi biri uzoqlashuvchi?",
+      "options": {
+        "A": "3)",
+        "B": "1), 2)",
+        "C": "2)",
+        "D": "1), 3)"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 245,
+      "page": 53,
+      "question": "Uch o‘zgaruvchili funksiyaning biror $x^0$ nuqtada differentsiallanuvchilik shartini ko‘rsating.",
+      "options": {
+        "A": "$\\Delta f(x^0)=A_1\\Delta x_1+A_2\\Delta x_2+A_3\\Delta x_3+o(\\rho)$",
+        "B": "$\\Delta f(x^0)=A_1\\Delta x_1+A_2\\Delta x_2+\\cdots+A_m\\Delta x_m+o(\\rho)$",
+        "C": "$\\Delta f(x^0)=A_1\\Delta x_1+\\cdots+A_m\\Delta x_m+\\alpha_1\\Delta x_1+\\cdots+\\alpha_m\\Delta x_m$",
+        "D": "$\\Delta f(x^0)=A_1\\Delta x_1+A_2\\Delta x_1+A_3\\Delta x_1+o(\\rho)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 246,
+      "page": 53,
+      "question": "Funksiyaning to‘la differentsiali bo‘yicha uning o‘zini tiklang: $du=2xy\\,dx+x^2\\,dy$.",
+      "options": {
+        "A": "$u=x^2y+C$",
+        "B": "$u=xy^2+C$",
+        "C": "$u=x^2y^2+C$",
+        "D": "$u=x^2+y^2+C$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 247,
+      "page": 53,
+      "question": "$f(x)$ funksiya $x^0$ nuqtada $n$ marta differentsiallanuvchi bo‘lishi haqidagi teoremani ko‘rsating.",
+      "options": {
+        "A": "Agar ochiq $M$ to‘plamda $f(x)$ funksiyaning barcha $n$-tartibli xususiy hosilalari mavjud va $x^0\\in M$ nuqtada uzluksiz bo‘lsa, $f(x)$ funksiya $x^0$ nuqtada $n$ marta differentsiallanuvchi bo‘ladi",
+        "B": "Agar ochiq $M$ to‘plamda $f(x)$ funksiyaning barcha $n-1$-tartibli xususiy hosilalari mavjud va $x^0\\in M$ nuqtada uzluksiz bo‘lsa, $f(x)$ funksiya $x^0$ nuqtada $n$ marta differentsiallanuvchi bo‘ladi",
+        "C": "Agar ochiq $M$ to‘plamda $f(x)$ funksiyaning barcha $n$-tartibli xususiy hosilalari mavjud bo‘lsa, $f(x)$ funksiya $x^0$ nuqtada $n$ marta differentsiallanuvchi bo‘ladi",
+        "D": "Agar ochiq $M$ to‘plamda $f(x)$ funksiyaning barcha $n-1$-tartibli xususiy hosilalari mavjud bo‘lsa, $f(x)$ funksiya $x^0$ nuqtada $n$ marta differentsiallanuvchi bo‘ladi"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 248,
+      "page": 54,
+      "question": "Agar $z=x+y$ bo‘lsa, $z_x'+z_y'$ yig‘indi nimaga teng?",
+      "options": {
+        "A": "$2$",
+        "B": "$1$",
+        "C": "$-2$",
+        "D": "$-1$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 249,
+      "page": 54,
+      "question": "Agar $xy+y^2=1$ bo‘lsa, $\\frac{y}{x+2y}-y'$ ni toping.",
+      "options": {
+        "A": "$\\frac{2y}{x+2y}$",
+        "B": "$\\frac{2y}{x-2y}$",
+        "C": "$\\frac{y}{x+2y}$",
+        "D": "$-\\frac{y}{x+2y}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 250,
+      "page": 54,
+      "question": "$z=\\frac1{x-y}$ funksiyaning uzilish nuqtalarini toping.",
+      "options": {
+        "A": "$y=x$ to‘g‘ri chiziqdagi nuqtalar",
+        "B": "$y=x^2$ to‘g‘ri chiziqdagi nuqtalar",
+        "C": "$Ox$ o‘qidagi nuqtalar",
+        "D": "$Oy$ o‘qidagi nuqtalar"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 251,
+      "page": 55,
+      "question": "Qaysi javobda yaqinlashuvchi qator ko‘rsatilgan?",
+      "options": {
+        "A": "$\\sum_{n=1}^{\\infty}\\frac1{2n^2}$",
+        "B": "$\\sum_{n=1}^{\\infty}\\frac1{2n}$",
+        "C": "$\\sum_{n=1}^{\\infty}\\frac1{2+n}$",
+        "D": "$\\sum_{n=1}^{\\infty}\\frac1{\\sqrt n}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 252,
+      "page": 55,
+      "question": "$y=\\begin{cases}\\frac{e^x-1}{x},&x\\ne0\\\\1,&x=0\\end{cases}$ funksiyaning Makloren qatoriga yoyilmasini ko‘rsating.",
+      "options": {
+        "A": "$\\sum_{n=1}^{\\infty}\\frac{x^{n-1}}{n!}$",
+        "B": "$\\sum_{n=1}^{\\infty}\\frac{x^{n-2}}{n!}$",
+        "C": "$\\sum_{n=1}^{\\infty}\\frac{x^n}{n}$",
+        "D": "$\\sum_{n=1}^{\\infty}\\frac{x^n}{(n-1)!}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 253,
+      "page": 55,
+      "question": "$z=\\sin(x+y)$ funksiyaning $(\\pi;\\frac\\pi2)$ nuqtadagi qiymatini toping.",
+      "options": {
+        "A": "$-1$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$-2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 254,
+      "page": 56,
+      "question": "$\\sum_{i=1}^n\\sum_{j=1}^m m_{ij}\\Delta x_i\\Delta y_j$, bu yerda $m_{ij}=\\inf\\{f(x,y):x_{i-1}\\le x\\le x_i,\\ y_{j-1}\\le y\\le y_j\\}$ yig‘indi nima deb ataladi?",
+      "options": {
+        "A": "Darbuning quyi yig‘indisi",
+        "B": "Stilt’es yig‘indisi",
+        "C": "Riman yig‘indisi",
+        "D": "Darbuning yuqori yig‘indisi"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 255,
+      "page": 56,
+      "question": "Ikki karrali integralning $D_1\\cup D_2=D$ va $D_1\\cap D_2=\\varnothing$ shart bajarilgandagi $\\iint_D f=\\iint_{D_1}f+\\iint_{D_2}f$ xossasining nomi topilsin.",
+      "options": {
+        "A": "Additivlik",
+        "B": "Chiziqlilik",
+        "C": "Multi’likativlik",
+        "D": "Additivlik va multi’likativlik"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 256,
+      "page": 56,
+      "question": "$\\int_0^1 dx\\int_{x^2}^{x}f(x,y)\\,dy$ da integrallash tartibini o‘zgartiring.",
+      "options": {
+        "A": "$\\int_0^1dy\\int_y^{\\sqrt y}f(x,y)\\,dx$",
+        "B": "$\\int_0^1dy\\int_{\\sqrt y}^{y}f(x,y)\\,dx$",
+        "C": "$\\int_0^1dy\\int_{y^2}^{y}f(x,y)\\,dx$",
+        "D": "$\\int_0^1dy\\int_y^{y^2}f(x,y)\\,dx$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 257,
+      "page": 57,
+      "question": "$y=-\\ln\\cos x$ funksiyani $x=0$ nuqta atrofida qatorga yoyib dastlabki beshta hadini yozing.",
+      "options": {
+        "A": "$\\frac{x^2}{2}+\\frac{x^4}{12}+\\cdots$",
+        "B": "$1+x+\\frac{x^2}{2}+\\cdots$",
+        "C": "$x^2+\\frac{x^4}{4}+\\cdots$",
+        "D": "$x^2-x^4+x^6-x^8+\\cdots$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 258,
+      "page": 57,
+      "question": "$z=\\sqrt{1-\\frac{x^2}{a^2}-\\frac{y^2}{b^2}}$. $D(z)$ ni toping.",
+      "options": {
+        "A": "$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\le1$",
+        "B": "$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}<1$",
+        "C": "$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\ge1$",
+        "D": "$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}>1$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 259,
+      "page": 57,
+      "question": "$\\sum_{n=1}^{\\infty}10^n x^n$ qatorning yaqinlashish sohasini toping.",
+      "options": {
+        "A": "$(-\\frac1{10},\\frac1{10})$",
+        "B": "$[-\\frac1{10},\\frac1{10}]$",
+        "C": "$(-\\frac1{10},\\frac1{10}]$",
+        "D": "$[-\\frac1{10},\\frac1{10})$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 260,
+      "page": 58,
+      "question": "Chegaralangan funksiyani ko‘rsating.",
+      "options": {
+        "A": "$z=\\frac1{x^2+y^2+1}$",
+        "B": "$z=x^2y^2+1$",
+        "C": "$z=x^2y^2+1$",
+        "D": "$z=\\frac1{x^2+y^2-1}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 261,
+      "page": 58,
+      "question": "$f(x,y)$ funksiyaning $(D)$ sohadagi Riman yig‘indisi limiti uchun qaysi mulohaza o‘rinli?",
+      "options": {
+        "A": "Agar u chekli bo‘lsa, $f(x,y)$ funksiya $(D)$ sohada integrallanuvchi deyiladi",
+        "B": "Agar u chekli bo‘lmasa, $f(x,y)$ $(D)$ sohada integrallanuvchi deyiladi",
+        "C": "Bu yig‘indining limiti $f(x,y)$ funksiyaning $(D)$ sohadagi ikki karrali integrali deyiladi",
+        "D": "Bu yig‘indining limiti yuqoridan $f(x,y)$ sirt bilan, yasovchilari $Oz$ o‘qiga parallel bo‘lgan silindrik sirt hamda $Oxy$ tekisligidagi $(D)$ soha bilan chegaralangan jism hajmini bildiradi"
+      },
+      "correct_answer": "C",
+      "answer_status": "multiple_correct_in_source",
+      "note": "C ta’rifning bevosita ifodasi; A ham odatiy integrallanuvchanlik ta’rifi sifatida mazmunan to‘g‘ri."
+    },
+    {
+      "id": 262,
+      "page": 58,
+      "question": "$\\lim_{x\\to0,\\ y\\to0}\\frac{\\sin(x^2y^2)}{xy}$ limitni hisoblang.",
+      "options": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "$2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 263,
+      "page": 58,
+      "question": "$z=x^3+xy^2-5xy^3+y^5$ bo‘lsa, $\\frac{\\partial^2z}{\\partial x\\partial y}$ ni toping.",
+      "options": {
+        "A": "$2y-15y^2$",
+        "B": "$2$",
+        "C": "$2-15y$",
+        "D": "$y-15y^2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 264,
+      "page": 59,
+      "question": "$y(x)=x+\\frac1x$ funksiya quyidagi tenglamalardan qaysi birining $(0;+\\infty)$ intervalda yechimi bo‘la oladi?",
+      "options": {
+        "A": "$y'+y-x-3=0$",
+        "B": "$y'-y^2+x^2-3=0$",
+        "C": "$y'+y^2-x^2-3=0$",
+        "D": "$y'+y^2+x^2+3=0$"
+      },
+      "correct_answer": "C",
+      "answer_status": "verified"
+    },
+    {
+      "id": 265,
+      "page": 59,
+      "question": "$f:\\mathbb R\\to\\mathbb R$, $f(x)=\\left[\\frac1x\\right]$. Agar $A=(0;1]$ bo‘lsa, $f(A)$ ni toping.",
+      "options": {
+        "A": "$N$ — natural sonlar to‘plami",
+        "B": "$(0;+\\infty)$",
+        "C": "$[1;+\\infty)$",
+        "D": "$Q$ — ratsional sonlar to‘plami"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 266,
+      "page": 59,
+      "question": "Lebeg ma’nosida o‘lchovli to‘plamlar sistemasi: 1) halqa tashkil qiladi; 2) algebra tashkil qiladi; 3) $\\sigma$-algebra tashkil qiladi. To‘g‘ri tasdiqlarni ajrating.",
+      "options": {
+        "A": "1, 2",
+        "B": "1, 3",
+        "C": "2, 3",
+        "D": "faqat 1"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Lebeg o‘lchovli to‘plamlar oilasi $\\sigma$-algebra bo‘lib, shuning uchun 1), 2), 3) hammasi to‘g‘ri; bunday variant berilmagan."
+    },
+    {
+      "id": 267,
+      "page": 59,
+      "question": "Quyidagi tasdiqlar ichidan qaysilari har doim o‘rinli: 1) o‘lchovli funksiyaning kvadrati o‘lchovli; 2) o‘lchovli funksiyalar nisbati o‘lchovli; 3) o‘lchovli funksiyalar ko‘paytmasi o‘lchovli.",
+      "options": {
+        "A": "1, 3",
+        "B": "1, 2",
+        "C": "2, 3",
+        "D": "faqat 1"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 268,
+      "page": 60,
+      "question": "Metrik fazoda $M$ to‘plamning nisbiy kompaktlik kriteriyasini keltiring.",
+      "options": {
+        "A": "$M$ ning chegaralangan bo‘lishi",
+        "B": "$M$ ning chegaralangan va yopiq bo‘lishi",
+        "C": "Har qanday $\u000barepsilon>0$ uchun $M$ to‘plamning chekli $\u000barepsilon$-to‘ri mavjud bo‘lishi",
+        "D": "$M$ ning chegaralangan va sanoqli bo‘lishi"
+      },
+      "correct_answer": "C",
+      "answer_status": "verified"
+    },
+    {
+      "id": 269,
+      "page": 60,
+      "question": "Quyidagi to‘plamlardan qaysi biri $C[-1;1]$ fazoda qism fazo tashkil qilmaydi?",
+      "options": {
+        "A": "$x(1)=1$ shartni qanoatlantiruvchi funksiyalar to‘plami",
+        "B": "Toq funksiyalar to‘plami",
+        "C": "Juft funksiyalar to‘plami",
+        "D": "Darajasi 100 dan oshmaydigan ko‘phadlar to‘plami"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 270,
+      "page": 60,
+      "question": "Noto‘g‘ri tasdiqni toping.",
+      "options": {
+        "A": "$m$ fazo $c$ fazoning qism fazosi bo‘ladi",
+        "B": "$\\ell_1$ fazo $\\ell_2$ fazoning qism fazosi bo‘ladi",
+        "C": "$\\ell_2$ fazo $c_0$ fazoning qism fazosi bo‘ladi",
+        "D": "$c_0$ fazo $c$ fazoning qism fazosi bo‘ladi"
+      },
+      "correct_answer": "A",
+      "answer_status": "verified"
+    },
+    {
+      "id": 271,
+      "page": 60,
+      "question": "Hilbert fazolari keltirilgan javobni toping.",
+      "options": {
+        "A": "$L_2[a,b],\\ \\ell_2$",
+        "B": "$C_2[a,b],\\ \\ell_2$",
+        "C": "$C_2[a,b],\\ C^n$",
+        "D": "$\\ell_2,\\ C^n$"
+      },
+      "correct_answer": "A",
+      "answer_status": "multiple_correct_in_source",
+      "note": "Standart ta’riflarda A ham, D ham Hilbert fazolar juftligini beradi; testda yagona javob ko‘zlangan bo‘lsa, manbada noaniqlik mavjud."
+    }
+  ]
+}

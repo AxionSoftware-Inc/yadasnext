@@ -1,0 +1,1320 @@
+{
+  "source_file": "YaDas_2024-2025_Matematika va informatika.pdf",
+  "page_range": "1-20",
+  "question_count": 100,
+  "extraction_method": "PDF sahifalari render qilingan tasvirlar asosida vizual tekshirildi; formulalar JSON ichida LaTeX ko‘rinishida saqlandi.",
+  "answer_key_in_source": false,
+  "answer_policy": "correct_answer maydoni matematik yechim asosida model tomonidan aniqlangan; manbadagi variantlar o‘zgartirilmagan. Noaniq yoki noto‘g‘ri variantli savollar answer_status orqali belgilangan.",
+  "questions": [
+    {
+      "id": 1,
+      "page": 1,
+      "question": "Agar vektorlar sistemasi chiziqli bog‘liq bo‘lsa, u holda uning ixtiyoriy qism sistemasi . . .",
+      "options": {
+        "A": "ortogonal bo‘ladi",
+        "B": "chiziqli bog‘liq bo‘ladi",
+        "C": "chiziqli erkli bo‘ladi",
+        "D": "haqida hech nima deb bo‘lmaydi"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 2,
+      "page": 1,
+      "question": "Agar $ABC$ uchburchakda $|AC|=1$, $|BC|=2$, $\\angle C=120^\\circ$ bo‘lsa, $|AD|$ mediananing uzunligini hisoblang.",
+      "options": {
+        "A": "$|AD|=\\sqrt{3}$",
+        "B": "$|AD|=1$",
+        "C": "$|AD|=\\frac{\\sqrt{3}}{2}$",
+        "D": "$|AD|=1,5$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 3,
+      "page": 1,
+      "question": "Agar $\\vec a=\\vec s+2\\vec t$ va $\\vec b=5\\vec s-4\\vec t$ vektorlarning o‘zaro perpendikulyarligi ma’lum bo‘lsa, $\\vec s$ va $\\vec t$ birlik vektorlar orasidagi burchakni toping.",
+      "options": {
+        "A": "$\\varphi=\\frac{\\pi}{4}$",
+        "B": "$\\varphi=\\frac{\\pi}{3}$",
+        "C": "$\\varphi=\\frac{\\pi}{2}$",
+        "D": "$\\varphi=\\frac{\\pi}{6}$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 4,
+      "page": 1,
+      "question": "Ortogonal sistemada berilgan $\\vec p=\\alpha_1\\vec a_1+\\alpha_2\\vec a_2+\\alpha_3\\vec a_3$ vektorning uzunligini toping.",
+      "options": {
+        "A": "$|\\vec p|=\\sqrt{\\alpha_1\\vec a_1^{\\,2}+\\alpha_2\\vec a_2^{\\,2}+\\alpha_2\\vec a_3^{\\,2}}$",
+        "B": "$|\\vec p|=\\sqrt{\\alpha_1^2+\\alpha_2^2+\\alpha_3^2}$",
+        "C": "$|\\vec p|=\\sqrt{\\vec a_1^{\\,2}+\\vec a_2^{\\,2}+\\vec a_3^{\\,2}}$",
+        "D": "$|\\vec p|=\\sqrt{\\alpha_1^2\\vec a_1^{\\,2}+\\alpha_2^2\\vec a_2^{\\,2}+\\alpha_3^2\\vec a_3^{\\,2}}$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 5,
+      "page": 1,
+      "question": "$B=\\{\\vec e_1,\\vec e_2,\\vec e_3\\}$ bazisga nisbatan $\\vec a_1=\\{0,-3,0\\}$, $\\vec a_2=\\{-2,0,5\\}$, $\\vec a_3=\\{0,2,-1\\}$, $\\vec a_4=\\{0,0,4\\}$, $\\vec a_5=\\{1,0,0\\}$, $\\vec a_6=\\{0,1,-3\\}$, $\\vec a_7=\\{1,-2,3\\}$, $\\vec a_8=\\{0,0,0\\}$ vektorlar berilgan. $\\vec e_2$ va $\\vec e_3$ bilan komplanar bo‘lgan vektorlarni ko‘rsating.",
+      "options": {
+        "A": "$\\vec a_1,\\vec a_3,\\vec a_4,\\vec a_6,\\vec a_8$",
+        "B": "$\\vec a_1,\\vec a_3,\\vec a_5,\\vec a_6,\\vec a_8$",
+        "C": "$\\vec a_1,\\vec a_2,\\vec a_4,\\vec a_7,\\vec a_8$",
+        "D": "$\\vec a_1,\\vec a_2,\\vec a_4,\\vec a_5,\\vec a_8$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 6,
+      "page": 2,
+      "question": "Chiziqli fazoning bazisi deb qanday sistemaga aytiladi?",
+      "options": {
+        "A": "maksimal songa ega chiziqli erkli vektorlari sistemasiga",
+        "B": "har qanday chiziqli erkli vektorlari sistemasiga",
+        "C": "har qanday vektorini ifodalash mumkin bo‘lgan vektorlar sistemasiga",
+        "D": "har qanday noldan farqli vektorlar sistemasiga"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 7,
+      "page": 2,
+      "question": "Dekart koordinatalar sistemasida berilgan $\\vec a(a_1,a_2,a_3)$ va $\\vec b(b_1,b_2,b_3)$ vektorlar vektor ko‘paytmasini $Oxy$ tekislikdagi proyeksiyasini toping.",
+      "options": {
+        "A": "$pr_{Oxy}[\\vec a,\\vec b]=\\vec i\\begin{vmatrix}a_2&a_3\\\\b_2&b_3\\end{vmatrix}+\\vec j\\begin{vmatrix}a_3&a_1\\\\b_3&b_1\\end{vmatrix}+\\vec k\\begin{vmatrix}a_1&a_2\\\\b_1&b_2\\end{vmatrix}$",
+        "B": "$pr_{Oxy}[\\vec a,\\vec b]=\\vec i\\begin{vmatrix}a_2&a_3\\\\b_2&b_3\\end{vmatrix}+\\vec j\\begin{vmatrix}a_3&a_1\\\\b_3&b_1\\end{vmatrix}$",
+        "C": "$pr_{Oxy}[\\vec a,\\vec b]=|\\vec a|\\,|\\vec b|\\sqrt{1-\\cos^2\\varphi}$",
+        "D": "$pr_{Oxy}[\\vec a,\\vec b]=\\left(\\vec i\\begin{vmatrix}a_2&a_3\\\\b_2&b_3\\end{vmatrix}+\\vec j\\begin{vmatrix}a_3&a_1\\\\b_3&b_1\\end{vmatrix}+\\vec k\\begin{vmatrix}a_1&a_2\\\\b_1&b_2\\end{vmatrix},\\vec k\\right)$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 8,
+      "page": 2,
+      "question": "Koordinatalari bilan berilgan $\\vec a$ va $\\vec b$ vektorlar vektor ko‘paytmasi quyidagicha aniqlanadi:",
+      "options": {
+        "A": "$[\\vec a,\\vec b]=|\\vec a|\\,|\\vec b|\\cos\\varphi$",
+        "B": "$[\\vec a,\\vec b]=\\vec i\\begin{vmatrix}a_2&a_3\\\\b_2&b_3\\end{vmatrix}+\\vec j\\begin{vmatrix}a_3&a_1\\\\b_3&b_1\\end{vmatrix}+\\vec k\\begin{vmatrix}a_1&a_2\\\\b_1&b_2\\end{vmatrix}$",
+        "C": "$[\\vec a,\\vec b]=\\sqrt{a_1^2+a_2^2+a_3^2}\\cdot\\sqrt{b_1^2+b_2^2+b_3^2}\\sin\\varphi$",
+        "D": "$[\\vec a,\\vec b]=\\vec i\\begin{vmatrix}a_2&a_3\\\\b_2&b_3\\end{vmatrix}-\\vec j\\begin{vmatrix}a_3&a_1\\\\b_3&b_1\\end{vmatrix}+\\vec k\\begin{vmatrix}a_1&a_2\\\\b_1&b_2\\end{vmatrix}$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 9,
+      "page": 2,
+      "question": "Tasdiqni yakunlang: Noldan farqli vektorlarning har qanday ortogonal sistemasi . . .",
+      "options": {
+        "A": "proporsionaldir",
+        "B": "chiziqli bog‘liqdir",
+        "C": "chiziqli erklidir",
+        "D": "faqat nol vektorlardir"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 10,
+      "page": 3,
+      "question": "To‘g‘ri tasdiqni ko‘rsating",
+      "options": {
+        "A": "Vektorlarning ixtiyoriy chiziqli erkli sistemasi ortogonaldir",
+        "B": "Vektorlarning ixtiyoriy orthogonal sistemasi chiziqli erklidir",
+        "C": "Vektorlarning nol vektor qatnashmagan ixtiyoriy sistemasi chiziqli erklidir",
+        "D": "Vektorlarning proporsional vektorlar qatnashmagan ixtiyoriy sistemasi chiziqli erklidir"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 11,
+      "page": 3,
+      "question": "Vektorlar sistemasini bazisgacha to‘ldirish mumkin agar . . .",
+      "options": {
+        "A": "ulardan xech biri nolga teng bo‘lmasa",
+        "B": "ularda noldan farqli vektorlar bo‘lsa",
+        "C": "ular proporsional vektorlar bo‘lsa",
+        "D": "ular chiziqli erkli bo‘lsa"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 12,
+      "page": 3,
+      "question": "$\\vec a_1=\\{1,2,5\\}$, $\\vec a_2=\\{5,3,1\\}$, $\\vec a_3=\\{-15,-2,21\\}$ vektorlar chiziqli bog‘liq, chunki . . .",
+      "options": {
+        "A": "$5\\vec a_1-4\\vec a_2-\\vec a_3=\\vec 0$",
+        "B": "$5\\vec a_1+4\\vec a_2+\\vec a_3=\\vec 0$",
+        "C": "$5\\vec a_1-4\\vec a_2-3\\vec a_3=\\vec 0$",
+        "D": "$5\\vec a_1+2\\vec a_2-\\vec a_3=\\vec 0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 13,
+      "page": 3,
+      "question": "$\\vec a$ va $\\vec b$ vektorlarning skalyar ko‘paytmasi quyidagicha bo‘ladi . . .",
+      "options": {
+        "A": "$\\vec a\\vec b=|\\vec a|\\,|\\vec b|\\cos\\left(\\varphi-\\frac{\\pi}{2}\\right)$",
+        "B": "$\\vec a\\vec b=|\\vec a|\\,|\\vec b|\\sin\\varphi$",
+        "C": "$\\vec a\\vec b=|\\vec a|\\,|\\vec b|\\sin\\left(\\frac{\\pi}{2}-\\varphi\\right)$",
+        "D": "$\\vec a\\vec b=|\\vec a|\\,|\\vec b|\\cos\\frac{\\varphi}{2}$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 14,
+      "page": 3,
+      "question": "$\\alpha$ va $\\beta$ larning qanday qiymatlarida $\\vec a_1=-2\\vec e_1+3\\vec e_2+\\beta\\vec e_3$ va $\\vec a_2=-\\frac{\\alpha}{6}\\vec e_1+\\vec e_2+\\frac13\\vec e_3$ vektorlar kollinear bo‘ladi?",
+      "options": {
+        "A": "$\\alpha=-4,\\;\\beta=-1$",
+        "B": "$\\alpha=-1,\\;\\beta=4$",
+        "C": "$\\alpha=4,\\;\\beta=1$",
+        "D": "$\\alpha=4,\\;\\beta=1$"
+      },
+      "correct_answer": [
+        "C",
+        "D"
+      ],
+      "answer_status": "ambiguous_duplicate",
+      "answer_note": "PDFda C va D variantlari aynan bir xil; ikkalasi ham matematik jihatdan to‘g‘ri."
+    },
+    {
+      "id": 15,
+      "page": 4,
+      "question": "$\\vec p$ va $\\vec q$ kuchlar bir nuqtada $120^\\circ$ li burchak ostida ta’sir etadi, bunda $|\\vec p|=7$, $|\\vec q|=4$. Teng ta’sir etuvchi kuch $\\vec r$ ni toping.",
+      "options": {
+        "A": "$\\vec r=\\vec p+\\vec q,\\;|\\vec r|=11$",
+        "B": "$\\vec r=2\\vec p+\\vec q,\\;|\\vec r|=\\sqrt{41}$",
+        "C": "$\\vec r=\\vec p+\\vec q,\\;|\\vec r|=\\sqrt{37}$",
+        "D": "$\\vec r=\\vec p+\\vec q,\\;|\\vec r|=\\sqrt{65}$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 16,
+      "page": 4,
+      "question": "$\\overrightarrow{OA}=\\vec a$, $\\overrightarrow{OB}=\\vec b$ vektorlar $AOB$ burchakni aniqlaydi. Shu burchakning bissektrisasi bo‘yicha yo‘nalgan biror-bir vektorini toping.",
+      "options": {
+        "A": "$\\overrightarrow{ON}=\\frac{|\\vec a|}{\\vec a}-\\frac{|\\vec b|}{\\vec b}$",
+        "B": "$\\overrightarrow{ON}=\\frac{\\vec a}{|\\vec a|}-\\frac{\\vec b}{|\\vec b|}$",
+        "C": "$\\overrightarrow{ON}=\\frac{|\\vec a|}{\\vec a}+\\frac{|\\vec b|}{\\vec b}$",
+        "D": "$\\overrightarrow{ON}=\\frac{\\vec a}{|\\vec a|}+\\frac{\\vec b}{|\\vec b|}$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 17,
+      "page": 4,
+      "question": "$\\vec a=\\{1,5\\}$, $\\vec b=\\{3,-1\\}$, $\\vec c=\\{0,1\\}$ vektorlar berilgan. $\\alpha$ ning qanday qiymatlarida $\\vec p=\\vec a+\\alpha\\vec c$ va $\\vec q=\\vec a-\\vec b$ vektorlar kollinear bo‘ladi?",
+      "options": {
+        "A": "$\\alpha=-1$",
+        "B": "$\\alpha=-8$",
+        "C": "$\\alpha=-\\frac{17}{3}$",
+        "D": "$\\alpha=3$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 18,
+      "page": 4,
+      "question": "$\\vec a=\\vec i+2\\vec j+3\\vec k$, $\\vec b=\\vec j+2\\vec k$, $\\vec c=\\vec k$ vektorlarga yasalgan parallelepipedning hajmi quyidagiga teng",
+      "options": {
+        "A": "$V=6$",
+        "B": "$V=1$",
+        "C": "$V=12$",
+        "D": "$V=4$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 19,
+      "page": 4,
+      "question": "$\\vec a=\\vec i+\\vec j$ va $\\vec b=\\vec j$ vektorlarning vektor ko‘paytmasi quyidagiga teng",
+      "options": {
+        "A": "$[\\vec a\\vec b]=-\\vec i$",
+        "B": "$[\\vec a\\vec b]=\\vec j$",
+        "C": "$[\\vec a\\vec b]=\\vec k$",
+        "D": "$[\\vec a\\vec b]=\\vec j+\\vec k$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 20,
+      "page": 5,
+      "question": "$\\vec a=\\vec i+\\vec j$ va $\\vec b=\\vec k$ vektorlarning vektor ko‘paytmasi quyidagiga teng",
+      "options": {
+        "A": "$[\\vec a\\vec b]=\\vec j$",
+        "B": "$[\\vec a\\vec b]=\\vec i-\\vec j$",
+        "C": "$[\\vec a\\vec b]=-\\vec i$",
+        "D": "$[\\vec a\\vec b]=\\vec j+\\vec k$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 21,
+      "page": 5,
+      "question": "$\\vec a$ va $\\vec b$ vektorlarning kollinearlik shartini ko‘rsating.",
+      "options": {
+        "A": "$[\\vec a\\vec b]=0$",
+        "B": "$\\vec a+\\vec b+\\vec c=0$",
+        "C": "$\\vec a\\cdot\\vec b=0$",
+        "D": "$\\vec a+\\vec b=0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 22,
+      "page": 5,
+      "question": "$\\vec a$ va $\\vec b$ vektorlarning ortogonallik shartini ko‘rsating.",
+      "options": {
+        "A": "$[\\vec a\\vec b]=0$",
+        "B": "$\\vec a+\\vec b+\\vec c=0$",
+        "C": "$\\vec a\\cdot\\vec b=0$",
+        "D": "$\\vec a+\\vec b=0$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 23,
+      "page": 5,
+      "question": "$\\vec a$ va $\\vec b$ vektorlarning ortogonallik shartini ko‘rsating.",
+      "options": {
+        "A": "$[\\vec a\\cdot\\vec b]=|\\vec a|\\,|\\vec b|$",
+        "B": "$\\vec a\\cdot\\vec b=0$",
+        "C": "$[\\vec a\\cdot\\vec b]=0$",
+        "D": "$\\vec a+\\vec b=0$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 24,
+      "page": 5,
+      "question": "$\\vec a,\\vec b,\\vec c$ vektorlarning komplanarlik shartini ko‘rsating.",
+      "options": {
+        "A": "$\\vec c+\\alpha\\vec a+\\beta\\vec b=\\vec 0$",
+        "B": "$(\\vec a-\\beta\\vec b)\\cdot\\vec c=0$",
+        "C": "$(\\alpha\\vec a+\\vec b)\\cdot\\vec c=0$",
+        "D": "$(\\vec a\\cdot\\vec b)\\vec c=\\vec 0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 25,
+      "page": 6,
+      "question": "$\\vec a,\\vec b,\\vec c$ vektorlarning komplanarlik shartini ko‘rsating.",
+      "options": {
+        "A": "$(\\vec a-\\vec b)\\cdot\\vec c=0$",
+        "B": "$(\\vec a,\\vec b,\\vec c)=0$",
+        "C": "$(\\vec a+\\vec b)\\cdot\\vec c=0$",
+        "D": "$(\\vec a\\cdot\\vec b)\\vec c=\\vec 0$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 26,
+      "page": 6,
+      "question": "$\\vec e_1=\\{c,1,1\\}$, $\\vec e_2=\\{0,c,1\\}$, $\\vec e_3=\\{0,0,c\\}$ vektorlar $c$ ning qanday qiymatida $R^3$ fazoda bazis bo‘ladi?",
+      "options": {
+        "A": "$c=0$",
+        "B": "$c$ ning barcha qiymatlarida",
+        "C": "$c$ ning hech bir qiymatida bazis bo‘lmaydi",
+        "D": "$c\\ne0$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 27,
+      "page": 6,
+      "question": "Absissa o‘qi bilan $30^\\circ$ burchak tashkil qilib, ordinata o‘qidan $-7$ birlik kesma ajratuvchi to‘g‘ri chiziq tenglamasini yozing.",
+      "options": {
+        "A": "$y=\\frac{\\sqrt3}{3}x-7$",
+        "B": "$y=3x-7$",
+        "C": "$y=3\\sqrt3x-7$",
+        "D": "$y=\\sqrt3x-7$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 28,
+      "page": 6,
+      "question": "Koordinatalar boshidan to‘g‘ri chiziqqa tushirilgan perpendikulyarning uzunligi 5 ga teng bo‘lib, u to‘g‘ri chiziq $Ox$ o‘qi bilan $\\alpha=\\frac{\\pi}{6}$ burchak tashkil qilsa, uning tenglamasini tuzing.",
+      "options": {
+        "A": "$\\frac32x+\\frac{\\sqrt3}{3}y+6=0$",
+        "B": "$\\frac{\\sqrt3}{2}x+\\frac12y-5=0$",
+        "C": "$\\frac12x-\\frac54y-7=0$",
+        "D": "$x+y+10=0$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 29,
+      "page": 7,
+      "question": "Tenglamasi $By+D=0$ bo‘lgan tekislik koordinata tekisliklariga nisbatan qanday joylashgan?",
+      "options": {
+        "A": "$xOz$ koordinata tekisligiga parallel",
+        "B": "$xOy$ koordinata tekisligiga parallel",
+        "C": "$yOz$ koordinata tekisligiga parallel",
+        "D": "$Oy$ o‘qiga parallel"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 30,
+      "page": 7,
+      "question": "To‘g‘ri chiziqning umumiy tenglamasida $x$ va $y$ o‘zgaruvchilar oldidagi koeffisiyentlar qanday geometrik ma’noga ega.",
+      "options": {
+        "A": "To‘g‘ri chiziq normal vektorining koordinatlari",
+        "B": "To‘g‘ri chiziq yo‘naltiruvchi vektorining koordinatlari",
+        "C": "To‘g‘ri chiziqning $Ox$ va $Oy$ o‘qlaridan ajratgan kesmalarining uzunliklari",
+        "D": "Ixtiyoriy koordinatlar"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 31,
+      "page": 7,
+      "question": "Uchburchakning uchlari $A(4,6)$, $B(-4,0)$, $C(-1,-4)$ nuqtalarda bo‘lsa, uning $(BN)$ ichki bessektrisasining tenglamasini tuzing.",
+      "options": {
+        "A": "$x+7y+4=0$",
+        "B": "$2x-4y+6=0$",
+        "C": "$3x-5y+1=0$",
+        "D": "$x-3y+9=0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 32,
+      "page": 7,
+      "question": "$(1,2)$ nuqtadan $4x+3y-35=0$ to‘g‘ri chiziqqacha bo‘lgan masofani toping.",
+      "options": {
+        "A": "$d=6$",
+        "B": "$d=2$",
+        "C": "$d=5$",
+        "D": "$d=9$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 33,
+      "page": 7,
+      "question": "$2x-y=0$, $x+y-2=0$ to‘g‘ri chiziqlar bilan aniqlanuvchi dastaning $x-3y+2=0$ to‘g‘ri chiziqqa parallel bo‘lgan to‘g‘ri chizig‘ini toping.",
+      "options": {
+        "A": "$2x-8y+10=0$",
+        "B": "$3x-9y+10=0$",
+        "C": "$x-7y+10=0$",
+        "D": "$x+7y+10=0$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 34,
+      "page": 7,
+      "question": "$4x-3y-10=0$ va $4x-3y-25=0$ parallel to‘g‘ri chiziqlar orasidagi masofani toping.",
+      "options": {
+        "A": "$d=5$",
+        "B": "$d=2$",
+        "C": "$d=3$",
+        "D": "$d=4$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 35,
+      "page": 8,
+      "question": "$A(2,3)$ nuqtadan o‘tib koordinata o‘qlaridan teng kesmalar ajratuvchi to‘g‘ri chiziqning tenglamasini yozing.",
+      "options": {
+        "A": "$2x-y=3$",
+        "B": "$x-2y=1$",
+        "C": "$x+y=3$",
+        "D": "$x+y=5$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 36,
+      "page": 8,
+      "question": "$Ax+By+C=0$ to‘g‘ri chiziq tenglamasi qanday shartda normal ko‘rinishda bo‘ladi?",
+      "options": {
+        "A": "$A^2-B^2=1$",
+        "B": "$A^2+B^2\\ne1,\\;C\\le0$",
+        "C": "$A^2+B^2=1,\\;C\\le0$",
+        "D": "$A+B=1,\\;C\\le0$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 37,
+      "page": 8,
+      "question": "$B(4,-2)$ nuqtadan o‘tib $5x+2y-3=0$ to‘g‘ri chiziqga perpendikulyar bo‘lgan to‘g‘ri chiziqning tenglamasini tuzing.",
+      "options": {
+        "A": "$3x+5y-16=0$",
+        "B": "$2x-5y-18=0$",
+        "C": "$x-3y+13=0$",
+        "D": "$x-y-18=0$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 38,
+      "page": 8,
+      "question": "$x\\cos\\alpha+y\\cos\\beta-p=0$ tenglama to‘g‘ri chiziqning qanday ko‘rinishdagi tenglamasi, $p$ - sonning geometrik ma’nosi qanday?",
+      "options": {
+        "A": "To‘g‘ri chiziqning burchak koeffitsiyentli tenglamasi, $p$ - koordinata boshidan to‘g‘ri chiziqqacha masofa",
+        "B": "To‘g‘ri chiziqning umumiy tenglamasi, $p$ - koordinata boshidan to‘g‘ri chiziqqacha masofa",
+        "C": "To‘g‘ri chiziqning normal tenglamasi, $p$ - koordinata boshidan to‘g‘ri chiziqqacha masofa",
+        "D": "To‘g‘ri chiziqning kanonik tenglamasi, $p$ - ixtiyoriy son"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 39,
+      "page": 8,
+      "question": "$\\frac{x-x_1}{l_1}=\\frac{y-y_1}{m_1}$ va $\\frac{x-x_2}{l_2}=\\frac{y-y_2}{m_2}$ ko‘rinishdagi tenglamalar bilan berilgan to‘g‘ri chiziqlarning parallellik va perpendikulyarlik shartlarini ko‘rsating.",
+      "options": {
+        "A": "$\\frac{l_1}{l_2}=\\frac{m_1}{m_2},\\quad l_1l_2+m_1m_2=0$",
+        "B": "$\\frac{l_1}{l_2}+\\frac{m_1}{m_2}=0,\\quad l_1l_2-m_1m_2=0$",
+        "C": "$\\frac{l_1}{l_2}=-\\frac{m_1}{m_2},\\quad l_1m_2+l_2m_1=0$",
+        "D": "$\\frac{l_1}{m_2}=\\frac{l_2}{m_2},\\quad l_1m_1-l_2m_2=0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 40,
+      "page": 9,
+      "question": "$\\lambda(3x-4y+1)+x-y=0$ dastaning koordinatalar boshidan o‘tuvchi to‘g‘ri chizig‘ini toping.",
+      "options": {
+        "A": "$x-2y=0$",
+        "B": "$2x+y=0$",
+        "C": "$x-y=0$",
+        "D": "$x+y=0$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 41,
+      "page": 9,
+      "question": "$\\begin{cases}A_1x+B_1y+C_1z+D=0,\\\\A_2x+B_2y+C_2z+D=0\\end{cases}$ tenglama fazoda qaysi holda to‘g‘ri chiziqni ifodalaydi?",
+      "options": {
+        "A": "$rank\\begin{pmatrix}A_1&B_1&C_1\\\\A_2&B_2&C_2\\end{pmatrix}=1$ bo‘lsa",
+        "B": "$rank\\begin{pmatrix}A_1&B_1&C_1\\\\A_2&B_2&C_2\\end{pmatrix}=2$ bo‘lsa",
+        "C": "$D_1=0,\\;D_2=0$ bo‘lsa",
+        "D": "$D_1\\ne0,\\;D_2\\ne0$ bo‘lsa"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved",
+      "answer_note": "Savol formulasi PDF sahifasida har ikki tenglamada ham D ko‘rinishida bosilgan; variantlarda D₁ va D₂ ishlatilgan."
+    },
+    {
+      "id": 42,
+      "page": 9,
+      "question": "$By+Cz+D=0$ tenglama bilan berilgan tekislik koordinata sistemasiga nisbatan qanday joylashgan?",
+      "options": {
+        "A": "$Oz$ o‘qiga parallel",
+        "B": "$Ox$ o‘qiga parallel",
+        "C": "$Oy$ o‘qiga parallel",
+        "D": "koordinata boshi orqali o‘tadi"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 43,
+      "page": 9,
+      "question": "$y=0$ tenglama bilan berilgan tekislik koordinata sistemasiga nisbatan qanday joylashgan?",
+      "options": {
+        "A": "$Ox$ o‘qidan iborat",
+        "B": "$xOy$ tekisligidan iborat",
+        "C": "$xOz$ tekisligidan iborat",
+        "D": "$Oy$ o‘qidan iborat"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 44,
+      "page": 10,
+      "question": "$Cz+D=0$ tenglama bilan berilgan tekislik koordinata sistemasiga nisbatan qanday joylashgan?",
+      "options": {
+        "A": "$Oy$ o‘qiga parallel",
+        "B": "$Ox$ o‘qiga parallel",
+        "C": "$xOy$ koordinata tekisligiga parallel",
+        "D": "koordinata boshidan o‘tadi"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 45,
+      "page": 10,
+      "question": "$M(-1,3)$ va $N(5,-3)$ nuqtalar berilgan. $MN$ kesmaga perpendikulyar va uni $\\lambda=2$ nisbatda bo‘luvchi nuqtadan o‘tgan to‘g‘ri chiziq tenglamasini tuzing.",
+      "options": {
+        "A": "$x+y=13$",
+        "B": "$x+2y=3$",
+        "C": "$3y-x=7$",
+        "D": "$x-y=4$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 46,
+      "page": 10,
+      "question": "$x+2y-3+\\gamma(x-y+1)=0$ dastada $M(4,1)$ nuqtadan o‘tuvchi to‘g‘ri chiziqni toping.",
+      "options": {
+        "A": "$x+11y-15=0$",
+        "B": "$x+3y-7=0$",
+        "C": "$2x-3y+5=0$",
+        "D": "$x-7y+11=0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 47,
+      "page": 10,
+      "question": "$x\\cos\\alpha+y\\cos\\beta+z\\cos\\gamma-p=0$ ko‘rinishdagi tenglama tekislikning qanday ko‘rinishdagi tenglamasi deyiladi va $p$ soni qanday geometrik ma’noga ega?",
+      "options": {
+        "A": "Tekislikning umumiy tenglamasi; $p$ - koordinata boshidan tekislikgacha masofa",
+        "B": "Tekislikning normal ko‘rinishdagi tenglamasi; $p$ - ixtiyoriy son",
+        "C": "Tekislikning normal tenglamasi; $p$ - koordinata boshidan tekislikgacha bo‘lgan masofa",
+        "D": "Tekislikning normal ko‘rinishdagi tenglamasi; $p$ - normal vektorning koordinatlari"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 48,
+      "page": 10,
+      "question": "$\\frac{x-x_0}{l}=\\frac{y-y_0}{m}=\\frac{z-z_0}{n}$ ko‘rinishdagi tenglama fazoda to‘g‘ri chiziqning qanday ko‘rinishdagi tenglamasi deyiladi va $l,m,n$ sonlarning geometrik ma’nosi qanday bo‘ladi?",
+      "options": {
+        "A": "To‘g‘ri chiziqning umumiy tenglamasi; $l,m,n$ yo‘naltiruvchi vektorning koordinatlari.",
+        "B": "Fazoda to‘g‘ri chiziqning kanonik tenglamasi; $l,m,n$ to‘g‘ri chiziq normal vektorining koordinatlari.",
+        "C": "Fazoda to‘g‘ri chiziqning kanonik tenglamasi; $l,m,n$ to‘g‘ri chiziq yo‘naltiruvchi vektorining koordinatlari.",
+        "D": "To‘g‘ri chiziqning geometrik tenglamasi; $l,m,n$ ixtiyoriy sonlar."
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 49,
+      "page": 11,
+      "question": "$\\frac{x-x_0}{l}=\\frac{y-y_0}{m}=\\frac{z-z_0}{n}$ to‘g‘ri chiziq va $Ax+By+Cz+D=0$ tekislik umumiy nuqtaga ega bo‘lmaslik shartini ko‘rsating.",
+      "options": {
+        "A": "$\\frac{A}{l}=\\frac{B}{m}=\\frac{C}{n}$",
+        "B": "$Al+Bm+Cn=0$ va $Ax_0+By_0+Cz_0+D=0$",
+        "C": "$\\frac{A}{l}+\\frac{B}{m}+\\frac{C}{n}=1$",
+        "D": "$Al+Bm+Cn=0$ va $Ax_0+By_0+Cz_0+D\\ne0$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 50,
+      "page": 11,
+      "question": "$\\frac{x-x_0}{l}=\\frac{y-y_0}{m}=\\frac{z-z_0}{n}$ to‘g‘ri chiziqning $Ax+By+Cz+D=0$ tekislikka perpendikulyarlik shartini ko‘rsating.",
+      "options": {
+        "A": "$\\frac{A}{l}+\\frac{B}{m}+\\frac{C}{n}=1$",
+        "B": "$\\begin{cases}Al+Bm+Cn=0,\\\\Ax_0+By_0+Cz_0+D\\ne0\\end{cases}$",
+        "C": "$\\begin{cases}Al+Bm+Cn=0,\\\\Ax_0+By_0+Cz_0+D=0\\end{cases}$",
+        "D": "$\\frac{A}{l}=\\frac{B}{m}=\\frac{C}{n}$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 51,
+      "page": 11,
+      "question": "$\\frac{x-x_0}{l}=\\frac{y-y_0}{m}=\\frac{z-z_0}{n}$ to‘g‘ri chiziqning $Ax+By+Cz+D=0$ tekislikda yotish shartini ko‘rsating.",
+      "options": {
+        "A": "$\\begin{cases}Al+Bm+Cn=0,\\\\Ax_0+By_0+Cz_0+D=0\\end{cases}$",
+        "B": "$\\begin{cases}Al+Bm+Cn=0,\\\\Ax_0+By_0+Cz_0+D\\ne0\\end{cases}$",
+        "C": "$\\frac{A}{l}+\\frac{B}{m}+\\frac{C}{n}=1$",
+        "D": "$\\frac{A}{l}=\\frac{B}{m}=\\frac{C}{n}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 52,
+      "page": 12,
+      "question": "$\\frac{x-x_0}{l}=\\frac{y-y_0}{m}=\\frac{z-z_0}{n}$ to‘g‘ri chiziqning $Ax+By+Cz+D=0$ tekislik bilan bir nuqtada kesishish shartini ko‘rsating.",
+      "options": {
+        "A": "$\\frac{A}{l}+\\frac{B}{m}+\\frac{C}{n}=1$",
+        "B": "$\\begin{cases}Al+Bm+Cn=0,\\\\Ax_0+By_0+Cz_0+D\\ne0\\end{cases}$",
+        "C": "$Al+Bm+Cn\\ne0$",
+        "D": "$\\begin{cases}Al+Bm+Cn=0,\\\\Ax_0+By_0+Cz_0+D=0\\end{cases}$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 53,
+      "page": 12,
+      "question": "Berilgan giperbolaning uchlarini toping: $\\frac{x^2}{4}-\\frac{y^2}{2}=1$",
+      "options": {
+        "A": "$A_{1,2}(\\pm2,0)$",
+        "B": "$B_{1,2}(\\pm3,1)$",
+        "C": "$C_{1,2}(\\pm2,1)$",
+        "D": "$D_{1,2}(\\pm2\\sqrt2,0)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 54,
+      "page": 12,
+      "question": "Berilgan girepbolaning asimptotalarini toping: $\\frac{x^2}{12}-\\frac{y^2}{3}=1$",
+      "options": {
+        "A": "$y=\\frac{x}{5},\\;y=-\\frac{x}{2}$",
+        "B": "$y=\\frac{x}{2},\\;y=-\\frac{x}{2}$",
+        "C": "$y=\\frac{x}{3},\\;y=\\frac{x}{4}$",
+        "D": "$y=\\frac{x}{3}$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 55,
+      "page": 12,
+      "question": "Berilgan parabolaning fokusi va o‘qini toping: $y^2-2x-2y+3=0$.",
+      "options": {
+        "A": "$F\\left(\\frac32;1\\right),\\;y=0$",
+        "B": "$F\\left(\\frac32;-1\\right),\\;y+1=0$",
+        "C": "$F\\left(\\frac32;1\\right),\\;y-1=0$",
+        "D": "$F\\left(\\frac32;0\\right),\\;y-1=0$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 56,
+      "page": 13,
+      "question": "Berilgan parabolaning uchini toping: $2x^2-4x-y+3=0$",
+      "options": {
+        "A": "$(2,1)$",
+        "B": "$(1,0)$",
+        "C": "$(1,2)$",
+        "D": "$(1,1)$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 57,
+      "page": 13,
+      "question": "Ekssentrisiteti $e=2$ bo‘lgan giperbolaning asimptotalari orasidagi burchakni toping.",
+      "options": {
+        "A": "$\\alpha=90^\\circ$",
+        "B": "$\\alpha=120^\\circ$",
+        "C": "$\\alpha=45^\\circ$",
+        "D": "$\\alpha=30^\\circ$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 58,
+      "page": 13,
+      "question": "Fokuslari $(0,0)$ va $(6,0)$ nuqtalarda joylashgan, ekssentrisiteti esa $e=\\frac32$ bo‘lgan giperbolaning tenglamasini tuzing.",
+      "options": {
+        "A": "$\\frac{x^2}{2}-\\frac{y^2}{5}=1$",
+        "B": "$\\frac{(x-1)^2}{4}+\\frac{y^2}{5}=1$",
+        "C": "$\\frac{(x-3)^2}{4}-\\frac{y^2}{5}=1$",
+        "D": "$\\frac{x^2}{3}-\\frac{(y-3)^2}{3}=1$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 59,
+      "page": 13,
+      "question": "Fokuslari orasidagi kesma kichik o‘qlari uchlaridan $\\alpha=60^\\circ$ burchak ostida ko‘rinadigan ellipsning ekstsentrisitetini toping.",
+      "options": {
+        "A": "$e=0.5$",
+        "B": "$e=1.5$",
+        "C": "$e=-0.5$",
+        "D": "$e=0.25$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 60,
+      "page": 14,
+      "question": "Giperbola fokusidan unda mos bo‘lgan asimptotaga tushirilgan perpendikulyarning asosidan uning direktrisasi o‘tadi. Bu perpendikulyarning uzunligini toping.",
+      "options": {
+        "A": "$b$",
+        "B": "$a$",
+        "C": "$2a$",
+        "D": "$2b$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 61,
+      "page": 14,
+      "question": "Giperbolaning fokuslari orasidagi masofa 8 ga, direktrisalari orasidagi masofa 6 ga teng bo‘lsa, uning yarim o‘qlarini aniqlang.",
+      "options": {
+        "A": "$a=2\\sqrt3,\\;b=\\sqrt3$",
+        "B": "$a=2,\\;b=2$",
+        "C": "$a=2\\sqrt3,\\;b=2$",
+        "D": "$a=\\sqrt3,\\;b=2$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 62,
+      "page": 14,
+      "question": "Har bir nuqtasidan $A(1,0)$ nuqtagacha bo‘lgan masofa $x=9$ to‘g‘ri chiziqqacha bo‘lgan masofada qaraganda uch marta yaqin bo‘lgan figuraning tenglamasini tuzing.",
+      "options": {
+        "A": "$\\frac{x^2}{2}+\\frac{y^2}{4}=6$",
+        "B": "$\\frac{x^2}{9}+\\frac{y^2}{8}=1$",
+        "C": "$\\frac{x^2}{6}+\\frac{y^2}{7}=2$",
+        "D": "$\\frac{x^2}{2}+\\frac{y^2}{3}=4$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 63,
+      "page": 14,
+      "question": "Ikkinchi tartibli chiziq markazini toping: $5x^2+8xy+5y^2-18x-18y+11=0$",
+      "options": {
+        "A": "$N(1,-1)$",
+        "B": "$N(-1,-1)$",
+        "C": "$N(2,2)$",
+        "D": "$N(1,1)$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 64,
+      "page": 14,
+      "question": "Ikkinchi tartibli chiziq tipini aniqlang: $5x^2+8xy+5y^2-18x-18y+11=0$.",
+      "options": {
+        "A": "Parabola",
+        "B": "Giperbola",
+        "C": "Ellips",
+        "D": "Ikkita kesishuvchi to‘g‘ri chiziq"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 65,
+      "page": 15,
+      "question": "Jumlani to‘ldiring «Markazga ega bo‘lmagan chiziq, bu - . . . »",
+      "options": {
+        "A": "Ellips",
+        "B": "Giperbola",
+        "C": "Parabola",
+        "D": "Aylana"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 66,
+      "page": 15,
+      "question": "Jumlani to‘ldiring: «Parabolaning diametrlari . . . »",
+      "options": {
+        "A": "o‘zaro perpendikulyar",
+        "B": "o‘zaro qo‘shma",
+        "C": "o‘zaro parallel",
+        "D": "koordinata boshidan o‘tadi"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 67,
+      "page": 15,
+      "question": "Markazi koordinata boshida, bitta uchi $A(2,0)$ nuqtada bo‘lgan giperbolaning kanonik tenglamasini toping.",
+      "options": {
+        "A": "$\\frac{x^2}{16}-\\frac{y^2}{9}=-1$",
+        "B": "$\\frac{x^2}{16}-\\frac{y^2}{9}=1$",
+        "C": "$\\frac{x^2}{2}-\\frac{y^2}{9}=-1$",
+        "D": "$\\frac{x^2}{16}+\\frac{y^2}{9}=1$"
+      },
+      "correct_answer": null,
+      "answer_status": "no_valid_option",
+      "answer_note": "PDFdagi A(2,0) shartiga ko‘ra kanonik giperbolada x² maxrajida 4 bo‘lishi kerak; berilgan A–D variantlarning hech biri mos emas. Variantlar manbadagidek saqlandi."
+    },
+    {
+      "id": 68,
+      "page": 15,
+      "question": "Markazi koordinata boshida, uchlari $A(3,0)$ va $B(0,-2)$ nuqtalarda bo‘lgan ellipsning tenglamasini toping.",
+      "options": {
+        "A": "$\\frac{x^2}{3}+\\frac{y^2}{4}=1$",
+        "B": "$\\frac{x^2}{9}+\\frac{y^2}{2}=1$",
+        "C": "$\\frac{x^2}{9}+\\frac{y^2}{4}=1$",
+        "D": "$\\frac{x^2}{7}-\\frac{y^2}{5}=1$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 69,
+      "page": 15,
+      "question": "Markaziy ikkinchi tartibli chiziqning bosh yo‘nalishlar deb ……. ",
+      "options": {
+        "A": "o‘zaro perpendikulyar yo‘nalishlarga aytiladi",
+        "B": "o‘zaro qo‘shma yo‘nalishlarga aytiladi",
+        "C": "o‘zaro qo‘shma va ortogonal yo‘nalishlarga aytiladi",
+        "D": "ixtiyoriy yo‘nalishlarga aytiladi"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 70,
+      "page": 16,
+      "question": "$\\frac{x^2}{9}+\\frac{y^2}{4}=1$ tenglama bilan beringan ellipsning $A(3,0)$ nuqtasidan o‘tuvchi urinmasining tenglamasini tuzing.",
+      "options": {
+        "A": "$x+4=0$",
+        "B": "$x-4=0$",
+        "C": "$x-3=0$",
+        "D": "$x=0$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 71,
+      "page": 16,
+      "question": "Ikkinchi tartibli chiziq $x^2+y^2-4x=0$ tenglama bilan berilgan. Uning kanonik tenglamasini va tipini aniqlang.",
+      "options": {
+        "A": "$(x+2)^2+y^2=4$ - ellips",
+        "B": "$(x-2)^2+y^2=2$ - aylana",
+        "C": "$(x-2)^2+y^2=4$ - aylana",
+        "D": "$(x+2)^2-y^2=2$ - giperbola"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 72,
+      "page": 16,
+      "question": "$\\frac{x^2}{9}+\\frac{y^2}{4}=1$ tenglama bilan beringan ellipsning $M(3,2)$ nuqtadan o‘tuvchi urinmalari tenglamalarini aniqlang.",
+      "options": {
+        "A": "$x-3=0,\\;y-2=0$",
+        "B": "$x-3=0$",
+        "C": "$x+y\\pm5=0$",
+        "D": "$x\\pm3=0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 73,
+      "page": 16,
+      "question": "$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ ellipsga $M_0(x_0,y_0)$ nuqtasida o‘tkazilga urinma tenglamasini toping.",
+      "options": {
+        "A": "$\\frac{x-x_0}{a^2}+\\frac{y-y_0}{b^2}=0$",
+        "B": "$\\frac{x-x_0}{a^2}+\\frac{y-y_0}{b^2}=1$",
+        "C": "$\\frac{xx_0}{a^2}+\\frac{yy_0}{b^2}=1$",
+        "D": "$\\frac{xx_0}{a^2}+\\frac{yy_0}{b^2}=0$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 74,
+      "page": 16,
+      "question": "$\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ giperbolaning $M_0(x_0,y_0)$ nuqtadagi urinma tenglamasini ko‘rsating.",
+      "options": {
+        "A": "$\\frac{xx_0}{a^2}-\\frac{yy_0}{b^2}=0$",
+        "B": "$\\frac{x-x_0}{a^2}-\\frac{y-y_0}{b^2}=1$",
+        "C": "$\\frac{x-x_0}{a^2}+\\frac{y-y_0}{b^2}=0$",
+        "D": "$\\frac{xx_0}{a^2}-\\frac{yy_0}{b^2}=1$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 75,
+      "page": 17,
+      "question": "$\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ giperbolaning asimptotalari tenglamalarini ko‘rsating.",
+      "options": {
+        "A": "$y=\\pm\\frac{b}{a}x$",
+        "B": "$y=\\pm\\frac{c}{a}x$",
+        "C": "$y=\\pm\\frac{be}{a}x$",
+        "D": "$y=\\pm\\frac{a}{e}x$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 76,
+      "page": 17,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $A\\subset B$ va $B\\subseteq C$ ekanligidan ushbu munosabat o‘rinli",
+      "options": {
+        "A": "$A\\subset C$",
+        "B": "$A\\subseteq C$",
+        "C": "$A\\supseteq C$",
+        "D": "$A\\supset C$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 77,
+      "page": 17,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $A\\subseteq B$ va $B\\subseteq A$ ekanligidan ushbu munosabat o‘rinli.",
+      "options": {
+        "A": "$A=B$",
+        "B": "$A\\subset B$",
+        "C": "$A\\supset B$",
+        "D": "$A\\ne B$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 78,
+      "page": 17,
+      "question": "Agar $A=\\{1,2,3,4\\}$ va $B=\\{3,4,5\\}$ bo‘lsa $A\\cup B$ ni toping",
+      "options": {
+        "A": "$\\{1,2,3,4,5\\}$",
+        "B": "$\\{1,2,3,4,3,4,5\\}$",
+        "C": "$\\{1,2,3,5\\}$",
+        "D": "$\\{3,4,5\\}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 79,
+      "page": 17,
+      "question": "Agar $A=\\{1,2,3,4\\}$ va $B=\\{3,4,5\\}$ bo‘lsa $A\\cap B$ ni toping",
+      "options": {
+        "A": "$\\{3,4\\}$",
+        "B": "$\\{1,2,3,4,5\\}$",
+        "C": "$\\{3,4,5\\}$",
+        "D": "$\\{1,2\\}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 80,
+      "page": 17,
+      "question": "Agar $A=[0,3]$ va $B=[2,5]$ bo‘lsa $A\\cap B$ ni toping",
+      "options": {
+        "A": "$[2,3]$",
+        "B": "$[0,5]$",
+        "C": "$[0,2]$",
+        "D": "$[4,5]$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 81,
+      "page": 18,
+      "question": "Agar $A=\\{1,2,3,4\\}$ va $B=\\{3,4,5\\}$ bo‘lsa $A\\setminus B$ ni toping",
+      "options": {
+        "A": "$\\{1,2\\}$",
+        "B": "$\\{1,2,3,4,5\\}$",
+        "C": "$\\{3,4,5\\}$",
+        "D": "$\\{3,4\\}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 82,
+      "page": 18,
+      "question": "Agar $U$ - universal to‘plam, $A$ esa undagi ixtiyoriy to‘plam bo‘lsa, $A\\setminus A$ ni toping.",
+      "options": {
+        "A": "$\\varnothing$",
+        "B": "$A$",
+        "C": "$U$",
+        "D": "$\\{0\\}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 83,
+      "page": 18,
+      "question": "Agar $U$ - universal to‘plam, $A$ esa undagi ixtiyoriy to‘plam bo‘lsa, $A\\cap\\varnothing$ ni toping.",
+      "options": {
+        "A": "$\\varnothing$",
+        "B": "$A$",
+        "C": "$U$",
+        "D": "$\\{0\\}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 84,
+      "page": 18,
+      "question": "Agar $A$ va $B$ lar ixtiyoriy to‘plamlar bo‘lsa, u holda $A\\cap B$ to‘plam ushbu to‘plamlardan qaysi biriga teng.",
+      "options": {
+        "A": "$A\\setminus(A\\setminus B)$",
+        "B": "$A\\cup B$",
+        "C": "$A\\setminus B$",
+        "D": "$B\\setminus A$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 85,
+      "page": 18,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $(A\\cap B)\\cup C$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$(A\\cup C)\\cap(B\\cup C)$",
+        "B": "$(A\\cap B)\\cap C$",
+        "C": "$(A\\cup C)\\cup(B\\cup C)$",
+        "D": "$(A\\cup C)\\cap(B\\cap C)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 86,
+      "page": 18,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $(A\\cup B)\\cap C$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$(A\\cap C)\\cup(B\\cap C)$",
+        "B": "$(A\\cup B)\\cup C$",
+        "C": "$(A\\cup C)\\cap(B\\cup C)$",
+        "D": "$(A\\cap C)\\cap(B\\cap C)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 87,
+      "page": 19,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $A\\cup(B\\cap C)$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$(A\\cup B)\\cap(A\\cup C)$",
+        "B": "$(A\\cup B)\\cup C$",
+        "C": "$(A\\cup C)\\cup(B\\cup C)$",
+        "D": "$(A\\cap C)\\cap(B\\cap C)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 88,
+      "page": 19,
+      "question": "Ixtiyoriy $A,B$ to‘plamlar uchun $\\overline{A\\cup B}$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$\\overline A\\cap\\overline B$",
+        "B": "$\\overline A\\cup B$",
+        "C": "$A\\cap B$",
+        "D": "$\\overline{A\\cup B}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 89,
+      "page": 19,
+      "question": "Ixtiyoriy $A,B$ to‘plamlar uchun $\\overline{A\\cap B}$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$\\overline A\\cup\\overline B$",
+        "B": "$\\overline A\\cup B$",
+        "C": "$A\\cap B$",
+        "D": "$\\overline{A\\cap B}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 90,
+      "page": 19,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $A\\setminus(B\\cup C)$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$(A\\setminus B)\\cap(A\\setminus C)$",
+        "B": "$(A\\setminus B)\\cup C$",
+        "C": "$(A\\setminus B)\\cup(A\\setminus C)$",
+        "D": "$(A\\cup C)\\cap(B\\cup C)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 91,
+      "page": 19,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $A\\setminus(B\\cap C)$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$(A\\setminus B)\\cup(A\\setminus C)$",
+        "B": "$(A\\setminus B)\\cap C$",
+        "C": "$(A\\setminus B)\\cap(A\\setminus C)$",
+        "D": "$(A\\cup C)\\cap(B\\cup C)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 92,
+      "page": 19,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $(A\\cup B)\\setminus C$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$(A\\setminus C)\\cup(B\\setminus C)$",
+        "B": "$(A\\setminus C)\\cup B$",
+        "C": "$(A\\setminus C)\\cap(B\\setminus C)$",
+        "D": "$(A\\cup C)\\cap(B\\mid C)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 93,
+      "page": 19,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $A\\setminus(B\\setminus C)$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$(A\\setminus B)\\cup(A\\cap C)$",
+        "B": "$(A\\setminus B)\\cup C$",
+        "C": "$(A\\setminus B)\\cup(A\\setminus C)$",
+        "D": "$(A\\setminus C)\\cap(B\\setminus C)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 94,
+      "page": 20,
+      "question": "Ixtiyoriy $A,B$ to‘plamlar uchun $(A\\cup B)\\cap A$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$(A\\cap B)\\cup A$",
+        "B": "$A\\cup B$",
+        "C": "$A\\cap B$",
+        "D": "$A\\setminus B$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 95,
+      "page": 20,
+      "question": "Ixtiyoriy $A,B$ to‘plamlar uchun $A\\setminus B$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$A\\setminus(A\\cap B)$",
+        "B": "$A\\setminus(A\\cup B)$",
+        "C": "$A\\cap B$",
+        "D": "$A\\cap\\overline B$"
+      },
+      "correct_answer": [
+        "A",
+        "D"
+      ],
+      "answer_status": "ambiguous_duplicate",
+      "answer_note": "A va D variantlari ikkalasi ham $A\\setminus B$ ga aynan teng."
+    },
+    {
+      "id": 96,
+      "page": 20,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $(A\\triangle B)\\triangle C$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$A\\triangle(C\\triangle B)$",
+        "B": "$(A\\triangle B)\\setminus C$",
+        "C": "$(A\\triangle B)\\setminus(A\\triangle C)$",
+        "D": "$(A\\triangle C)\\cap(B\\triangle C)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 97,
+      "page": 20,
+      "question": "Ixtiyoriy $A,B,C$ to‘plamlar uchun $A\\cap(B\\triangle C)$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$(A\\cap B)\\triangle(A\\cap C)$",
+        "B": "$(A\\triangle B)\\setminus C$",
+        "C": "$(A\\triangle B)\\setminus(A\\triangle C)$",
+        "D": "$(A\\triangle C)\\cap(B\\triangle C)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 98,
+      "page": 20,
+      "question": "Ixtiyoriy $A,B$ to‘plamlar uchun $A\\triangle(A\\triangle B)$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$B$",
+        "B": "$A$",
+        "C": "$A\\cap B$",
+        "D": "$\\overline B$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 99,
+      "page": 20,
+      "question": "Ixtiyoriy $A,B$ to‘plamlar uchun $A\\cup B$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$A\\triangle B\\triangle(A\\cap B)$",
+        "B": "$A\\setminus(A\\triangle B)$",
+        "C": "$A\\cap B$",
+        "D": "$A\\triangle B\\triangle(A\\cup B)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 100,
+      "page": 20,
+      "question": "Ixtiyoriy $A$ to‘plam uchun $A\\triangle U$ to‘plam quyidagi to‘plamlardan qaysi biriga teng?",
+      "options": {
+        "A": "$\\overline A$",
+        "B": "$A$",
+        "C": "$\\varnothing$",
+        "D": "$\\overline A\\subseteq B$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    }
+  ]
+}

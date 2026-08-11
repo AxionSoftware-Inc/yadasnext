@@ -1,0 +1,1073 @@
+{
+  "source_file": "YaDas_2024-2025_Matematika va informatika.pdf",
+  "page_range": "61-80",
+  "question_count": 80,
+  "extraction_method": "PDF source text + page-image visual verification where available; no OCR dependency",
+  "answer_key_in_source": false,
+  "answer_policy": "correct_answer is model-solved only where source is sufficiently clear; source_or_options_issue marks ambiguous/broken source text or inconsistent options",
+  "questions": [
+    {
+      "id": 272,
+      "page": 61,
+      "question": "Evklid fazosida noldan farqli $\\{x_\\alpha\\}$ elementlar sistemasi uchun ... bo‘lsa, u ortogonal sistema deyiladi?",
+      "options": {
+        "A": "$\\alpha\\ne\\beta$ uchun $(x_\\alpha,x_\\beta)=0$",
+        "B": "$\\{x_\\alpha\\}$ sistema chiziqli bog‘lanmagan",
+        "C": "Ixtiyoriy $\\alpha$ uchun $(x_\\alpha,x_\\alpha)=1$",
+        "D": "$\\{x_\\alpha\\}$ sistema chiziqli bog‘langan"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 273,
+      "page": 61,
+      "question": "$E$ normallangan fazo Evklid fazosi bo‘lishi uchun qaysi shart zarur va yetarli?",
+      "options": {
+        "A": "$\\|x+y\\|^2+\\|x-y\\|^2=2(\\|x\\|^2+\\|y\\|^2)$",
+        "B": "$\\|x+y\\|\\le \\|x\\|+\\|y\\|",
+        "C": "$\\|x+y\\|+\\|x-y\\|=2(\\|x\\|+\\|y\\|)$",
+        "D": "Bunday shart yo‘q"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 274,
+      "page": 61,
+      "question": "$A:X\\to Y$ operator qachon teskarilanuvchi deyiladi?",
+      "options": {
+        "A": "Ixtiyoriy $y\\in Im A$ uchun $Ax=y$ tenglama yagona yechimga ega bo‘lsa",
+        "B": "Shunday $C$ operator topilib, $AC=I$ bo‘lsa",
+        "C": "Shunday $B:Y\\to X$ operator topilib, $BA=I$ bo‘lsa",
+        "D": "$A:X\\to Y$ ustiga akslantirish bo‘lsa"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "Manbadagi ta’rifga eng mos variant."
+    },
+    {
+      "id": 275,
+      "page": 61,
+      "question": "Quyidagi tasdiqlardan qaysi biri o‘rinli?",
+      "options": {
+        "A": "Har qanday ikki separabel Gilbert fazolari o‘zaro izomorfdir",
+        "B": "Har qanday ikki Evklid fazolari o‘zaro izomorfdir",
+        "C": "Har qanday ikki Gilbert fazolari o‘zaro izomorfdir",
+        "D": "Har qanday ikki separabel Evklid fazolari o‘zaro izomorfdir"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 276,
+      "page": 61,
+      "question": "Qaysi javobda Evklid fazosidagi norma to‘g‘ri keltirilgan?",
+      "options": {
+        "A": "$\\|x\\|=(x,x)$",
+        "B": "$\\|x+y\\|=(x,y)$",
+        "C": "$\\|x-y\\|=(x,y)$",
+        "D": "$\\|x\\|=\\sqrt{(x,x)}$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 277,
+      "page": 62,
+      "question": "$C_2[a,b]$ fazo metrikasini ko‘rsating.",
+      "options": {
+        "A": "$\\rho(x,y)=\\left(\\int_a^b|x(t)-y(t)|^2dt\\right)^{1/2}$",
+        "B": "$\\rho(x,y)=\\int_a^b(x(t)-y(t))dt$",
+        "C": "$\\rho(x,y)=\\max_{a\\le t\\le b}|x(t)-y(t)|$",
+        "D": "$\\rho(x,y)=\\sum_{k=1}^2|x_k-y_k|$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "Formulaning standart ko‘rinishi bo‘yicha terildi; PDFdagi ildiz belgisi text-layerda yo‘qolgan."
+    },
+    {
+      "id": 278,
+      "page": 62,
+      "question": "Ratsional sonlar to‘plamining barcha limitik nuqtalari to‘plamini toping.",
+      "options": {
+        "A": "Haqiqiy sonlar to‘plami",
+        "B": "Ratsional sonlar to‘plami",
+        "C": "Butun sonlar to‘plami",
+        "D": "Irratsional sonlar to‘plami"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 279,
+      "page": 62,
+      "question": "Agar $\\{f_n\\}$ o‘lchovli funksiyalar ketma-ketligi ... bo‘lsa, limitik funksiya $f$ o‘lchovli bo‘ladi. Qaysi shartlar mos? 1) har bir nuqtada; 2) tekis; 3) deyarli; 4) o‘lchov bo‘yicha yaqinlashish.",
+      "options": {
+        "A": "1,2,3",
+        "B": "1,2,4",
+        "C": "1,3,4",
+        "D": "2,3,4"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "Manba variantlari saqlandi; 4-band uchun qo‘shimcha shartlar talab qilinishi mumkin."
+    },
+    {
+      "id": 280,
+      "page": 62,
+      "question": "Agar $A_1,\\dots,A_n$ o‘zaro kesishmaydigan o‘lchovli to‘plamlar bo‘lsa, qanday munosabat doimo o‘rinli?",
+      "options": {
+        "A": "$\\mu(\\bigcup_{k=1}^nA_k)=\\sum_{k=1}^n\\mu(A_k)$",
+        "B": "$\\mu(\\bigcup A_k)<\\sum\\mu(A_k)$",
+        "C": "$A_1\\subset A_2\\subset\\cdots$ bo‘lsa limit xossasi",
+        "D": "$\\mu(\\bigcup A_k)>\\sum\\mu(A_k)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 281,
+      "page": 63,
+      "question": "$A:\\mathbb R^n\\to\\mathbb R^n$, $Ax=(a_1x_1,\\dots,a_nx_n)$ operator normasini toping.",
+      "options": {
+        "A": "$\\max_{1\\le k\\le n}|a_k|$",
+        "B": "$|a_n|$",
+        "C": "$n$",
+        "D": "$\\sqrt{a_1^2+\\cdots+a_n^2}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 282,
+      "page": 63,
+      "question": "Kantor to‘plami haqida qaysi tasdiqlar o‘rinli? 1) sanoqli; 2) chegaralangan; 3) o‘lchovi 0; 4) kontinuum quvvatli; 5) chekli.",
+      "options": {
+        "A": "2,3,4",
+        "B": "1,2,3,4",
+        "C": "2,3,5",
+        "D": "1,3,5"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 283,
+      "page": 63,
+      "question": "Dirixle funksiyasida $A=(2;4)$ to‘plamning aslini toping.",
+      "options": {
+        "A": "$\\varnothing$",
+        "B": "$\\mathbb Q$",
+        "C": "$(0,1)$",
+        "D": "$\\mathbb R\\setminus\\mathbb Q$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "Manbada “aslini” so‘zi va A=(2;4) bilan funksiya qiymatlari {0,1} bo‘lgani uchun preimage bo‘sh."
+    },
+    {
+      "id": 284,
+      "page": 63,
+      "question": "$T:\\ell_1\\to\\ell_1$, $Tx=(0,x_1,x_2,\\dots)$ ga qo‘shma operatorni toping.",
+      "options": {
+        "A": "$T^*:m\\to m,\\;T^*x=(x_2,x_3,\\dots)$",
+        "B": "$T^*:\\ell_1\\to\\ell_1,\\;T^*x=(x_2,x_3,\\dots)$",
+        "C": "$T^*:\\ell_p\\to\\ell_p,\\;T^*y=(y_2,y_3,\\dots)$",
+        "D": "$T^*:\\ell_1\\to\\ell_1,\\;T^*y=(y_1,y_2,\\dots)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "PDFdagi fazo belgisi text-layerda buzilgan; variant A manbadagi qo‘shma shiftga mos."
+    },
+    {
+      "id": 285,
+      "page": 63,
+      "question": "$A:C[-1,1]\\to C[-1,1]$, $(Af)(x)=\\int_{-1}^1(1+xy)f(y)dy$ operatorning qiymatlar sohasini toping.",
+      "options": {
+        "A": "$ImA=\\{f:f(x)=a+bx\\}$",
+        "B": "$ImA=\\{f:f(x)=const\\}$",
+        "C": "$ImA=\\{f:\\int_{-1}^1yf(y)dy=0\\}$",
+        "D": "$ImA=\\{0\\}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 286,
+      "page": 64,
+      "question": "Quyidagi tasdiqlarning qaysi biri to‘g‘ri?",
+      "options": {
+        "A": "Separabel Evklid fazosida har qanday to‘la ortonormal sistema yopiq va aksincha",
+        "B": "Separabel Evklid fazosida har qanday ortonormal sistema to‘ladir",
+        "C": "Separabel Evklid fazosida har qanday ortonormal sistema yopiqdir",
+        "D": "To‘la Evklid fazosida har qanday ortonormal sistema yopiqdir"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 287,
+      "page": 64,
+      "question": "Metrik fazolarni to‘ldirish haqidagi teoremani bayon qilishda foydalanilgan tushunchalar qaysi javobda?",
+      "options": {
+        "A": "Metrik fazo, to‘ldirma metrik fazo, izometriya aniqligida yagona",
+        "B": "Nisbiy kompakt, tekis chegaralangan, tekis darajada uzluksiz",
+        "C": "To‘la metrik fazo, qisuvchi akslantirish, yagona qo‘zg‘almas nuqta",
+        "D": "To‘la metrik fazo, hech yerda zichmas to‘plam, birlashma"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 288,
+      "page": 64,
+      "question": "Ber teoremasini bayon qilishda foydalanilgan tushunchalar qaysi javobda?",
+      "options": {
+        "A": "To‘la metrik fazo, hech yerda zich bo‘lmagan to‘plam, birlashma",
+        "B": "Nisbiy kompakt, tekis chegaralangan, tekis darajada uzluksiz",
+        "C": "To‘la metrik fazo, qisuvchi akslantirish, yagona qo‘zg‘almas nuqta",
+        "D": "Metrik fazo, to‘ldirma metrik fazo, izometriya aniqligida yagona"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 289,
+      "page": 64,
+      "question": "Arsela teoremasini bayon qilishda foydalanilgan tushunchalar qaysi javobda?",
+      "options": {
+        "A": "Nisbiy kompakt, tekis chegaralangan, tekis darajada uzluksiz",
+        "B": "To‘la metrik fazo, hech yerda zich bo‘lmagan to‘plam, birlashma",
+        "C": "To‘la metrik fazo, qisuvchi akslantirish, yagona qo‘zg‘almas nuqta",
+        "D": "Metrik fazo, to‘ldirma metrik fazo, izometriya aniqligida yagona"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 290,
+      "page": 65,
+      "question": "Qisuvchi akslantirishlar prinsipi haqidagi teoremani bayon qilishda foydalanilgan tushunchalar qaysi javobda?",
+      "options": {
+        "A": "To‘la metrik fazo, qisuvchi akslantirish, yagona qo‘zg‘almas nuqta",
+        "B": "To‘la metrik fazo, hech yerda zich bo‘lmagan to‘plam, birlashma",
+        "C": "Nisbiy kompakt, tekis chegaralangan, tekis darajada uzluksiz",
+        "D": "Metrik fazo, to‘ldirma metrik fazo, izometriya aniqligida yagona"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 291,
+      "page": 65,
+      "question": "Banax fazosi bu ...",
+      "options": {
+        "A": "To‘la normallangan fazo",
+        "B": "To‘la metrik fazo",
+        "C": "To‘la Evklid fazosi",
+        "D": "Chiziqli normallangan fazo"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 292,
+      "page": 65,
+      "question": "Noto‘g‘ri tasdiqni toping.",
+      "options": {
+        "A": "Har qanday metrik fazo Evklid fazosini tashkil etadi",
+        "B": "Har qanday normallangan fazo metrik fazoni tashkil etadi",
+        "C": "Har qanday Gilbert fazosi metrik fazoni tashkil etadi",
+        "D": "Banax fazosi metrik fazoni tashkil etadi"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 293,
+      "page": 65,
+      "question": "Chiziqli fazoni tashkil etmaydigan to‘plamlarni aniqlang.",
+      "options": {
+        "A": "$\\ell_p$",
+        "B": "$m$",
+        "C": "$\\ell_2,m,c$",
+        "D": "$C[a,b],C_p[a,b]$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Variant A/B belgilarining bir qismi PDF text-layerda yo‘qolgan; sahifa tasviridan qo‘shimcha tekshiruv kerak."
+    },
+    {
+      "id": 294,
+      "page": 65,
+      "question": "Metrik fazolarda urinish nuqtalari va limitik nuqtalari o‘rtasida bog‘lanish noto‘g‘ri keltirilgan javobni ko‘rsating.",
+      "options": {
+        "A": "Har qanday urinish nuqtasi limitik nuqtani tashkil etadi",
+        "B": "Har qanday limitik nuqta urinish nuqtasini tashkil etadi",
+        "C": "Urinish nuqta va limitik nuqtalar bir xil tushunchalardir",
+        "D": "Urinish nuqta va limitik nuqtalar turli tushunchalardir"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 295,
+      "page": 66,
+      "question": "$f(z)=\\dfrac{\\sin z}{z^2}$ funksiyaning $z=0$ nuqtadagi chegirmasini hisoblang.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 296,
+      "page": 66,
+      "question": "$f(z)=\\dfrac{\\cos(\\pi z/2)}{\\sin(z-1)}$ funksiya uchun $z=1$ qutb nuqtaning tartibini aniqlang.",
+      "options": {
+        "A": "1-tartibli",
+        "B": "3-tartibli",
+        "C": "2-tartibli",
+        "D": "4-tartibli"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Text-layer formulani noaniq beradi; surat bo‘yicha qutb tartibini tekshirish kerak."
+    },
+    {
+      "id": 297,
+      "page": 66,
+      "question": "$f(z)=\\dfrac1{z+3}$ funksiyaning haqiqiy va mavhum qismlarini toping.",
+      "options": {
+        "A": "$u=\\frac{x+3}{x^2+6x+y^2+9},\\;v=-\\frac{y}{x^2+6x+y^2+9}$",
+        "B": "$u=\\frac{x-3}{x^2-6x+y^2+9},\\;v=\\frac{y}{x^2-6x+y^2+9}$",
+        "C": "$u=\\frac{x-3}{x^2+6x+y^2+9},\\;v=-\\frac{y}{x^2+6x+y^2+9}$",
+        "D": "$u=\\frac{x+3}{x^2-6x+y^2+9},\\;v=-\\frac{y}{x^2-6x+y^2+9}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 298,
+      "page": 66,
+      "question": "Agar $f(z)$ butun tekislikda golomorf bo‘lib, $|f(z)|\\le M$ bo‘lsa, u ... funksiyadir.",
+      "options": {
+        "A": "O‘zgarmas",
+        "B": "Chiziqli",
+        "C": "Kasr-chiziqli",
+        "D": "Ko‘rsatkichli"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 299,
+      "page": 67,
+      "question": "Agar $\\lim_{z\\to a}f(z)=A$ (A chekli son) bo‘lsa, $a$ yakkalangan maxsus nuqta qanday maxsus nuqta deyiladi?",
+      "options": {
+        "A": "O‘ta maxsus nuqta",
+        "B": "Muhim maxsus nuqta",
+        "C": "Qutb maxsus nuqta",
+        "D": "Bartaraf qilinadigan maxsus nuqta"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 300,
+      "page": 67,
+      "question": "$\\cos(2+i)$ sonining haqiqiy qismini toping.",
+      "options": {
+        "A": "$\\operatorname{ch}1\\cos2$",
+        "B": "$\\operatorname{sh}1\\sin2$",
+        "C": "$\\cos2\\sin1$",
+        "D": "$\\sin2\\sin1$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 301,
+      "page": 67,
+      "question": "$10(\\sqrt3-i)$ son nimaga teng?",
+      "options": {
+        "A": "$2^9(1+\\sqrt3 i)$",
+        "B": "$2^{10}(\\cos\\frac{5\\pi}3+i\\sin\\frac{5\\pi}3)$",
+        "C": "$2^{10}(\\cos\\frac{2\\pi}3+i\\sin\\frac{2\\pi}3)$",
+        "D": "$10^2$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Daraja/ildiz belgilari text-layerda buzilgan; manba tasviri bilan qayta tekshirish kerak."
+    },
+    {
+      "id": 302,
+      "page": 67,
+      "question": "$f(z)=z^2\\operatorname{Re}z$ funksiyaning $\\mathbb C$-differensiallanuvchilik sohasini toping.",
+      "options": {
+        "A": "$z=0$ nuqtada",
+        "B": "$|z|<1$ sohada",
+        "C": "$|z|>1$ sohada",
+        "D": "$|z|=1$ chiziqda"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 303,
+      "page": 67,
+      "question": "Qachon $z_1+z_2+z_3+\\cdots$ qator yaqinlashuvchi deyiladi?",
+      "options": {
+        "A": "Agar $S_n=z_1+\\cdots+z_n$ ketma-ketlik biror chekli $S$ limitga intilsa",
+        "B": "$\\lim z_n=0$ bo‘lsa",
+        "C": "$\\lim z_n=a<1$ bo‘lsa",
+        "D": "$S_n$ biror musbat $S$ limitga intilsa"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 304,
+      "page": 68,
+      "question": "$z+\\frac{z^2}{2^3}+\\frac{z^3}{3^3}+\\cdots+\\frac{z^n}{n^3}+\\cdots$ qatorning yaqinlashish radiusini toping.",
+      "options": {
+        "A": "$\\infty$",
+        "B": "0",
+        "C": "1",
+        "D": "$n$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 305,
+      "page": 68,
+      "question": "$f(z)=(z+i)^3(z-1)$ ning nollarini va tartibini aniqlang.",
+      "options": {
+        "A": "$z=-i$ 3-tartibli, $z=1$ oddiy",
+        "B": "$z=i$ 3-tartibli, $z=1$ oddiy",
+        "C": "$z=-i$ va $z=1$ ikkalasi 3-tartibli",
+        "D": "$z=-i,z=1$ ikkalasi 2-tartibli"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 306,
+      "page": 68,
+      "question": "$f(z)=\\dfrac1{z-2}$ funksiyani $z_0=\\infty$ nuqta atrofida Loran qatoriga yoying.",
+      "options": {
+        "A": "$\\sum_{n=0}^{\\infty}\\frac{2^n}{z^{n+1}}$",
+        "B": "$\\sum_{n=0}^{\\infty}\\frac{z^{n+1}}{2^n}$",
+        "C": "$\\sum_{n=0}^{\\infty}\\frac{z^n}{2}$",
+        "D": "$\\sum_{n=0}^{\\infty}\\frac{2^n}{z^n}$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 307,
+      "page": 69,
+      "question": "$f(z)=\\dfrac{z^2}{1-\\cos z}$ ning maxsus nuqtalarini va ularning turini aniqlang.",
+      "options": {
+        "A": "$z=0$ qutilib bo‘ladigan, $z=2\\pi k, k\\ne0$ oddiy qutblar",
+        "B": "$z=0$ ikkinchi tartibli qutb",
+        "C": "$z=2\\pi k$ oddiy qutblar",
+        "D": "$z=0$ qutilib bo‘ladigan, $z=2\\pi k$ muhim maxsus nuqtalar"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Matematik jihatdan $k\\ne0$ nuqtalarda ikkinchi tartibli qutb chiqadi; manba variantlari bilan mos kelmaydi."
+    },
+    {
+      "id": 308,
+      "page": 69,
+      "question": "Qaysi formulada $\\sin z$ ning Makloren qatoriga yoyilmasi yozilgan?",
+      "options": {
+        "A": "$z-\\frac{z^3}{3!}+\\frac{z^5}{5!}-\\frac{z^7}{7!}+\\cdots$",
+        "B": "$z-\\frac{z^2}{2!}+\\frac{z^4}{4!}-\\cdots$",
+        "C": "$z+\\frac{z^3}{3!}+\\frac{z^5}{5!}+\\cdots$",
+        "D": "$z-\\frac{z^3}{3}+\\frac{z^5}{5}-\\cdots$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 309,
+      "page": 69,
+      "question": "Hisoblang: $(1-i)(2+3i)$",
+      "options": {
+        "A": "$5+i$",
+        "B": "$3+i$",
+        "C": "$5-i$",
+        "D": "$3-i$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 310,
+      "page": 69,
+      "question": "Agar $f(z)=u(x,y)+iv(x,y)$ funksiya analitik bo‘lsa, qaysi formula to‘g‘ri emas?",
+      "options": {
+        "A": "$f'(z)=u_x+i u_y$",
+        "B": "$f'(z)=v_y+i v_x$",
+        "C": "$f'(z)=u_x+i v_x$",
+        "D": "$f'(z)=v_y-i u_y$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 311,
+      "page": 70,
+      "question": "Integralni hisoblang: $\\displaystyle\\oint_{|z|=1}\\frac{e^{iz}}{z+i}dz$.",
+      "options": {
+        "A": "$\\pi e$",
+        "B": "$\\pi e\\,i$",
+        "C": "$2\\pi e$",
+        "D": "$2\\pi i e$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Kontur va maxraj belgisi text-layerda noaniq; qutb kontur ustida/ichida ekaniga qarab javob o‘zgaradi."
+    },
+    {
+      "id": 312,
+      "page": 70,
+      "question": "Hisoblang: $i^{2012}$",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "$i$",
+        "D": "$-i$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 313,
+      "page": 70,
+      "question": "$z=-2-2\\sqrt3i$ ning modulini toping.",
+      "options": {
+        "A": "4",
+        "B": "16",
+        "C": "$2\\sqrt3$",
+        "D": "$2\\sqrt2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 314,
+      "page": 70,
+      "question": "$w=z^2+2$ funksiyaning mavhum qismini toping.",
+      "options": {
+        "A": "$2xy$",
+        "B": "$x^2-y^2+2$",
+        "C": "$4xy$",
+        "D": "$x^2+y^2+2$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 315,
+      "page": 71,
+      "question": "$z^3e^{1/z}$ funksiyani $z=0$ nuqta atrofida Loran qatoriga yoying va sohani ko‘rsating.",
+      "options": {
+        "A": "$z^3+z^2+\\frac z2+\\frac16+\\frac1{24z}+\\cdots,\\;0<|z|<\\infty$",
+        "B": "Almashuvchi ishorali qator, $0<|z|<\\infty$",
+        "C": "$z^3+z^2+z+\\cdots$",
+        "D": "Boshqa yoyilma"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 316,
+      "page": 71,
+      "question": "$w=z^2$ akslantirishda $z=-\\frac14$ nuqtadagi burilish burchagi $\\varphi$ va cho‘zilish koeffitsienti $k$ ni toping.",
+      "options": {
+        "A": "$\\varphi=\\pi,\\;k=\\frac12$",
+        "B": "$\\varphi=0,\\;k=1$",
+        "C": "$\\varphi=0,\\;k=\\frac12$",
+        "D": "$\\varphi=-\\pi,\\;k=-\\frac12$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 317,
+      "page": 71,
+      "question": "$z=-2+2\\sqrt3i$ ning argumentini toping.",
+      "options": {
+        "A": "$\\frac{2\\pi}{3}+2\\pi k$",
+        "B": "$-\\frac{2\\pi}{3}+2\\pi k$",
+        "C": "$\\frac{2\\pi}{3}+\\pi k$",
+        "D": "$-\\frac{3\\pi}{2}+\\pi k$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 318,
+      "page": 72,
+      "question": "$z=t^2+it$ tenglama qanday chiziqni aniqlaydi?",
+      "options": {
+        "A": "Parabola",
+        "B": "Giperbola",
+        "C": "Giperbola",
+        "D": "Ellips"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 319,
+      "page": 72,
+      "question": "$w=e^{-z}$ funksiyaning mavhum qismini toping.",
+      "options": {
+        "A": "$-e^{-x}\\sin y$",
+        "B": "$e^{-y}\\cos x$",
+        "C": "$e^{-y}\\cos x$",
+        "D": "$e^{-y}\\sin x$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "PDF text-layer x/y ni aralashtirgan; $e^{-z}=e^{-x}(\\cos y-i\\sin y)$."
+    },
+    {
+      "id": 320,
+      "page": 72,
+      "question": "$(y+2)dx+(x-y-4)dy=0$ tenglamani bir jinsli tenglamaga keltirish uchun qanday almashtirish qilinadi?",
+      "options": {
+        "A": "$x=\\xi+1,\\;y=\\eta+3$",
+        "B": "$x=\\xi+1,\\;y=\\eta-3$",
+        "C": "$y'+y^2-x^2-3=0$",
+        "D": "$y'+y^2+x^2+3=0$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Text-layerdagi koeffitsientlar shubhali; almashtirish markazini original sahifadan tekshirish kerak."
+    },
+    {
+      "id": 321,
+      "page": 72,
+      "question": "$x^3y'\\sin 2y=2$ differensial tenglamaning $x\\to\\infty$ da $y\\to\\pi/2$ shartni qanoatlantiruvchi yechimini toping.",
+      "options": {
+        "A": "$y=\\arccos(1/x^2)$",
+        "B": "$y=\\arcsin(1/x^2)$",
+        "C": "$y=\\arccos(3/x^2)$",
+        "D": "$y=\\operatorname{arcctg}(1/x^2)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 322,
+      "page": 73,
+      "question": "$f(x,y)$ funksiya argumentlariga nisbatan $n$ o‘lchovli bir jinsli funksiya deyiladi, agar ... ayniyat o‘rinli bo‘lsa.",
+      "options": {
+        "A": "$f(tx,ty)\\equiv t^n f(x,y)$",
+        "B": "$f(tx,ty)\\equiv t^n f(xt,yt)$",
+        "C": "$f(tx,ty)\\equiv f(yt,xt)$",
+        "D": "$f(tx,ty)\\equiv nf(x,y)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 323,
+      "page": 73,
+      "question": "$y'=7y-3x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
+      "options": {
+        "A": "$y=xu$",
+        "B": "$y=z^2$",
+        "C": "$u=x/y$",
+        "D": "$y=z^3$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Tenglama matni va variantlar orasida moslik shubhali; original sahifadan tekshirish kerak."
+    },
+    {
+      "id": 324,
+      "page": 73,
+      "question": "Erkli o‘zgaruvchi qatnashmagan $F(y,y',y'',...,y^{(n)})=0$ tenglamani yechish uchun to‘g‘ri belgilashni belgilang.",
+      "options": {
+        "A": "$y'=p,\\;y''=p'$",
+        "B": "$y'=p,\\;y''=p\\,dp/dy$",
+        "C": "$y'=p,\\;y''=p^2$",
+        "D": "$y=e^{\\lambda x}$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 325,
+      "page": 73,
+      "question": "$3y'+2p(x)y=q(x)$ tenglama uchun integrallovchi ko‘paytuvchini toping.",
+      "options": {
+        "A": "$e^{-\\int p(x)dx}$",
+        "B": "$e^{\\frac32\\int q(x)dx}$",
+        "C": "$-e^{\\int p(x)dx}$",
+        "D": "$e^{\\frac23\\int p(x)dx}$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 326,
+      "page": 74,
+      "question": "Birinchi tartibli chiziqli differensial tenglamani aniqlang.",
+      "options": {
+        "A": "$y'+3xy=x^2+5$",
+        "B": "$y'+x^2y^2=16xy$",
+        "C": "$y'+x\\ln y=15+x/y$",
+        "D": "$y'-3xy^2=2x+25$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 327,
+      "page": 74,
+      "question": "Quyidagi differensial tenglamani yeching: $y'''=\\sin x+\\cos x$.",
+      "options": {
+        "A": "$y=\\frac{x^2}{2}+2\\cos x+c_1+c_2x+c_3$",
+        "B": "$y=\\frac{x^2}{2}-\\cos x+\\sin x+c_1+c_2x+c_3$",
+        "C": "$y=\\frac{x^2}{2}-\\cos x+\\sin x+c_1+c_2x+c_3x^2$",
+        "D": "$y=\\frac{x^2}{2}+2\\sin x+c_1+c_2x+c_3$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Manbadagi tenglama/variantlarda integrallash darajalari mos emas; original formulani tekshirish kerak."
+    },
+    {
+      "id": 328,
+      "page": 74,
+      "question": "Fundamental yechimlar sistemasi $e^{-2x},e^{-2x}\\cos3x,e^{-2x}\\sin3x$ bo‘lgan chiziqli bir jinsli differensial tenglamani tuzing.",
+      "options": {
+        "A": "$y'''+2y''+13y'=0$",
+        "B": "$y''-7xy=4x$",
+        "C": "$y'''+4y''+13y'=0$",
+        "D": "$y'-2y^3=0$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Xarakteristik ildizlar bo‘yicha koeffitsientlar variantlarda to‘liq mos emas; PDFni vizual qayta tekshirish kerak."
+    },
+    {
+      "id": 329,
+      "page": 74,
+      "question": "Quyidagi differensial tenglamaning umumiy yechimini toping: $y''=2x$.",
+      "options": {
+        "A": "$y=x^2+c_1+c_2$",
+        "B": "$y=\\frac{x^3}{3}+c_1x+c_2$",
+        "C": "$y=-\\frac{x^2}{2}+c_1x+c_2$",
+        "D": "$y=x^2+c_1x+c_2$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 330,
+      "page": 75,
+      "question": "$y'+p(x)y=q(x)$ ... differensial tenglama deyiladi.",
+      "options": {
+        "A": "Lagranj tenglamasi",
+        "B": "chiziqli differensial tenglama",
+        "C": "Bernulli tenglamasi",
+        "D": "yuqori tartibli differensial tenglama"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 331,
+      "page": 75,
+      "question": "Quyidagi differensial tenglamaning umumiy yechimini ko‘rsating: $y'''=x$.",
+      "options": {
+        "A": "$y=x^3/3+c_1x$",
+        "B": "$y=x^3/3+c_1x+c_2$",
+        "C": "$y=c_1x+c_2x^2$",
+        "D": "$y=x^4/24+c_1+c_2x+c_3x^2/2$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 332,
+      "page": 75,
+      "question": "Lagranj va Klero tenglamalari orasida qanday bog‘lanish bor?",
+      "options": {
+        "A": "Lagranj tenglamasi Klero tenglamasining xususiy holi",
+        "B": "Klero tenglamasi Lagranj tenglamasining xususiy holi",
+        "C": "Ikkalasi aynan bir xil tenglama",
+        "D": "Hech qanaqa bog‘lanish yo‘q"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 333,
+      "page": 76,
+      "question": "Qaysi funksiya $y'+2y=1$ differensial tenglamaning yechimi bo‘ladi?",
+      "options": {
+        "A": "$y=\\frac12+e^{-2x}$",
+        "B": "$y=e^{-2x}$",
+        "C": "$y=-\\frac12-e^{-2x}$",
+        "D": "$y=1$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 334,
+      "page": 76,
+      "question": "$y'=a(x)y^2+b(x)y+c(x)$ differensial tenglama ... deyiladi.",
+      "options": {
+        "A": "Lagranj tenglamasi",
+        "B": "maxsus Rikkati tenglamasi",
+        "C": "Bernulli tenglamasi",
+        "D": "Rikkati tenglamasi"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 335,
+      "page": 76,
+      "question": "$y=x^{-1/2}$ funksiya $y'+xy^3-1=0$ differensial tenglamaning qaysi $I$ oraliqda yechimi bo‘lishini aniqlang.",
+      "options": {
+        "A": "$(-\\infty,0)$",
+        "B": "$(-\\infty,+\\infty)$",
+        "C": "Hech qanday oraliqda yechimi emas",
+        "D": "$(-\\infty,1/2)$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Tenglama text-layerda buzilgan; berilgan funksiya bilan tekshirishda moslik chiqmaydi."
+    },
+    {
+      "id": 336,
+      "page": 76,
+      "question": "$y=e^{Cx}$ chiziqlar oilasining differensial tenglamasini toping.",
+      "options": {
+        "A": "$y'=y\\ln y/x$",
+        "B": "$y''=0$",
+        "C": "$y''+y=0$",
+        "D": "$y'=\\cos x$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "C ni yo‘qotishdan $\\ln y=Cx$, $y'/y=C$, demak $xy'=y\\ln y$."
+    },
+    {
+      "id": 337,
+      "page": 77,
+      "question": "$xy'=1+y^2$, $y(1)=1$ Koshi masalasining yechimini toping.",
+      "options": {
+        "A": "$y=\\tan(\\ln x+\\pi/4)$",
+        "B": "$y=\\arctan(x+1)$",
+        "C": "$y=\\tan(1/x+\\pi/4)$",
+        "D": "$y=\\arctan(\\ln x+1)$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 338,
+      "page": 77,
+      "question": "$y'=4y-2x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
+      "options": {
+        "A": "$y=xu$",
+        "B": "$y=z^2$",
+        "C": "$u=x/y$",
+        "D": "$y=z^3$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Tenglama birinchi tartibli chiziqli; berilgan almashtirish variantlari bilan “bir jinsli”ga aylantirish mazmuni noaniq."
+    },
+    {
+      "id": 339,
+      "page": 77,
+      "question": "Quyidagi differensial tenglamani yeching: $y'=4y-2x$.",
+      "options": {
+        "A": "$y=x^2-1$",
+        "B": "$y=x^2$",
+        "C": "$y=x$",
+        "D": "$y=ax+b$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Berilgan variantlarning hech biri umumiy yechim emas; source/options muammosi."
+    },
+    {
+      "id": 340,
+      "page": 77,
+      "question": "$y'+p(x)y=q(x)$ tenglama uchun integrallovchi ko‘paytuvchini toping.",
+      "options": {
+        "A": "$e^{-\\int p(s)ds}$",
+        "B": "$e^{\\int q(s)ds}$",
+        "C": "$-e^{\\int p(s)ds}$",
+        "D": "$e^{\\int p(s)ds}$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 341,
+      "page": 78,
+      "question": "Birinchi tartibli chiziqli differensial tenglamani aniqlang.",
+      "options": {
+        "A": "$y'+3xy=x+5$",
+        "B": "$y'+x^2y^2=0$",
+        "C": "$y'+x\\ln y=0$",
+        "D": "$y'-3xy^2=2x+3$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 342,
+      "page": 78,
+      "question": "Quyidagi differensial tenglamani yeching: $3y^2y'=3$.",
+      "options": {
+        "A": "$y=cx^2-3x$",
+        "B": "$y^3=3x+c,\\;y=0$",
+        "C": "$y^2=cx$",
+        "D": "$y=\\cos(2x)+C$"
+      },
+      "correct_answer": "B",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 343,
+      "page": 78,
+      "question": "Bernulli tenglamasini aniqlang.",
+      "options": {
+        "A": "$y'+3x^2y=x^2$",
+        "B": "$y''-7xy=4x$",
+        "C": "$y'-xy^2=(2x+1)y$",
+        "D": "$y'-2y^3=0$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 344,
+      "page": 79,
+      "question": "Koshi masalasini yeching: $(x+1)^2y'=y+x$, $y(0)=2$.",
+      "options": {
+        "A": "$y=x^2+2x-2(x+1)\\ln(x+2)$",
+        "B": "$y=x^2+4x+2-2(x+1)\\ln(x+1)$",
+        "C": "$y=5x-2(x+1)\\ln(x+2)$",
+        "D": "$y=x^3+2x+1-2(x+1)\\ln(x+2)$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "PDF text-layerdagi tenglama/variantlarda koeffitsientlar shubhali; vizual tekshiruv kerak."
+    },
+    {
+      "id": 345,
+      "page": 79,
+      "question": "$xy'-2y=2x^4$, $(x>0)$ tenglama uchun integrallovchi ko‘paytuvchini toping.",
+      "options": {
+        "A": "$\\mu(x)=x^2$",
+        "B": "$\\mu(x)=1/x$",
+        "C": "$\\mu(x)=\\ln x$",
+        "D": "$\\mu(x)=1/x^2$"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 346,
+      "page": 79,
+      "question": "$y\\,dx-x\\,dy$ differensial ifoda qaysi integrallovchi ko‘paytuvchi orqali to‘la differensialga keladi?",
+      "options": {
+        "A": "$-1/x^2$",
+        "B": "$1/y^2$",
+        "C": "$-1/(xy)$",
+        "D": "Hamma javob to‘g‘ri"
+      },
+      "correct_answer": "D",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 347,
+      "page": 79,
+      "question": "$(x^2-xy)dx+(y+x)dy=0$ differensial tenglamani yeching.",
+      "options": {
+        "A": "$y^2-c^2=(x^2+1)y^2$",
+        "B": "$y=x^2-x+7c$",
+        "C": "$y^2+c^2=(x^2-1)y^2$",
+        "D": "$y^2-c=(x^2+1)y^2$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "Formula va variantlar text-layerda kuchli buzilgan; original sahifa bo‘yicha tekshirish kerak."
+    },
+    {
+      "id": 348,
+      "page": 80,
+      "question": "O‘zgaruvchilarga ajraladigan oddiy differensial tenglamani aniqlang.",
+      "options": {
+        "A": "$M(x,y)dx+N(x,y)dy=0$",
+        "B": "$M_1(y)dx+N_1(x,y)dy=0$",
+        "C": "$M_1(x)N_1(y)dx+M_2(x)N_2(y)dy=0$",
+        "D": "$M_1(x)dx+N_1(x,y)dy=0$"
+      },
+      "correct_answer": "C",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 349,
+      "page": 80,
+      "question": "Quyidagi differensial tenglama uchun integrallovchi ko‘paytuvchini toping: $3y\\,dx+x(\\ln x+\\ln y+1)dy=0$, $(x>0,y>0)$.",
+      "options": {
+        "A": "$\\mu=1/(x^2y^3)$",
+        "B": "$\\mu=1/(xy^3)$",
+        "C": "$\\mu=x/y$",
+        "D": "$\\mu=x/y^2$"
+      },
+      "correct_answer": null,
+      "answer_status": "source_or_options_issue",
+      "note": "PDF text-layer A/B dagi darajalarni noaniq ajratadi; oldingi screenshot-derived faylda A $1/(x^2y)$ deb terilgan."
+    },
+    {
+      "id": 350,
+      "page": 80,
+      "question": "Birinchi tartibli chiziqli oddiy differensial tenglamaning ko‘rinishini toping.",
+      "options": {
+        "A": "$y'+P(x)y=Q(x)$",
+        "B": "$y'=f(x,y)$",
+        "C": "$y'+P(x)z=Q(x)$",
+        "D": "$M(x,y)dx+N(x,y)dy=0$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved"
+    },
+    {
+      "id": 351,
+      "page": 80,
+      "question": "Ikkinchi tartibli xususiy hosilali differensial tenglamani ko‘rsating.",
+      "options": {
+        "A": "$u_{xx}+u_y^3-u=xy$",
+        "B": "$u_x^2+u_y^2-u=xy$",
+        "C": "$u_x^2+u_y^2-u=(xy)^2$",
+        "D": "$u_{xxx}+u_{yyy}^2-u=xy$"
+      },
+      "correct_answer": "A",
+      "answer_status": "model_solved",
+      "note": "PDF indeks/daraja joylashuvi qisman buzilgan; variant A da eng yuqori hosila tartibi 2."
+    }
+  ]
+}
