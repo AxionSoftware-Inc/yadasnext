@@ -289,14 +289,15 @@
       "page": 65,
       "question": "Chiziqli fazoni tashkil etmaydigan to‘plamlarni aniqlang.",
       "options": {
-        "A": "$\\ell_p$",
-        "B": "$m$",
+        "A": "$\\mathbb N,\\mathbb Z$",
+        "B": "$\\mathbb R,\\mathbb C$",
         "C": "$\\ell_2,m,c$",
         "D": "$C[a,b],C_p[a,b]$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Variant A/B belgilarining bir qismi PDF text-layerda yo‘qolgan; sahifa tasviridan qo‘shimcha tekshiruv kerak."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Variant A/B belgilarining bir qismi PDF text-layerda yo‘qolgan; sahifa tasviridan qo‘shimcha tekshiruv kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 294,
@@ -327,16 +328,17 @@
     {
       "id": 296,
       "page": 66,
-      "question": "$f(z)=\\dfrac{\\cos(\\pi z/2)}{\\sin(z-1)}$ funksiya uchun $z=1$ qutb nuqtaning tartibini aniqlang.",
+      "question": "$f(z)=\\dfrac{\\cos(\\pi z/2)}{\\sin^2(z-1)}$ funksiya uchun $z=1$ qutb nuqtaning tartibini aniqlang.",
       "options": {
         "A": "1-tartibli",
         "B": "3-tartibli",
         "C": "2-tartibli",
         "D": "4-tartibli"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Text-layer formulani noaniq beradi; surat bo‘yicha qutb tartibini tekshirish kerak."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Text-layer formulani noaniq beradi; surat bo‘yicha qutb tartibini tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 297,
@@ -393,16 +395,17 @@
     {
       "id": 301,
       "page": 67,
-      "question": "$10(\\sqrt3-i)$ son nimaga teng?",
+      "question": "$(\\sqrt3-i)^{10}$ son nimaga teng?",
       "options": {
         "A": "$2^9(1+\\sqrt3 i)$",
         "B": "$2^{10}(\\cos\\frac{5\\pi}3+i\\sin\\frac{5\\pi}3)$",
         "C": "$2^{10}(\\cos\\frac{2\\pi}3+i\\sin\\frac{2\\pi}3)$",
         "D": "$10^2$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Daraja/ildiz belgilari text-layerda buzilgan; manba tasviri bilan qayta tekshirish kerak."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Daraja/ildiz belgilari text-layerda buzilgan; manba tasviri bilan qayta tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 302,
@@ -480,8 +483,9 @@
         "D": "$z=0$ qutilib bo‘ladigan, $z=2\\pi k$ muhim maxsus nuqtalar"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Matematik jihatdan $k\\ne0$ nuqtalarda ikkinchi tartibli qutb chiqadi; manba variantlari bilan mos kelmaydi."
+      "answer_status": "no_valid_option",
+      "note": "Matematik jihatdan $k\\ne0$ nuqtalarda ikkinchi tartibli qutb chiqadi; manba variantlari bilan mos kelmaydi.",
+      "answer_note": "z=0 da nuqta bartaraf qilinadi, z=2πk (k≠0) da ikkinchi tartibli qutblar; variantlarda to‘g‘ri javob yo‘q."
     },
     {
       "id": 308,
@@ -533,8 +537,9 @@
         "D": "$2\\pi i e$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Kontur va maxraj belgisi text-layerda noaniq; qutb kontur ustida/ichida ekaniga qarab javob o‘zgaradi."
+      "answer_status": "no_valid_option",
+      "note": "Kontur va maxraj belgisi text-layerda noaniq; qutb kontur ustida/ichida ekaniga qarab javob o‘zgaradi.",
+      "answer_note": "z=−i qutb nuqtasi |z|=1 kontur ustida yotadi; integral oddiy ma’noda aniqlanmagan."
     },
     {
       "id": 312,
@@ -644,7 +649,7 @@
     {
       "id": 320,
       "page": 72,
-      "question": "$(y+2)dx+(x-y-4)dy=0$ tenglamani bir jinsli tenglamaga keltirish uchun qanday almashtirish qilinadi?",
+      "question": "$(x+y-2)dx+(x-y+4)dy=0$ tenglamani bir jinsli tenglamaga keltirish uchun qanday almashtirish qilinadi?",
       "options": {
         "A": "$x=\\xi+1,\\;y=\\eta+3$",
         "B": "$x=\\xi+1,\\;y=\\eta-3$",
@@ -652,8 +657,9 @@
         "D": "$y'+y^2+x^2+3=0$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Text-layerdagi koeffitsientlar shubhali; almashtirish markazini original sahifadan tekshirish kerak."
+      "answer_status": "no_valid_option",
+      "note": "Text-layerdagi koeffitsientlar shubhali; almashtirish markazini original sahifadan tekshirish kerak.",
+      "answer_note": "Kerakli almashtirish x=ξ−1, y=η+3, lekin variantlarda yo‘q."
     },
     {
       "id": 321,
@@ -684,7 +690,7 @@
     {
       "id": 323,
       "page": 73,
-      "question": "$y'=7y-3x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
+      "question": "$y\\prime=7\\sqrt y-3x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
       "options": {
         "A": "$y=xu$",
         "B": "$y=z^2$",
@@ -692,8 +698,9 @@
         "D": "$y=z^3$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Tenglama matni va variantlar orasida moslik shubhali; original sahifadan tekshirish kerak."
+      "answer_status": "no_valid_option",
+      "note": "Tenglama matni va variantlar orasida moslik shubhali; original sahifadan tekshirish kerak.",
+      "answer_note": "Variantlarda berilgan tenglamaga mos ishonchli almashtirish yo‘q."
     },
     {
       "id": 324,
@@ -744,9 +751,10 @@
         "C": "$y=\\frac{x^2}{2}-\\cos x+\\sin x+c_1+c_2x+c_3x^2$",
         "D": "$y=\\frac{x^2}{2}+2\\sin x+c_1+c_2x+c_3$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manbadagi tenglama/variantlarda integrallash darajalari mos emas; original formulani tekshirish kerak."
+      "correct_answer": "B",
+      "answer_status": "verified_by_calculation",
+      "note": "Manbadagi tenglama/variantlarda integrallash darajalari mos emas; original formulani tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 328,
@@ -759,8 +767,9 @@
         "D": "$y'-2y^3=0$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Xarakteristik ildizlar bo‘yicha koeffitsientlar variantlarda to‘liq mos emas; PDFni vizual qayta tekshirish kerak."
+      "answer_status": "no_valid_option",
+      "note": "Xarakteristik ildizlar bo‘yicha koeffitsientlar variantlarda to‘liq mos emas; PDFni vizual qayta tekshirish kerak.",
+      "answer_note": "Mos tenglama y‴+6y″+21y′+26y=0, lekin variantlarda yo‘q."
     },
     {
       "id": 329,
@@ -843,7 +852,7 @@
     {
       "id": 335,
       "page": 76,
-      "question": "$y=x^{-1/2}$ funksiya $y'+xy^3-1=0$ differensial tenglamaning qaysi $I$ oraliqda yechimi bo‘lishini aniqlang.",
+      "question": "$y=\\sqrt{1-2x}$ funksiya $y\\prime+xy^3-1=0$ differensial tenglamaning qaysi $I$ oraliqda yechimi bo‘lishini aniqlang?",
       "options": {
         "A": "$(-\\infty,0)$",
         "B": "$(-\\infty,+\\infty)$",
@@ -851,8 +860,9 @@
         "D": "$(-\\infty,1/2)$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Tenglama text-layerda buzilgan; berilgan funksiya bilan tekshirishda moslik chiqmaydi."
+      "answer_status": "no_valid_option",
+      "note": "Tenglama text-layerda buzilgan; berilgan funksiya bilan tekshirishda moslik chiqmaydi.",
+      "answer_note": "PDFdagi funksiya va tenglama o‘zaro mos kelmaydi."
     },
     {
       "id": 336,
@@ -884,30 +894,32 @@
     {
       "id": 338,
       "page": 77,
-      "question": "$y'=4y-2x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
+      "question": "$y\\prime=4\\sqrt y-2x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
       "options": {
         "A": "$y=xu$",
         "B": "$y=z^2$",
         "C": "$u=x/y$",
         "D": "$y=z^3$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Tenglama birinchi tartibli chiziqli; berilgan almashtirish variantlari bilan “bir jinsli”ga aylantirish mazmuni noaniq."
+      "correct_answer": "B",
+      "answer_status": "verified_by_calculation",
+      "note": "Tenglama birinchi tartibli chiziqli; berilgan almashtirish variantlari bilan “bir jinsli”ga aylantirish mazmuni noaniq.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 339,
       "page": 77,
-      "question": "Quyidagi differensial tenglamani yeching: $y'=4y-2x$.",
+      "question": "Quyidagi differensial tenglamani yeching: $y\\prime=4\\sqrt y-2x$.",
       "options": {
         "A": "$y=x^2-1$",
         "B": "$y=x^2$",
         "C": "$y=x$",
         "D": "$y=ax+b$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Berilgan variantlarning hech biri umumiy yechim emas; source/options muammosi."
+      "correct_answer": "B",
+      "answer_status": "verified_by_calculation",
+      "note": "Berilgan variantlarning hech biri umumiy yechim emas; source/options muammosi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 340,
@@ -964,16 +976,17 @@
     {
       "id": 344,
       "page": 79,
-      "question": "Koshi masalasini yeching: $(x+1)^2y'=y+x$, $y(0)=2$.",
+      "question": "Koshi masalasini yeching: $(x+1)y\\prime=y+x^2$, $y(0)=2$.",
       "options": {
         "A": "$y=x^2+2x-2(x+1)\\ln(x+2)$",
         "B": "$y=x^2+4x+2-2(x+1)\\ln(x+1)$",
         "C": "$y=5x-2(x+1)\\ln(x+2)$",
         "D": "$y=x^3+2x+1-2(x+1)\\ln(x+2)$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "PDF text-layerdagi tenglama/variantlarda koeffitsientlar shubhali; vizual tekshiruv kerak."
+      "correct_answer": "B",
+      "answer_status": "verified_by_calculation",
+      "note": "PDF text-layerdagi tenglama/variantlarda koeffitsientlar shubhali; vizual tekshiruv kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 345,
@@ -1004,16 +1017,17 @@
     {
       "id": 347,
       "page": 79,
-      "question": "$(x^2-xy)dx+(y+x)dy=0$ differensial tenglamani yeching.",
+      "question": "$(x-xy)dx+(y+x^2)dy=0$ differensial tenglamani yeching.",
       "options": {
         "A": "$y^2-c^2=(x^2+1)y^2$",
         "B": "$y=x^2-x+7c$",
         "C": "$y^2+c^2=(x^2-1)y^2$",
         "D": "$y^2-c=(x^2+1)y^2$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Formula va variantlar text-layerda kuchli buzilgan; original sahifa bo‘yicha tekshirish kerak."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Formula va variantlar text-layerda kuchli buzilgan; original sahifa bo‘yicha tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 348,
@@ -1039,8 +1053,9 @@
         "D": "$\\mu=x/y^2$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "PDF text-layer A/B dagi darajalarni noaniq ajratadi; oldingi screenshot-derived faylda A $1/(x^2y)$ deb terilgan."
+      "answer_status": "no_valid_option",
+      "note": "PDF text-layer A/B dagi darajalarni noaniq ajratadi; oldingi screenshot-derived faylda A $1/(x^2y)$ deb terilgan.",
+      "answer_note": "Integrallovchi ko‘paytuvchi μ=1/(x y^(2/3)), lekin variantlarda yo‘q."
     },
     {
       "id": 350,

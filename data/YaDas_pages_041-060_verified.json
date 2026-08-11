@@ -184,8 +184,9 @@
         "D": "$4$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "PDF sahifasida uchinchi va umumiy had maxrajlari ham $2^2$ deb bosilgan; shu ko‘rinishda qator uzoqlashadi va variantlardan hech biri mos emas."
+      "answer_status": "no_valid_option",
+      "note": "PDF sahifasida uchinchi va umumiy had maxrajlari ham $2^2$ deb bosilgan; shu ko‘rinishda qator uzoqlashadi va variantlardan hech biri mos emas.",
+      "answer_note": "Qator yig‘indisi 3 ga teng, lekin variantlarda 3 yo‘q."
     },
     {
       "id": 214,
@@ -355,8 +356,9 @@
         "D": "$\frac{\\pi^2}{8}$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Integralning qiymati $3\\pi^2/32$; berilgan variantlarda bu qiymat yo‘q."
+      "answer_status": "no_valid_option",
+      "note": "Integralning qiymati $3\\pi^2/32$; berilgan variantlarda bu qiymat yo‘q.",
+      "answer_note": "Integral qiymati 3π²/32, lekin variantlarda bu javob yo‘q."
     },
     {
       "id": 227,
@@ -486,8 +488,9 @@
         "D": "$\\sin3x$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Hosila $9\\cos3x$; variantlarda yo‘q."
+      "answer_status": "no_valid_option",
+      "note": "Hosila $9\\cos3x$; variantlarda yo‘q.",
+      "answer_note": "Hosila 9 cos(3x), lekin variantlarda bu javob yo‘q."
     },
     {
       "id": 237,
@@ -878,8 +881,9 @@
         "D": "faqat 1"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Lebeg o‘lchovli to‘plamlar oilasi $\\sigma$-algebra bo‘lib, shuning uchun 1), 2), 3) hammasi to‘g‘ri; bunday variant berilmagan."
+      "answer_status": "no_valid_option",
+      "note": "Lebeg o‘lchovli to‘plamlar oilasi $\\sigma$-algebra bo‘lib, shuning uchun 1), 2), 3) hammasi to‘g‘ri; bunday variant berilmagan.",
+      "answer_note": "Lebeg o‘lchovli to‘plamlar halqa, algebra va σ-algebra bo‘ladi; 1,2,3 varianti berilmagan."
     },
     {
       "id": 267,

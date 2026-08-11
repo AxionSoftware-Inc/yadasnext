@@ -349,16 +349,17 @@
     {
       "id": 127,
       "page": 26,
-      "question": "$\\begin{pmatrix}1&-2&3\\\\0&1&2\\\\1&0&4\\end{pmatrix}$ matritsaga teskari matritsani toping.",
+      "question": "\\begin{pmatrix}1&2&-3\\\\0&1&2\\\\1&0&4\\end{pmatrix} matritsaga teskari matritsani toping.",
       "options": {
-        "A": "$\\frac1{11}\\begin{pmatrix}4&8&-7\\\\2&-1&-2\\\\-1&2&1\\end{pmatrix}$",
-        "B": "$\\frac1{11}\\begin{pmatrix}4&8&-7\\\\2&-7&-2\\\\-1&2&1\\end{pmatrix}$",
+        "A": "$\\frac1{11}\\begin{pmatrix}4&-8&7\\\\2&7&-2\\\\-1&2&1\\end{pmatrix}$",
+        "B": "$-\\frac1{11}\\begin{pmatrix}4&-8&7\\\\2&7&-2\\\\-1&2&1\\end{pmatrix}$",
         "C": "$\\frac1{11}\\begin{pmatrix}4&8&7\\\\2&7&2\\\\-1&2&1\\end{pmatrix}$",
-        "D": "$\\frac1{11}\\begin{pmatrix}4&-8&7\\\\-2&7&-2\\\\-1&2&1\\end{pmatrix}$"
+        "D": "$\\frac1{11}\\begin{pmatrix}4&-8&7\\\\2&-7&-2\\\\-1&2&1\\end{pmatrix}$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manbadagi variantlar tasviri bilan hisoblangan teskari matritsa to‘liq mos kelmasligi mumkin; vizual qayta tekshiruv talab qiladi."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manbadagi variantlar tasviri bilan hisoblangan teskari matritsa to‘liq mos kelmasligi mumkin; vizual qayta tekshiruv talab qiladi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 128,
@@ -376,16 +377,17 @@
     {
       "id": 129,
       "page": 27,
-      "question": "$\\begin{pmatrix}2&-1\\\\3&2\\end{pmatrix}X\\begin{pmatrix}5&1&1\\\\-2&3&2\\end{pmatrix}=\\begin{pmatrix}1&1&1\\\\3&2&3\\end{pmatrix}$ tenglamadan $X$ matritsani toping.",
+      "question": "\\begin{pmatrix}3&5\\\\2&4\\end{pmatrix}X=\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix} tenglamadan $X$ matritsani toping.",
       "options": {
-        "A": "$\\begin{pmatrix}1&10&25\\\\17&21&44\\end{pmatrix}$",
-        "B": "$\\begin{pmatrix}-1&10&25\\\\17&21&44\\end{pmatrix}$",
-        "C": "$\\begin{pmatrix}1&10&25\\\\-17&21&44\\end{pmatrix}$",
-        "D": "$-\\begin{pmatrix}1&10&25\\\\17&21&44\\end{pmatrix}$"
+        "A": "$\\begin{pmatrix}-3&-6\\\\2&4\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}3&-6\\\\2&4\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}-3&-6\\\\2&-4\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}-3&6\\\\-2&4\\end{pmatrix}$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Matritsa o‘lchamlari manba tasvirida noaniq; avtomatik matn qatlami ishonchsiz."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Matritsa o‘lchamlari manba tasvirida noaniq; avtomatik matn qatlami ishonchsiz.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 130,
@@ -481,16 +483,17 @@
     {
       "id": 137,
       "page": 29,
-      "question": "$\\dfrac{(1-i)^{2n}}{(1+i)^n}$ ni hisoblang.",
+      "question": "$\\displaystyle\\frac{(1+i)^n}{(1-i)^{n-2}}$ ni hisoblang.",
       "options": {
-        "A": "$2^{n-1}i$",
+        "A": "$2i^{n-1}$",
         "B": "$(2i)^{n-1}$",
-        "C": "$2^n i$",
+        "C": "$2i^n$",
         "D": "$i^{n-1}$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manba formulasi/variantlari vizual tekshiruv talab qiladi."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manba formulasi/variantlari vizual tekshiruv talab qiladi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 138,
@@ -534,30 +537,32 @@
     {
       "id": 141,
       "page": 29,
-      "question": "$\\begin{cases}2x_1-x_2-4x_3=3\\\\3x_1+4x_2-2x_3=11\\\\3x_1-2x_2+4x_3=11\\end{cases}$ tenglamalar sistemasini yeching.",
+      "question": "$\\begin{cases}2x_1-x_2-x_3=4\\\\3x_1+4x_2-2x_3=11\\\\3x_1-2x_2+4x_3=11\\end{cases}$ tenglamalar sistemasini yeching.",
       "options": {
         "A": "$x_1=3,x_2=1,x_3=1$",
         "B": "$x_1=1,x_2=3,x_3=1$",
         "C": "$x_1=-3,x_2=1,x_3=1$",
         "D": "$x_1=3,x_2=-1,x_3=1$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Tenglama koeffitsientlari text-layerdan buzilgan bo‘lishi mumkin; sahifa tasviri bilan qo‘shimcha tekshiruv kerak."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Tenglama koeffitsientlari text-layerdan buzilgan bo‘lishi mumkin; sahifa tasviri bilan qo‘shimcha tekshiruv kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 142,
       "page": 30,
       "question": "$f(x)=3x^3-2x^2-x-1$ ko‘phadni $x-1$ ga qoldiqli bo‘ling.",
       "options": {
-        "A": "$f(x)=(x-1)(3x^2+x)+1$",
+        "A": "$f(x)=(x-1)(3x^2+x)-1$",
         "B": "$f(x)=(x-1)(3x^2-x)-1$",
         "C": "$f(x)=(x-1)(3x^2+x)+1$",
-        "D": "$f(x)=(x-1)(x^2-3x+1)-1$"
+        "D": "$f(x)=(x-1)(-3x^2+x)-1$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "A va C manbada bir xil ko‘rinadi."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "A va C manbada bir xil ko‘rinadi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 143,
@@ -582,9 +587,10 @@
         "C": "1",
         "D": "4"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manbadagi ko‘phad ifodasi bilan $x=2$ ildiz bo‘lmasligi mumkin; formula vizual tekshiruv talab qiladi."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manbadagi ko‘phad ifodasi bilan $x=2$ ildiz bo‘lmasligi mumkin; formula vizual tekshiruv talab qiladi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 145,
@@ -615,16 +621,17 @@
     {
       "id": 147,
       "page": 30,
-      "question": "$f(x)=x^2-2x-1$ va $g(x)=x^2-2x+1$ ko‘phadlarning rezultantini hisoblang.",
+      "question": "$f(x)=2x^2-x-1$ va $g(x)=x^2-2x+1$ ko‘phadlarning rezultantini hisoblang.",
       "options": {
         "A": "0",
         "B": "2",
         "C": "3",
         "D": "-2"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Hisoblangan rezultant variantlarda ko‘rsatilmagan bo‘lishi mumkin."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Hisoblangan rezultant variantlarda ko‘rsatilmagan bo‘lishi mumkin.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 148,
@@ -916,16 +923,17 @@
     {
       "id": 170,
       "page": 35,
-      "question": "$R[x]$ da $f(x)=x^4-5x^2+6$ ni $g(x)=x^2+3x+2$ ga bo‘lganda bo‘linma va qoldiqni toping.",
+      "question": "$R[x]$ halqada $f(x)=5x^4-x^2+6$ ko‘phadni $g(x)=x^2+3x+2$ ko‘phadga bo‘lganda hosil bo‘ladigan bo‘linma $q(x)$ va qoldiq $r(x)$ni toping.",
       "options": {
-        "A": "$q=x^2-3x+2,\\ r=3x+2$",
-        "B": "$q=x^2-3x+2,\\ r=3x-2$",
-        "C": "$q=x^2+3x+2,\\ r=3x+2$",
-        "D": "$q=x^2-3x+2,\\ r=-3x-2$"
+        "A": "$q=5x^2-15x+34,\\ r=-72x-62$",
+        "B": "$q=5x^2-15x+34,\\ r=72x-62$",
+        "C": "$q=5x^2+15x+34,\\ r=-72x-62$",
+        "D": "$q=5x^2-15x+34,\\ r=72x+62$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Parsed textdagi koeffitsientlar va variantlar buzilgan; vizual qayta tekshiruv kerak."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Parsed textdagi koeffitsientlar va variantlar buzilgan; vizual qayta tekshiruv kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 171,
@@ -943,16 +951,17 @@
     {
       "id": 172,
       "page": 35,
-      "question": "Manbadagi kompleks ifodani hisoblang: $\\left(\\frac{1+i}{1-2i}\\right)^2$ ko‘rinishidagi ifoda.",
+      "question": "$\\left(\\frac{1+2i^6}{-1-i^8}\\right)^2$ ni hisoblang.",
       "options": {
         "A": "$1/4$",
         "B": "$1/4+i$",
         "C": "$1/4-i",
         "D": "$i/4$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Formula PDF text-layerida jiddiy buzilgan; original sahifa tasviri bo‘yicha qayta tekshirish kerak."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Formula PDF text-layerida jiddiy buzilgan; original sahifa tasviri bo‘yicha qayta tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 173,
@@ -983,16 +992,17 @@
     {
       "id": 175,
       "page": 36,
-      "question": "$\\left(\\frac{1-3i}{2}\\right)^2$ ifodaning qiymati nimaga teng?",
+      "question": "$\\left(-\\frac12+i\\frac{\\sqrt3}{2}\\right)^2$ ifodaning qiymati nimaga teng?",
       "options": {
-        "A": "$-\\frac12-\\frac32 i$",
-        "B": "$-\\frac12+\\frac32 i$",
-        "C": "-1",
-        "D": "1"
+        "A": "$-\\frac12-i\\frac{\\sqrt3}{2}$",
+        "B": "$-\\frac12+i\\frac{\\sqrt3}{2}$",
+        "C": "$-1$",
+        "D": "$1$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manba formulasi tasvirida daraja/joylashuv noaniq."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manba formulasi tasvirida daraja/joylashuv noaniq.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 176,
@@ -1056,65 +1066,73 @@
         "C": "0",
         "D": "$1+x$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manbadagi ko‘phad koeffitsientlari text-layerda buzilgan bo‘lishi mumkin."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manbadagi ko‘phad koeffitsientlari text-layerda buzilgan bo‘lishi mumkin.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 181,
       "page": 37,
-      "question": "$x^7-4x^4+22x^3+4x^2+3x+2$ ni $x-2$ ga bo‘lishdan chiqqan qoldiqni toping.",
+      "question": "$x^4-7x^3+4x^2+x+22$ ni $x-2$ ga bo‘lishdan chiqqan qoldiqni toping.",
       "options": {
         "A": "0",
         "B": "1",
         "C": "2",
         "D": "3"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manbadagi ko‘phad ifodasi bilan variantlar mosligi qayta tekshirilsin."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manbadagi ko‘phad ifodasi bilan variantlar mosligi qayta tekshirilsin.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 182,
       "page": 37,
-      "question": "$x^4-4x^3+8x^2-5x+1$ ko‘phadning ildizi bo‘lgan 1 necha karrali ildiz?",
+      "question": "$x^8-4x^5+4x^3-1$ ko‘phadning ildizi bo‘lgan 1 necha karrali ildiz bo‘ladi?",
       "options": {
         "A": "3",
         "B": "4",
         "C": "5",
         "D": "6"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manba koeffitsientlari vizual tekshiruv talab qiladi."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manba koeffitsientlari vizual tekshiruv talab qiladi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 183,
       "page": 37,
-      "question": "$x^4-8x^3-13x^2+24x-2$ ko‘phadning ildizini ko‘rsating.",
+      "question": "$x^4-2x^3-8x^2+13x-24$ ko‘phadning ildizini ko‘rsating.",
       "options": {
         "A": "-3",
         "B": "$2/3$",
         "C": "1",
         "D": "$1/2$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manba ko‘phad ifodasi buzilgan bo‘lishi mumkin."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manba ko‘phad ifodasi buzilgan bo‘lishi mumkin.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 184,
       "page": 37,
-      "question": "$x^2-2x+1$ ni $x-1$ ning darajalari bo‘yicha yoyilmasini toping.",
+      "question": "$x^2-x+1$ ni $x-1$ ning darajalari bo‘yicha yoyilmasini toping.",
       "options": {
         "A": "$1+(x-1)+(x-1)^2$",
         "B": "$1-(x-1)-2(x-1)^2$",
         "C": "$1+(x-1)+(x-1)^2$",
         "D": "$1-2(x-1)+(x-1)^2$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Savol ifodasi/variantlar text-layerda buzilgan; A va C bir xil ko‘rinadi."
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "answer_status": "verified_by_calculation",
+      "note": "Savol ifodasi/variantlar text-layerda buzilgan; A va C bir xil ko‘rinadi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 185,
@@ -1132,16 +1150,17 @@
     {
       "id": 186,
       "page": 38,
-      "question": "$x^6-4x^4-9x^3+12x^2+4x+6$ ko‘phadning keltirilmas ko‘paytuvchisini aniqlang.",
+      "question": "$x^6-6x^4-4x^3+9x^2+12x+4$ ko‘phadning keltirilmas ko‘paytuvchisini aniqlang.",
       "options": {
         "A": "$x-2$",
         "B": "$x+3$",
         "C": "$x+5$",
         "D": "$x-3$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manba koeffitsientlari text-layerdan aniq tiklanmagan."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manba koeffitsientlari text-layerdan aniq tiklanmagan.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 187,
@@ -1185,16 +1204,17 @@
     {
       "id": 190,
       "page": 39,
-      "question": "$x^3-4x^2+4x-? $ ko‘phad uchun 2 necha karrali ildiz bo‘ladi?",
+      "question": "$x^3-3x^2+4$ ko‘phad uchun 2 necha karrali ildiz bo‘ladi?",
       "options": {
         "A": "2",
         "B": "3",
         "C": "4",
         "D": "5"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Savol ko‘phadi PDF text-layerida to‘liq tiklanmagan."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Savol ko‘phadi PDF text-layerida to‘liq tiklanmagan.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 191,
@@ -1206,9 +1226,10 @@
         "C": "1",
         "D": "2"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Manba koeffitsientlari bilan qoldiq variantlari mosligini vizual tekshirish kerak."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Manba koeffitsientlari bilan qoldiq variantlari mosligini vizual tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 192,
@@ -1265,16 +1286,17 @@
     {
       "id": 196,
       "page": 40,
-      "question": "$[x]$ — butun qism, $\\{x\\}$ — kasr qism. Manbadagi $3\\frac13$ bilan bog‘liq yig‘indini toping.",
+      "question": "Yig‘indini toping: $\\left[3\\frac13\\right]+\\left\\{-3\\frac13\\right\\}$, bu yerda $[x]$ — butun qism, $\\{x\\}$ — kasr qismi.",
       "options": {
         "A": "$3\\frac23$",
         "B": "$3\\frac24$",
         "C": "$3\\frac25$",
         "D": "4"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
-      "note": "Formula matn qatlamida buzilgan; sahifa tasviri bo‘yicha qayta tekshirish kerak."
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
+      "note": "Formula matn qatlamida buzilgan; sahifa tasviri bo‘yicha qayta tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi."
     },
     {
       "id": 197,

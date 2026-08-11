@@ -41,14 +41,19 @@ def topic_for(page):
     raise ValueError(page)
 
 questions = []
-for source in sorted(ROOT.glob("YaDas_pages_*_verified.json")):
+source_files = sorted(DATA.glob("YaDas_pages_*_verified.json"))
+if not source_files:
+    source_files = sorted(ROOT.glob("YaDas_pages_*_verified.json"))
+for source in source_files:
     payload = json.loads(source.read_text(encoding="utf-8"))
     for raw in payload["questions"]:
         q = clean(raw)
         key, title = topic_for(q["page"])
         q["topic"] = key
         q["topic_title"] = title
-        q["has_answer"] = isinstance(q.get("correct_answer"), str) and q["correct_answer"] in {"A", "B", "C", "D"}
+        ca = q.get("correct_answer")
+        answer_values = ca if isinstance(ca, list) else [ca]
+        q["has_answer"] = bool(answer_values) and all(v in {"A", "B", "C", "D"} for v in answer_values)
         questions.append(q)
 
 questions.sort(key=lambda q: q["id"])
@@ -61,6 +66,21 @@ bundle = {"title": "YaDas test", "source_pages": "1–80", "topics": topics, "qu
 (OUT / "questions-1-80.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
 (OUT / "questions.js").write_text("window.YADAS_DATA = " + json.dumps(bundle, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
 (DATA / "questions-1-80.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
+
+# Keep the site self-contained so it also works when index.html is opened directly.
+html_path = OUT / "index.html"
+if html_path.exists():
+    html = html_path.read_text(encoding="utf-8")
+    payload = "window.YADAS_DATA = " + json.dumps(bundle, ensure_ascii=False, separators=(",", ":")) + ";"
+    start = '<script id="yadas-data">'
+    end = '</script>'
+    if start in html:
+        before, rest = html.split(start, 1)
+        _, after = rest.split(end, 1)
+        html = before + start + payload + end + after
+    else:
+        html = html.replace('<script src="questions.js"></script>', start + payload + end)
+    html_path.write_text(html, encoding="utf-8")
 print(f"{len(questions)} questions, {len(topics)} topics")
 for topic in topics:
     print(f"{topic['title']}: {topic['count']}")

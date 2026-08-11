@@ -314,7 +314,7 @@
       "answer_note": "PDFda C va D variantlari aynan bir xil; ikkalasi ham matematik jihatdan to‘g‘ri.",
       "topic": "vectors",
       "topic_title": "Vektorlar va vektor algebra",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 15,
@@ -1161,7 +1161,7 @@
       },
       "correct_answer": null,
       "answer_status": "no_valid_option",
-      "answer_note": "PDFdagi A(2,0) shartiga ko‘ra kanonik giperbolada x² maxrajida 4 bo‘lishi kerak; berilgan A–D variantlarning hech biri mos emas. Variantlar manbadagidek saqlandi.",
+      "answer_note": "Kanonik tenglama x²/4 − y²/b² = 1 bo‘ladi, lekin variantlarda bunday javob yo‘q.",
       "topic": "analytic-geometry",
       "topic_title": "Analitik geometriya",
       "has_answer": false
@@ -1616,7 +1616,7 @@
       "answer_note": "A va D variantlari ikkalasi ham $A\\setminus B$ ga aynan teng.",
       "topic": "sets",
       "topic_title": "To‘plamlar va munosabatlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 96,
@@ -2119,19 +2119,20 @@
     {
       "id": 127,
       "page": 26,
-      "question": "$\\begin{pmatrix}1&-2&3\\\\0&1&2\\\\1&0&4\\end{pmatrix}$ matritsaga teskari matritsani toping.",
+      "question": "\\begin{pmatrix}1&2&-3\\\\0&1&2\\\\1&0&4\\end{pmatrix} matritsaga teskari matritsani toping.",
       "options": {
-        "A": "$\\frac1{11}\\begin{pmatrix}4&8&-7\\\\2&-1&-2\\\\-1&2&1\\end{pmatrix}$",
-        "B": "$\\frac1{11}\\begin{pmatrix}4&8&-7\\\\2&-7&-2\\\\-1&2&1\\end{pmatrix}$",
+        "A": "$\\frac1{11}\\begin{pmatrix}4&-8&7\\\\2&7&-2\\\\-1&2&1\\end{pmatrix}$",
+        "B": "$-\\frac1{11}\\begin{pmatrix}4&-8&7\\\\2&7&-2\\\\-1&2&1\\end{pmatrix}$",
         "C": "$\\frac1{11}\\begin{pmatrix}4&8&7\\\\2&7&2\\\\-1&2&1\\end{pmatrix}$",
-        "D": "$\\frac1{11}\\begin{pmatrix}4&-8&7\\\\-2&7&-2\\\\-1&2&1\\end{pmatrix}$"
+        "D": "$\\frac1{11}\\begin{pmatrix}4&-8&7\\\\2&-7&-2\\\\-1&2&1\\end{pmatrix}$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manbadagi variantlar tasviri bilan hisoblangan teskari matritsa to‘liq mos kelmasligi mumkin; vizual qayta tekshiruv talab qiladi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "matrices",
       "topic_title": "Determinantlar va matritsalar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 128,
@@ -2152,19 +2153,20 @@
     {
       "id": 129,
       "page": 27,
-      "question": "$\\begin{pmatrix}2&-1\\\\3&2\\end{pmatrix}X\\begin{pmatrix}5&1&1\\\\-2&3&2\\end{pmatrix}=\\begin{pmatrix}1&1&1\\\\3&2&3\\end{pmatrix}$ tenglamadan $X$ matritsani toping.",
+      "question": "\\begin{pmatrix}3&5\\\\2&4\\end{pmatrix}X=\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix} tenglamadan $X$ matritsani toping.",
       "options": {
-        "A": "$\\begin{pmatrix}1&10&25\\\\17&21&44\\end{pmatrix}$",
-        "B": "$\\begin{pmatrix}-1&10&25\\\\17&21&44\\end{pmatrix}$",
-        "C": "$\\begin{pmatrix}1&10&25\\\\-17&21&44\\end{pmatrix}$",
-        "D": "$-\\begin{pmatrix}1&10&25\\\\17&21&44\\end{pmatrix}$"
+        "A": "$\\begin{pmatrix}-3&-6\\\\2&4\\end{pmatrix}$",
+        "B": "$\\begin{pmatrix}3&-6\\\\2&4\\end{pmatrix}$",
+        "C": "$\\begin{pmatrix}-3&-6\\\\2&-4\\end{pmatrix}$",
+        "D": "$\\begin{pmatrix}-3&6\\\\-2&4\\end{pmatrix}$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Matritsa o‘lchamlari manba tasvirida noaniq; avtomatik matn qatlami ishonchsiz.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "matrices",
       "topic_title": "Determinantlar va matritsalar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 130,
@@ -2281,19 +2283,20 @@
     {
       "id": 137,
       "page": 29,
-      "question": "$\\dfrac{(1-i)^{2n}}{(1+i)^n}$ ni hisoblang.",
+      "question": "$\\displaystyle\\frac{(1+i)^n}{(1-i)^{n-2}}$ ni hisoblang.",
       "options": {
-        "A": "$2^{n-1}i$",
+        "A": "$2i^{n-1}$",
         "B": "$(2i)^{n-1}$",
-        "C": "$2^n i$",
+        "C": "$2i^n$",
         "D": "$i^{n-1}$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manba formulasi/variantlari vizual tekshiruv talab qiladi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 138,
@@ -2346,36 +2349,38 @@
     {
       "id": 141,
       "page": 29,
-      "question": "$\\begin{cases}2x_1-x_2-4x_3=3\\\\3x_1+4x_2-2x_3=11\\\\3x_1-2x_2+4x_3=11\\end{cases}$ tenglamalar sistemasini yeching.",
+      "question": "$\\begin{cases}2x_1-x_2-x_3=4\\\\3x_1+4x_2-2x_3=11\\\\3x_1-2x_2+4x_3=11\\end{cases}$ tenglamalar sistemasini yeching.",
       "options": {
         "A": "$x_1=3,x_2=1,x_3=1$",
         "B": "$x_1=1,x_2=3,x_3=1$",
         "C": "$x_1=-3,x_2=1,x_3=1$",
         "D": "$x_1=3,x_2=-1,x_3=1$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Tenglama koeffitsientlari text-layerdan buzilgan bo‘lishi mumkin; sahifa tasviri bilan qo‘shimcha tekshiruv kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 142,
       "page": 30,
       "question": "$f(x)=3x^3-2x^2-x-1$ ko‘phadni $x-1$ ga qoldiqli bo‘ling.",
       "options": {
-        "A": "$f(x)=(x-1)(3x^2+x)+1$",
+        "A": "$f(x)=(x-1)(3x^2+x)-1$",
         "B": "$f(x)=(x-1)(3x^2-x)-1$",
         "C": "$f(x)=(x-1)(3x^2+x)+1$",
-        "D": "$f(x)=(x-1)(x^2-3x+1)-1$"
+        "D": "$f(x)=(x-1)(-3x^2+x)-1$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "A va C manbada bir xil ko‘rinadi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 143,
@@ -2403,12 +2408,13 @@
         "C": "1",
         "D": "4"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manbadagi ko‘phad ifodasi bilan $x=2$ ildiz bo‘lmasligi mumkin; formula vizual tekshiruv talab qiladi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 145,
@@ -2445,19 +2451,20 @@
     {
       "id": 147,
       "page": 30,
-      "question": "$f(x)=x^2-2x-1$ va $g(x)=x^2-2x+1$ ko‘phadlarning rezultantini hisoblang.",
+      "question": "$f(x)=2x^2-x-1$ va $g(x)=x^2-2x+1$ ko‘phadlarning rezultantini hisoblang.",
       "options": {
         "A": "0",
         "B": "2",
         "C": "3",
         "D": "-2"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Hisoblangan rezultant variantlarda ko‘rsatilmagan bo‘lishi mumkin.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 148,
@@ -2815,19 +2822,20 @@
     {
       "id": 170,
       "page": 35,
-      "question": "$R[x]$ da $f(x)=x^4-5x^2+6$ ni $g(x)=x^2+3x+2$ ga bo‘lganda bo‘linma va qoldiqni toping.",
+      "question": "$R[x]$ halqada $f(x)=5x^4-x^2+6$ ko‘phadni $g(x)=x^2+3x+2$ ko‘phadga bo‘lganda hosil bo‘ladigan bo‘linma $q(x)$ va qoldiq $r(x)$ni toping.",
       "options": {
-        "A": "$q=x^2-3x+2,\\ r=3x+2$",
-        "B": "$q=x^2-3x+2,\\ r=3x-2$",
-        "C": "$q=x^2+3x+2,\\ r=3x+2$",
-        "D": "$q=x^2-3x+2,\\ r=-3x-2$"
+        "A": "$q=5x^2-15x+34,\\ r=-72x-62$",
+        "B": "$q=5x^2-15x+34,\\ r=72x-62$",
+        "C": "$q=5x^2+15x+34,\\ r=-72x-62$",
+        "D": "$q=5x^2-15x+34,\\ r=72x+62$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Parsed textdagi koeffitsientlar va variantlar buzilgan; vizual qayta tekshiruv kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 171,
@@ -2848,19 +2856,20 @@
     {
       "id": 172,
       "page": 35,
-      "question": "Manbadagi kompleks ifodani hisoblang: $\\left(\\frac{1+i}{1-2i}\\right)^2$ ko‘rinishidagi ifoda.",
+      "question": "$\\left(\\frac{1+2i^6}{-1-i^8}\\right)^2$ ni hisoblang.",
       "options": {
         "A": "$1/4$",
         "B": "$1/4+i$",
         "C": "$1/4-i",
         "D": "$i/4$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Formula PDF text-layerida jiddiy buzilgan; original sahifa tasviri bo‘yicha qayta tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 173,
@@ -2897,19 +2906,20 @@
     {
       "id": 175,
       "page": 36,
-      "question": "$\\left(\\frac{1-3i}{2}\\right)^2$ ifodaning qiymati nimaga teng?",
+      "question": "$\\left(-\\frac12+i\\frac{\\sqrt3}{2}\\right)^2$ ifodaning qiymati nimaga teng?",
       "options": {
-        "A": "$-\\frac12-\\frac32 i$",
-        "B": "$-\\frac12+\\frac32 i$",
-        "C": "-1",
-        "D": "1"
+        "A": "$-\\frac12-i\\frac{\\sqrt3}{2}$",
+        "B": "$-\\frac12+i\\frac{\\sqrt3}{2}$",
+        "C": "$-1$",
+        "D": "$1$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manba formulasi tasvirida daraja/joylashuv noaniq.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 176,
@@ -2985,80 +2995,88 @@
         "C": "0",
         "D": "$1+x$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manbadagi ko‘phad koeffitsientlari text-layerda buzilgan bo‘lishi mumkin.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 181,
       "page": 37,
-      "question": "$x^7-4x^4+22x^3+4x^2+3x+2$ ni $x-2$ ga bo‘lishdan chiqqan qoldiqni toping.",
+      "question": "$x^4-7x^3+4x^2+x+22$ ni $x-2$ ga bo‘lishdan chiqqan qoldiqni toping.",
       "options": {
         "A": "0",
         "B": "1",
         "C": "2",
         "D": "3"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manbadagi ko‘phad ifodasi bilan variantlar mosligi qayta tekshirilsin.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 182,
       "page": 37,
-      "question": "$x^4-4x^3+8x^2-5x+1$ ko‘phadning ildizi bo‘lgan 1 necha karrali ildiz?",
+      "question": "$x^8-4x^5+4x^3-1$ ko‘phadning ildizi bo‘lgan 1 necha karrali ildiz bo‘ladi?",
       "options": {
         "A": "3",
         "B": "4",
         "C": "5",
         "D": "6"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manba koeffitsientlari vizual tekshiruv talab qiladi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 183,
       "page": 37,
-      "question": "$x^4-8x^3-13x^2+24x-2$ ko‘phadning ildizini ko‘rsating.",
+      "question": "$x^4-2x^3-8x^2+13x-24$ ko‘phadning ildizini ko‘rsating.",
       "options": {
         "A": "-3",
         "B": "$2/3$",
         "C": "1",
         "D": "$1/2$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manba ko‘phad ifodasi buzilgan bo‘lishi mumkin.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 184,
       "page": 37,
-      "question": "$x^2-2x+1$ ni $x-1$ ning darajalari bo‘yicha yoyilmasini toping.",
+      "question": "$x^2-x+1$ ni $x-1$ ning darajalari bo‘yicha yoyilmasini toping.",
       "options": {
         "A": "$1+(x-1)+(x-1)^2$",
         "B": "$1-(x-1)-2(x-1)^2$",
         "C": "$1+(x-1)+(x-1)^2$",
         "D": "$1-2(x-1)+(x-1)^2$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "answer_status": "verified_by_calculation",
       "note": "Savol ifodasi/variantlar text-layerda buzilgan; A va C bir xil ko‘rinadi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 185,
@@ -3079,19 +3097,20 @@
     {
       "id": 186,
       "page": 38,
-      "question": "$x^6-4x^4-9x^3+12x^2+4x+6$ ko‘phadning keltirilmas ko‘paytuvchisini aniqlang.",
+      "question": "$x^6-6x^4-4x^3+9x^2+12x+4$ ko‘phadning keltirilmas ko‘paytuvchisini aniqlang.",
       "options": {
         "A": "$x-2$",
         "B": "$x+3$",
         "C": "$x+5$",
         "D": "$x-3$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manba koeffitsientlari text-layerdan aniq tiklanmagan.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 187,
@@ -3144,19 +3163,20 @@
     {
       "id": 190,
       "page": 39,
-      "question": "$x^3-4x^2+4x-? $ ko‘phad uchun 2 necha karrali ildiz bo‘ladi?",
+      "question": "$x^3-3x^2+4$ ko‘phad uchun 2 necha karrali ildiz bo‘ladi?",
       "options": {
         "A": "2",
         "B": "3",
         "C": "4",
         "D": "5"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Savol ko‘phadi PDF text-layerida to‘liq tiklanmagan.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 191,
@@ -3168,12 +3188,13 @@
         "C": "1",
         "D": "2"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Manba koeffitsientlari bilan qoldiq variantlari mosligini vizual tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-polynomials",
       "topic_title": "Kompleks sonlar va ko‘phadlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 192,
@@ -3242,19 +3263,20 @@
     {
       "id": 196,
       "page": 40,
-      "question": "$[x]$ — butun qism, $\\{x\\}$ — kasr qism. Manbadagi $3\\frac13$ bilan bog‘liq yig‘indini toping.",
+      "question": "Yig‘indini toping: $\\left[3\\frac13\\right]+\\left\\{-3\\frac13\\right\\}$, bu yerda $[x]$ — butun qism, $\\{x\\}$ — kasr qismi.",
       "options": {
         "A": "$3\\frac23$",
         "B": "$3\\frac24$",
         "C": "$3\\frac25$",
         "D": "4"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Formula matn qatlamida buzilgan; sahifa tasviri bo‘yicha qayta tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "functions",
       "topic_title": "Funksiyalar va akslantirishlar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 197,
@@ -3524,8 +3546,9 @@
         "D": "$4$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "PDF sahifasida uchinchi va umumiy had maxrajlari ham $2^2$ deb bosilgan; shu ko‘rinishda qator uzoqlashadi va variantlardan hech biri mos emas.",
+      "answer_note": "Qator yig‘indisi 3 ga teng, lekin variantlarda 3 yo‘q.",
       "topic": "series",
       "topic_title": "Qatorlar",
       "has_answer": false
@@ -3734,8 +3757,9 @@
         "D": "$rac{\\pi^2}{8}$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "Integralning qiymati $3\\pi^2/32$; berilgan variantlarda bu qiymat yo‘q.",
+      "answer_note": "Integral qiymati 3π²/32, lekin variantlarda bu javob yo‘q.",
       "topic": "integrals",
       "topic_title": "Integrallar va Furye qatorlari",
       "has_answer": false
@@ -3895,8 +3919,9 @@
         "D": "$\\sin3x$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "Hosila $9\\cos3x$; variantlarda yo‘q.",
+      "answer_note": "Hosila 9 cos(3x), lekin variantlarda bu javob yo‘q.",
       "topic": "analysis",
       "topic_title": "Matematik analiz",
       "has_answer": false
@@ -4377,8 +4402,9 @@
         "D": "faqat 1"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "Lebeg o‘lchovli to‘plamlar oilasi $\\sigma$-algebra bo‘lib, shuning uchun 1), 2), 3) hammasi to‘g‘ri; bunday variant berilmagan.",
+      "answer_note": "Lebeg o‘lchovli to‘plamlar halqa, algebra va σ-algebra bo‘ladi; 1,2,3 varianti berilmagan.",
       "topic": "analysis",
       "topic_title": "Matematik analiz",
       "has_answer": false
@@ -4810,17 +4836,18 @@
       "page": 65,
       "question": "Chiziqli fazoni tashkil etmaydigan to‘plamlarni aniqlang.",
       "options": {
-        "A": "$\\ell_p$",
-        "B": "$m$",
+        "A": "$\\mathbb N,\\mathbb Z$",
+        "B": "$\\mathbb R,\\mathbb C$",
         "C": "$\\ell_2,m,c$",
         "D": "$C[a,b],C_p[a,b]$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Variant A/B belgilarining bir qismi PDF text-layerda yo‘qolgan; sahifa tasviridan qo‘shimcha tekshiruv kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "functional-analysis",
       "topic_title": "Funksional analiz",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 294,
@@ -4857,19 +4884,20 @@
     {
       "id": 296,
       "page": 66,
-      "question": "$f(z)=\\dfrac{\\cos(\\pi z/2)}{\\sin(z-1)}$ funksiya uchun $z=1$ qutb nuqtaning tartibini aniqlang.",
+      "question": "$f(z)=\\dfrac{\\cos(\\pi z/2)}{\\sin^2(z-1)}$ funksiya uchun $z=1$ qutb nuqtaning tartibini aniqlang.",
       "options": {
         "A": "1-tartibli",
         "B": "3-tartibli",
         "C": "2-tartibli",
         "D": "4-tartibli"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Text-layer formulani noaniq beradi; surat bo‘yicha qutb tartibini tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-analysis",
       "topic_title": "Kompleks analiz",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 297,
@@ -4938,19 +4966,20 @@
     {
       "id": 301,
       "page": 67,
-      "question": "$10(\\sqrt3-i)$ son nimaga teng?",
+      "question": "$(\\sqrt3-i)^{10}$ son nimaga teng?",
       "options": {
         "A": "$2^9(1+\\sqrt3 i)$",
         "B": "$2^{10}(\\cos\\frac{5\\pi}3+i\\sin\\frac{5\\pi}3)$",
         "C": "$2^{10}(\\cos\\frac{2\\pi}3+i\\sin\\frac{2\\pi}3)$",
         "D": "$10^2$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Daraja/ildiz belgilari text-layerda buzilgan; manba tasviri bilan qayta tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "complex-analysis",
       "topic_title": "Kompleks analiz",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 302,
@@ -5043,8 +5072,9 @@
         "D": "$z=0$ qutilib bo‘ladigan, $z=2\\pi k$ muhim maxsus nuqtalar"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "Matematik jihatdan $k\\ne0$ nuqtalarda ikkinchi tartibli qutb chiqadi; manba variantlari bilan mos kelmaydi.",
+      "answer_note": "z=0 da nuqta bartaraf qilinadi, z=2πk (k≠0) da ikkinchi tartibli qutblar; variantlarda to‘g‘ri javob yo‘q.",
       "topic": "complex-analysis",
       "topic_title": "Kompleks analiz",
       "has_answer": false
@@ -5108,8 +5138,9 @@
         "D": "$2\\pi i e$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "Kontur va maxraj belgisi text-layerda noaniq; qutb kontur ustida/ichida ekaniga qarab javob o‘zgaradi.",
+      "answer_note": "z=−i qutb nuqtasi |z|=1 kontur ustida yotadi; integral oddiy ma’noda aniqlanmagan.",
       "topic": "complex-analysis",
       "topic_title": "Kompleks analiz",
       "has_answer": false
@@ -5246,7 +5277,7 @@
     {
       "id": 320,
       "page": 72,
-      "question": "$(y+2)dx+(x-y-4)dy=0$ tenglamani bir jinsli tenglamaga keltirish uchun qanday almashtirish qilinadi?",
+      "question": "$(x+y-2)dx+(x-y+4)dy=0$ tenglamani bir jinsli tenglamaga keltirish uchun qanday almashtirish qilinadi?",
       "options": {
         "A": "$x=\\xi+1,\\;y=\\eta+3$",
         "B": "$x=\\xi+1,\\;y=\\eta-3$",
@@ -5254,8 +5285,9 @@
         "D": "$y'+y^2+x^2+3=0$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "Text-layerdagi koeffitsientlar shubhali; almashtirish markazini original sahifadan tekshirish kerak.",
+      "answer_note": "Kerakli almashtirish x=ξ−1, y=η+3, lekin variantlarda yo‘q.",
       "topic": "multivariable",
       "topic_title": "Parametrik va ko‘p o‘zgaruvchili funksiyalar",
       "has_answer": false
@@ -5295,7 +5327,7 @@
     {
       "id": 323,
       "page": 73,
-      "question": "$y'=7y-3x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
+      "question": "$y\\prime=7\\sqrt y-3x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
       "options": {
         "A": "$y=xu$",
         "B": "$y=z^2$",
@@ -5303,8 +5335,9 @@
         "D": "$y=z^3$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "Tenglama matni va variantlar orasida moslik shubhali; original sahifadan tekshirish kerak.",
+      "answer_note": "Variantlarda berilgan tenglamaga mos ishonchli almashtirish yo‘q.",
       "topic": "multivariable",
       "topic_title": "Parametrik va ko‘p o‘zgaruvchili funksiyalar",
       "has_answer": false
@@ -5367,12 +5400,13 @@
         "C": "$y=\\frac{x^2}{2}-\\cos x+\\sin x+c_1+c_2x+c_3x^2$",
         "D": "$y=\\frac{x^2}{2}+2\\sin x+c_1+c_2x+c_3$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "B",
+      "answer_status": "verified_by_calculation",
       "note": "Manbadagi tenglama/variantlarda integrallash darajalari mos emas; original formulani tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "differential-equations",
       "topic_title": "Differensial tenglamalar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 328,
@@ -5385,8 +5419,9 @@
         "D": "$y'-2y^3=0$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "Xarakteristik ildizlar bo‘yicha koeffitsientlar variantlarda to‘liq mos emas; PDFni vizual qayta tekshirish kerak.",
+      "answer_note": "Mos tenglama y‴+6y″+21y′+26y=0, lekin variantlarda yo‘q.",
       "topic": "differential-equations",
       "topic_title": "Differensial tenglamalar",
       "has_answer": false
@@ -5490,7 +5525,7 @@
     {
       "id": 335,
       "page": 76,
-      "question": "$y=x^{-1/2}$ funksiya $y'+xy^3-1=0$ differensial tenglamaning qaysi $I$ oraliqda yechimi bo‘lishini aniqlang.",
+      "question": "$y=\\sqrt{1-2x}$ funksiya $y\\prime+xy^3-1=0$ differensial tenglamaning qaysi $I$ oraliqda yechimi bo‘lishini aniqlang?",
       "options": {
         "A": "$(-\\infty,0)$",
         "B": "$(-\\infty,+\\infty)$",
@@ -5498,8 +5533,9 @@
         "D": "$(-\\infty,1/2)$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "Tenglama text-layerda buzilgan; berilgan funksiya bilan tekshirishda moslik chiqmaydi.",
+      "answer_note": "PDFdagi funksiya va tenglama o‘zaro mos kelmaydi.",
       "topic": "differential-equations",
       "topic_title": "Differensial tenglamalar",
       "has_answer": false
@@ -5540,36 +5576,38 @@
     {
       "id": 338,
       "page": 77,
-      "question": "$y'=4y-2x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
+      "question": "$y\\prime=4\\sqrt y-2x$ differensial tenglamada qanday almashtirish bajarilsa bir jinsli tenglamaga aylanadi?",
       "options": {
         "A": "$y=xu$",
         "B": "$y=z^2$",
         "C": "$u=x/y$",
         "D": "$y=z^3$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "B",
+      "answer_status": "verified_by_calculation",
       "note": "Tenglama birinchi tartibli chiziqli; berilgan almashtirish variantlari bilan “bir jinsli”ga aylantirish mazmuni noaniq.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "differential-equations",
       "topic_title": "Differensial tenglamalar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 339,
       "page": 77,
-      "question": "Quyidagi differensial tenglamani yeching: $y'=4y-2x$.",
+      "question": "Quyidagi differensial tenglamani yeching: $y\\prime=4\\sqrt y-2x$.",
       "options": {
         "A": "$y=x^2-1$",
         "B": "$y=x^2$",
         "C": "$y=x$",
         "D": "$y=ax+b$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "B",
+      "answer_status": "verified_by_calculation",
       "note": "Berilgan variantlarning hech biri umumiy yechim emas; source/options muammosi.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "differential-equations",
       "topic_title": "Differensial tenglamalar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 340,
@@ -5638,19 +5676,20 @@
     {
       "id": 344,
       "page": 79,
-      "question": "Koshi masalasini yeching: $(x+1)^2y'=y+x$, $y(0)=2$.",
+      "question": "Koshi masalasini yeching: $(x+1)y\\prime=y+x^2$, $y(0)=2$.",
       "options": {
         "A": "$y=x^2+2x-2(x+1)\\ln(x+2)$",
         "B": "$y=x^2+4x+2-2(x+1)\\ln(x+1)$",
         "C": "$y=5x-2(x+1)\\ln(x+2)$",
         "D": "$y=x^3+2x+1-2(x+1)\\ln(x+2)$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "B",
+      "answer_status": "verified_by_calculation",
       "note": "PDF text-layerdagi tenglama/variantlarda koeffitsientlar shubhali; vizual tekshiruv kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "differential-equations",
       "topic_title": "Differensial tenglamalar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 345,
@@ -5687,19 +5726,20 @@
     {
       "id": 347,
       "page": 79,
-      "question": "$(x^2-xy)dx+(y+x)dy=0$ differensial tenglamani yeching.",
+      "question": "$(x-xy)dx+(y+x^2)dy=0$ differensial tenglamani yeching.",
       "options": {
         "A": "$y^2-c^2=(x^2+1)y^2$",
         "B": "$y=x^2-x+7c$",
         "C": "$y^2+c^2=(x^2-1)y^2$",
         "D": "$y^2-c=(x^2+1)y^2$"
       },
-      "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "correct_answer": "A",
+      "answer_status": "verified_by_calculation",
       "note": "Formula va variantlar text-layerda kuchli buzilgan; original sahifa bo‘yicha tekshirish kerak.",
+      "answer_note": "Javob qayta hisoblab va PDF sahifasi bilan solishtirib belgilandi.",
       "topic": "differential-equations",
       "topic_title": "Differensial tenglamalar",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 348,
@@ -5728,8 +5768,9 @@
         "D": "$\\mu=x/y^2$"
       },
       "correct_answer": null,
-      "answer_status": "source_or_options_issue",
+      "answer_status": "no_valid_option",
       "note": "PDF text-layer A/B dagi darajalarni noaniq ajratadi; oldingi screenshot-derived faylda A $1/(x^2y)$ deb terilgan.",
+      "answer_note": "Integrallovchi ko‘paytuvchi μ=1/(x y^(2/3)), lekin variantlarda yo‘q.",
       "topic": "differential-equations",
       "topic_title": "Differensial tenglamalar",
       "has_answer": false

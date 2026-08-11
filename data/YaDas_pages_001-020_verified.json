@@ -881,7 +881,7 @@
       },
       "correct_answer": null,
       "answer_status": "no_valid_option",
-      "answer_note": "PDFdagi A(2,0) shartiga ko‘ra kanonik giperbolada x² maxrajida 4 bo‘lishi kerak; berilgan A–D variantlarning hech biri mos emas. Variantlar manbadagidek saqlandi."
+      "answer_note": "Kanonik tenglama x²/4 − y²/b² = 1 bo‘ladi, lekin variantlarda bunday javob yo‘q."
     },
     {
       "id": 68,
