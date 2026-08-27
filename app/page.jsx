@@ -27,6 +27,21 @@ function shuffle(items) {
   return copy;
 }
 
+function repairMathEscapes(value) {
+  if (typeof value !== 'string' || !value.includes('$')) return value;
+
+  const repair = (math) => math
+    .replace(/\u0007/g, '\\a')
+    .replace(/\u0008/g, '\\b')
+    .replace(/\t/g, '\\t')
+    .replace(/\n/g, '\\n')
+    .replace(/\u000b/g, '\\v')
+    .replace(/\f/g, '\\f')
+    .replace(/\r/g, '\\r');
+
+  return value.replace(/\$([\s\S]*?)\$/g, (match, math) => `$${repair(math)}$`);
+}
+
 function typeset(elements) {
   if (typeof window === 'undefined' || !window.MathJax?.typesetPromise) return;
   window.MathJax.typesetPromise(elements.filter(Boolean)).catch(() => {});
@@ -78,6 +93,7 @@ export default function Home() {
 
   const currentQuestion = deck[index];
   const currentCorrect = currentQuestion ? correctSet(currentQuestion) : new Set();
+  const displayQuestion = currentQuestion ? repairMathEscapes(currentQuestion.question || 'Savol matni yo‘q') : '';
 
   useEffect(() => {
     if (screen === 'play') {
@@ -238,14 +254,14 @@ export default function Home() {
               <div className="quiz-head"><span>{index + 1} / {deck.length}</span><span>{score} to‘g‘ri</span></div>
               <div className="progress"><i style={{ width: `${progress}%` }} /></div>
               <div className="topic-tag">{currentQuestion.topic_title || currentQuestion.topic || 'Mavzu'}</div>
-              <div className="question" ref={questionRef}>{currentQuestion.question || 'Savol matni yo‘q'}</div>
+              <div className="question" ref={questionRef}>{displayQuestion}</div>
               <div className="options" ref={optionsRef}>
                 {letters.map((letter) => {
                   const isCorrect = currentCorrect.has(letter);
                   const isWrong = currentAnswered && letter === selectedAnswer && !isCorrect;
                   return (
                     <button key={letter} type="button" className={`option ${currentAnswered && isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}`} disabled={currentAnswered} onClick={() => answer(letter)}>
-                      <b>{letter}</b><span>{currentQuestion.options?.[letter] ?? '—'}</span>
+                      <b>{letter}</b><span>{repairMathEscapes(currentQuestion.options?.[letter] ?? '—')}</span>
                     </button>
                   );
                 })}
