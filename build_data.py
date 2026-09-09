@@ -1,5 +1,4 @@
 import json
-import glob
 import re
 from pathlib import Path
 
@@ -25,6 +24,7 @@ TOPICS = [
     ("differential-equations", "Differensial tenglamalar", 74, 80),
 ]
 
+
 def clean(value):
     if isinstance(value, str):
         return re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", value)
@@ -34,21 +34,51 @@ def clean(value):
         return [clean(v) for v in value]
     return value
 
+
 def topic_for(page):
     for key, title, start, end in TOPICS:
         if start <= page <= end:
             return key, title
     raise ValueError(page)
 
+
+def load_corrections():
+    path = DATA / "YaDas_corrections.json"
+    if not path.exists():
+        return {}, {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    patches = {int(row[0]): row for row in payload.get("q", [])}
+    topic_overrides = {int(qid): value for qid, value in payload.get("t", {}).items()}
+    return patches, topic_overrides
+
+
+def apply_patch(q, row):
+    if not row:
+        return q
+    q["question"] = row[1]
+    q["options"] = {"A": row[2], "B": row[3], "C": row[4], "D": row[5]}
+    q["correct_answer"] = row[6]
+    q["answer_status"] = row[7]
+    if len(row) > 8 and row[8]:
+        q["note"] = row[8]
+    return q
+
+
+patches, topic_overrides = load_corrections()
 questions = []
 source_files = sorted(DATA.glob("YaDas_pages_*_verified.json"))
 if not source_files:
     source_files = sorted(ROOT.glob("YaDas_pages_*_verified.json"))
+
 for source in source_files:
     payload = json.loads(source.read_text(encoding="utf-8"))
     for raw in payload["questions"]:
         q = clean(raw)
+        qid = int(q["id"])
+        q = apply_patch(q, patches.get(qid))
         key, title = topic_for(q["page"])
+        if qid in topic_overrides:
+            key, title = topic_overrides[qid]
         q["topic"] = key
         q["topic_title"] = title
         ca = q.get("correct_answer")
@@ -81,6 +111,7 @@ if html_path.exists():
     else:
         html = html.replace('<script src="questions.js"></script>', start + payload + end)
     html_path.write_text(html, encoding="utf-8")
+
 print(f"{len(questions)} questions, {len(topics)} topics")
 for topic in topics:
     print(f"{topic['title']}: {topic['count']}")
