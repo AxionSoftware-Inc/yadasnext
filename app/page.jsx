@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import sourceData from '../data/questions-1-80.json';
+import correctionData from '../data/YaDas_corrections.json';
 
 const letters = ['A', 'B', 'C', 'D'];
 const storeKey = 'yadas-study-v2';
@@ -18,6 +19,44 @@ function correctSet(question) {
   return new Set(raw.map((value) => String(value).trim().toUpperCase()).filter((value) => letters.includes(value)));
 }
 
+function applyCorrections(base, corrections) {
+  if (!base || !Array.isArray(base.questions) || !corrections) return base;
+
+  const patches = new Map((corrections.q || []).map((row) => [Number(row[0]), row]));
+  const topicsById = corrections.t || {};
+
+  const questions = base.questions.map((original) => {
+    const question = { ...original, options: { ...(original.options || {}) } };
+    const patch = patches.get(Number(question.id));
+
+    if (patch) {
+      question.question = patch[1];
+      question.options = { A: patch[2], B: patch[3], C: patch[4], D: patch[5] };
+      question.correct_answer = patch[6];
+      question.answer_status = patch[7];
+      question.has_answer = Array.isArray(patch[6])
+        ? patch[6].length > 0
+        : letters.includes(String(patch[6] || ''));
+      if (patch[8]) question.note = patch[8];
+    }
+
+    const topic = topicsById[String(question.id)];
+    if (topic) {
+      question.topic = topic[0];
+      question.topic_title = topic[1];
+    }
+
+    return question;
+  });
+
+  const topics = (base.topics || []).map((topic) => ({
+    ...topic,
+    count: questions.filter((question) => question.topic === topic.id).length,
+  }));
+
+  return { ...base, questions, topics };
+}
+
 function shuffle(items) {
   const copy = [...items];
   for (let i = copy.length - 1; i > 0; i -= 1) {
@@ -31,24 +70,44 @@ function repairMathEscapes(value) {
   if (typeof value !== 'string' || !value.includes('$')) return value;
 
   const repair = (math) => math
+    // Old source JSONs accidentally interpreted TeX prefixes such as \f in \frac
+    // as control characters. Restore those before MathJax sees the expression.
     .replace(/\u0007/g, '\\a')
     .replace(/\u0008/g, '\\b')
     .replace(/\t/g, '\\t')
     .replace(/\n/g, '\\n')
     .replace(/\u000b/g, '\\v')
     .replace(/\f/g, '\\f')
-    .replace(/\r/g, '\\r');
+    .replace(/\r/g, '\\r')
+    // Some generated JSONs were already cleaned after the control character
+    // was lost, leaving `rac...` instead of `\\frac...`.
+    .replace(/(^|[^A-Za-z\\])rac(?=(?:\{|\\|\d))/g, '$1\\frac');
 
   return value.replace(/\$([\s\S]*?)\$/g, (match, math) => `$${repair(math)}$`);
 }
 
 function typeset(elements) {
-  if (typeof window === 'undefined' || !window.MathJax?.typesetPromise) return;
-  window.MathJax.typesetPromise(elements.filter(Boolean)).catch(() => {});
+  if (typeof window === 'undefined') return;
+
+  const targets = elements.filter(Boolean);
+  let attempts = 0;
+
+  const run = () => {
+    if (window.MathJax?.typesetPromise) {
+      window.MathJax.typesetClear?.(targets);
+      window.MathJax.typesetPromise(targets).catch(() => {});
+      return;
+    }
+
+    attempts += 1;
+    if (attempts < 20) window.setTimeout(run, 100);
+  };
+
+  run();
 }
 
 export default function Home() {
-  const data = sourceData;
+  const data = useMemo(() => applyCorrections(sourceData, correctionData), []);
   const [selectedTopic, setSelectedTopic] = useState('all');
   const [count, setCount] = useState('10');
   const [status, setStatus] = useState('all');
