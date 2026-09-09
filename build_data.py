@@ -24,9 +24,27 @@ TOPICS = [
     ("differential-equations", "Differensial tenglamalar", 74, 80),
 ]
 
+CONTROL_TO_TEX = {
+    "\x07": r"\a",
+    "\x08": r"\b",
+    "\t": r"\t",
+    "\n": r"\n",
+    "\x0b": r"\v",
+    "\x0c": r"\f",
+    "\r": r"\r",
+}
+
+
+def repair_tex(value):
+    for control, tex in CONTROL_TO_TEX.items():
+        value = value.replace(control, tex)
+    value = re.sub(r"(^|[^A-Za-z\\])rac(?=(?:\{|\\|\d))", r"\1\\frac", value)
+    return value
+
 
 def clean(value):
     if isinstance(value, str):
+        value = repair_tex(value)
         return re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", value)
     if isinstance(value, dict):
         return {k: clean(v) for k, v in value.items()}
