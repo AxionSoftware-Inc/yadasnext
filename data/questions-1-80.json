@@ -3509,7 +3509,7 @@
       "question": "$1-\\frac12+\\frac14-\\frac18+\\cdots+\\frac{(-1)^{n-1}}{2^{n-1}}+\\cdots$ qatorning yig‘indisini toping.",
       "options": {
         "A": "$1$",
-        "B": "$rac23$",
+        "B": "$\\frac23$",
         "C": "$2$",
         "D": "$4$"
       },
@@ -3525,7 +3525,7 @@
       "question": "$\\left(\\frac12+\\frac13\\right)+\\left(\\frac1{2^2}+\\frac1{3^2}\\right)+\\cdots+\\left(\\frac1{2^n}+\\frac1{3^n}\\right)+\\cdots$ qatorning yig‘indisini toping.",
       "options": {
         "A": "$1$",
-        "B": "$rac32$",
+        "B": "$\\frac32$",
         "C": "$2$",
         "D": "$4$"
       },
@@ -3558,9 +3558,9 @@
       "page": 44,
       "question": "$\\frac25+\\frac2{5^2}+\\cdots+\\frac2{5^n}+\\cdots$ qatorning yig‘indisini toping.",
       "options": {
-        "A": "$rac12$",
-        "B": "$rac32$",
-        "C": "$rac5{36}$",
+        "A": "$\\frac12$",
+        "B": "$\\frac32$",
+        "C": "$\\frac5{36}$",
         "D": "$4$"
       },
       "correct_answer": "A",
@@ -3574,10 +3574,10 @@
       "page": 44,
       "question": "$\\sum_{n=1}^{\\infty}\\frac1{16n^2-8n-3}$ qatorning yig‘indisini toping.",
       "options": {
-        "A": "$rac12$",
-        "B": "$rac14$",
-        "C": "$rac5{36}$",
-        "D": "$rac1{15}$"
+        "A": "$\\frac12$",
+        "B": "$\\frac14$",
+        "C": "$\\frac5{36}$",
+        "D": "$\\frac1{15}$"
       },
       "correct_answer": "B",
       "answer_status": "verified",
@@ -3590,10 +3590,10 @@
       "page": 45,
       "question": "$\\sum_{n=1}^{\\infty}\\frac1{25n^2+5n-6}$ qatorning yig‘indisini toping.",
       "options": {
-        "A": "$rac12$",
-        "B": "$rac14$",
-        "C": "$rac5{36}$",
-        "D": "$rac1{15}$"
+        "A": "$\\frac12$",
+        "B": "$\\frac14$",
+        "C": "$\\frac5{36}$",
+        "D": "$\\frac1{15}$"
       },
       "correct_answer": "D",
       "answer_status": "verified",
@@ -3606,10 +3606,10 @@
       "page": 45,
       "question": "$\\sum_{n=1}^{\\infty}\\frac1{49n^2+7n-12}$ qatorning yig‘indisini toping.",
       "options": {
-        "A": "$rac12$",
-        "B": "$rac14$",
-        "C": "$rac1{28}$",
-        "D": "$rac1{15}$"
+        "A": "$\\frac12$",
+        "B": "$\\frac14$",
+        "C": "$\\frac1{28}$",
+        "D": "$\\frac1{15}$"
       },
       "correct_answer": "C",
       "answer_status": "verified",
@@ -3622,10 +3622,10 @@
       "page": 45,
       "question": "$\\sum_{n=2}^{\\infty}\\frac1{n^2-1}$ qatorning yig‘indisini toping.",
       "options": {
-        "A": "$rac12$",
-        "B": "$rac34$",
-        "C": "$rac5{36}$",
-        "D": "$rac1{15}$"
+        "A": "$\\frac12$",
+        "B": "$\\frac34$",
+        "C": "$\\frac5{36}$",
+        "D": "$\\frac1{15}$"
       },
       "correct_answer": "B",
       "answer_status": "verified",
@@ -3670,9 +3670,9 @@
       "page": 46,
       "question": "$\\int_0^{\\infty}e^{-x^2}\\,dx$ Eyler integrali hisoblansin.",
       "options": {
-        "A": "$rac{\\pi}{2\\sqrt2}$",
-        "B": "$rac{\\pi}{\\sqrt2}$",
-        "C": "$rac{\\sqrt\\pi}{2}$",
+        "A": "$\\frac{\\pi}{2\\sqrt2}$",
+        "B": "$\\frac{\\pi}{\\sqrt2}$",
+        "C": "$\\frac{\\sqrt\\pi}{2}$",
         "D": "$1$"
       },
       "correct_answer": "C",
@@ -3686,9 +3686,9 @@
       "page": 46,
       "question": "$\\int_0^{\\infty}\\frac{x^2}{1+x^4}\\,dx$ xosmas integral hisoblansin.",
       "options": {
-        "A": "$rac{\\pi}{2\\sqrt2}$",
-        "B": "$rac{\\pi}{2\\sqrt2}$",
-        "C": "$rac{\\sqrt\\pi}{2}$",
+        "A": "$\\frac{\\pi}{2\\sqrt2}$",
+        "B": "$\\frac{\\pi}{2\\sqrt2}$",
+        "C": "$\\frac{\\sqrt\\pi}{2}$",
         "D": "$1$"
       },
       "correct_answer": "A",
@@ -3703,9 +3703,9 @@
       "page": 47,
       "question": "$\\int_0^1\\sqrt{x-x^2}\\,dx$ integral hisoblansin.",
       "options": {
-        "A": "$rac\\pi8$",
-        "B": "$rac{\\pi}{2\\sqrt2}$",
-        "C": "$rac{\\sqrt\\pi}{2}$",
+        "A": "$\\frac\\pi8$",
+        "B": "$\\frac{\\pi}{2\\sqrt2}$",
+        "C": "$\\frac{\\sqrt\\pi}{2}$",
         "D": "$1$"
       },
       "correct_answer": "A",
@@ -3719,8 +3719,8 @@
       "page": 47,
       "question": "$\\int_0^{1/2}\\frac{1}{x\\ln^2x}\\,dx$ xosmas integralni hisoblang.",
       "options": {
-        "A": "$rac1{\\ln2}$",
-        "B": "$rac2{\\ln3}$",
+        "A": "$\\frac1{\\ln2}$",
+        "B": "$\\frac2{\\ln3}$",
         "C": "$2$",
         "D": "aniqlab bo‘lmaydi"
       },
@@ -3735,9 +3735,9 @@
       "page": 47,
       "question": "$\\int_0^{\\infty}\\frac1{4+x^2}\\,dx$ xosmas integralni hisoblang.",
       "options": {
-        "A": "$rac\\pi8$",
-        "B": "$rac{\\pi}{2\\sqrt2}$",
-        "C": "$rac\\pi4$",
+        "A": "$\\frac\\pi8$",
+        "B": "$\\frac{\\pi}{2\\sqrt2}$",
+        "C": "$\\frac\\pi4$",
         "D": "$1$"
       },
       "correct_answer": "C",
@@ -3751,10 +3751,10 @@
       "page": 48,
       "question": "$\\int_1^{\\infty}\\frac{\\arctan x}{1+x^2}\\,dx$ xosmas integralni hisoblang.",
       "options": {
-        "A": "$rac\\pi8$",
-        "B": "$rac{\\pi}{2\\sqrt2}$",
-        "C": "$rac\\pi4$",
-        "D": "$rac{\\pi^2}{8}$"
+        "A": "$\\frac\\pi8$",
+        "B": "$\\frac{\\pi}{2\\sqrt2}$",
+        "C": "$\\frac\\pi4$",
+        "D": "$\\frac{\\pi^2}{8}$"
       },
       "correct_answer": null,
       "answer_status": "no_valid_option",
@@ -3836,7 +3836,7 @@
         "A": "$0$",
         "B": "$\\pi^2$",
         "C": "$1$",
-        "D": "$-rac12$"
+        "D": "$-\\frac12$"
       },
       "correct_answer": "D",
       "answer_status": "verified",
@@ -3852,7 +3852,7 @@
         "A": "$0$",
         "B": "$\\pi^2$",
         "C": "$1$",
-        "D": "$-rac12$"
+        "D": "$-\\frac12$"
       },
       "correct_answer": "C",
       "answer_status": "verified",
@@ -3865,8 +3865,8 @@
       "page": 50,
       "question": "$\\lim_{n\\to\\infty}(\\sqrt{n^2-3n+2}-n)$ limitni hisoblang.",
       "options": {
-        "A": "$-rac12$",
-        "B": "$-rac32$",
+        "A": "$-\\frac12$",
+        "B": "$-\\frac32$",
         "C": "$0$",
         "D": "$2$"
       },
@@ -3897,7 +3897,7 @@
       "page": 50,
       "question": "$\\lim_{n\\to\\infty}\\left(\\frac{3n+4}{3n+5}\\right)^n$ limitni hisoblang.",
       "options": {
-        "A": "$rac1{\\sqrt[3]e}$",
+        "A": "$\\frac1{\\sqrt[3]e}$",
         "B": "$0$",
         "C": "$1$",
         "D": "$2$"
