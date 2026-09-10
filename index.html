@@ -76,6 +76,7 @@ function save(){try{localStorage.setItem(storeKey,JSON.stringify(state))}catch{}
 function updateStats(){const vals=Object.values(state.answered||{});$('statAnswered').textContent=vals.length;$('statAccuracy').textContent=state.attempts?Math.round(state.correct/state.attempts*100)+'%':'—';$('statSessions').textContent=state.sessions}
 function buildTopics(){const list=[{id:'all',title:'Barcha mavzular',count:data.questions.length},...(data.topics||[])];$('topicList').replaceChildren(...list.map(t=>{const b=document.createElement('button');b.className='topic-chip '+(t.id===selectedTopic?'active':'');b.dataset.topic=t.id;const a=document.createElement('span');a.textContent=t.title;const n=document.createElement('span');n.textContent=t.count??'';b.append(a,n);b.onclick=()=>{selectedTopic=t.id;buildTopics()};return b}))}
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function shuffleQuestion(q){const entries=shuffle(letters.map(l=>[l,q.options?.[l]??'—']));const oldCorrect=correctSet(q);const options=Object.fromEntries(entries.map((entry,i)=>[letters[i],entry[1]]));const correctAnswer=entries.map(([old],i)=>oldCorrect.has(old)?letters[i]:null).filter(Boolean);return {...q,options,correct_answer:Array.isArray(q.correct_answer)?correctAnswer:(correctAnswer[0]||null)}}
 
 function typeset(targets){
   targets=targets.filter(Boolean);let tries=0;
@@ -83,7 +84,7 @@ function typeset(targets){
   run();
 }
 
-function start(){let pool=data.questions.filter(q=>selectedTopic==='all'||q.topic===selectedTopic),mode=$('status').value;if(mode==='answered')pool=pool.filter(q=>correctSet(q).size);if(mode==='unseen')pool=pool.filter(q=>!state.answered[q.id]);if(mode==='wrong')pool=pool.filter(q=>state.answered[q.id]?.correct===false);pool=shuffle(pool);const n=$('count').value==='all'?pool.length:Number($('count').value);deck=pool.slice(0,n);index=score=sessionAttempts=0;currentAnswered=false;$('summary').classList.remove('show');if(!deck.length){$('play').hidden=true;$('empty').hidden=false;return}$('empty').hidden=true;$('play').hidden=false;state.sessions++;save();showQuestion()}
+function start(){let pool=data.questions.filter(q=>selectedTopic==='all'||q.topic===selectedTopic),mode=$('status').value;if(mode==='answered')pool=pool.filter(q=>correctSet(q).size);if(mode==='unseen')pool=pool.filter(q=>!state.answered[q.id]);if(mode==='wrong')pool=pool.filter(q=>state.answered[q.id]?.correct===false);pool=shuffle(pool);const n=$('count').value==='all'?pool.length:Number($('count').value);deck=pool.slice(0,n).map(shuffleQuestion);index=score=sessionAttempts=0;currentAnswered=false;$('summary').classList.remove('show');if(!deck.length){$('play').hidden=true;$('empty').hidden=false;return}$('empty').hidden=true;$('play').hidden=false;state.sessions++;save();showQuestion()}
 
 function showQuestion(){
   const q=deck[index];if(!q)return finish();currentAnswered=false;

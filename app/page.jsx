@@ -66,6 +66,23 @@ function shuffle(items) {
   return copy;
 }
 
+function shuffleQuestion(question) {
+  const entries = shuffle(letters.map((letter) => [letter, question.options?.[letter] ?? '—']));
+  const oldCorrect = correctSet(question);
+  const options = Object.fromEntries(entries.map((entry, index) => [letters[index], entry[1]]));
+  const correctAnswer = entries
+    .map(([oldLetter], index) => (oldCorrect.has(oldLetter) ? letters[index] : null))
+    .filter(Boolean);
+
+  return {
+    ...question,
+    options,
+    correct_answer: Array.isArray(question.correct_answer)
+      ? correctAnswer
+      : correctAnswer[0] || null,
+  };
+}
+
 function repairMathEscapes(value) {
   if (typeof value !== 'string' || !value.includes('$')) return value;
 
@@ -171,7 +188,7 @@ export default function Home() {
 
     const shuffled = shuffle(pool);
     const amount = count === 'all' ? shuffled.length : Math.max(0, Number(count) || 0);
-    const nextDeck = shuffled.slice(0, amount);
+    const nextDeck = shuffled.slice(0, amount).map(shuffleQuestion);
 
     setDeck(nextDeck);
     setIndex(0);
