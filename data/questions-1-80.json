@@ -5066,18 +5066,18 @@
       "page": 69,
       "question": "$f(z)=\\dfrac{z^2}{1-\\cos z}$ ning maxsus nuqtalarini va ularning turini aniqlang.",
       "options": {
-        "A": "$z=0$ qutilib bo‘ladigan, $z=2\\pi k, k\\ne0$ oddiy qutblar",
+        "A": "$z=0$ qutilib bo‘ladigan, $z=2\\pi k,\\ k\\ne0$ ikkinchi tartibli qutblar",
         "B": "$z=0$ ikkinchi tartibli qutb",
         "C": "$z=2\\pi k$ oddiy qutblar",
         "D": "$z=0$ qutilib bo‘ladigan, $z=2\\pi k$ muhim maxsus nuqtalar"
       },
-      "correct_answer": null,
-      "answer_status": "no_valid_option",
-      "note": "Matematik jihatdan $k\\ne0$ nuqtalarda ikkinchi tartibli qutb chiqadi; manba variantlari bilan mos kelmaydi.",
+      "correct_answer": "A",
+      "answer_status": "source_repaired",
+      "note": "1-\\cos z=2\\sin^2(z/2); z=0 da z^2 bilan qisqaradi, z=2\\pi k (k\\ne0) nuqtalarda ikkinchi tartibli qutb qoladi.",
       "answer_note": "z=0 da nuqta bartaraf qilinadi, z=2πk (k≠0) da ikkinchi tartibli qutblar; variantlarda to‘g‘ri javob yo‘q.",
       "topic": "complex-analysis",
       "topic_title": "Kompleks analiz",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 308,
@@ -5132,18 +5132,18 @@
       "page": 70,
       "question": "Integralni hisoblang: $\\displaystyle\\oint_{|z|=1}\\frac{e^{iz}}{z+i}dz$.",
       "options": {
-        "A": "$\\pi e$",
+        "A": "$Aniqlanmagan: z=-i qutb kontur |z|=1 ustida yotadi.$",
         "B": "$\\pi e\\,i$",
         "C": "$2\\pi e$",
         "D": "$2\\pi i e$"
       },
-      "correct_answer": null,
-      "answer_status": "no_valid_option",
-      "note": "Kontur va maxraj belgisi text-layerda noaniq; qutb kontur ustida/ichida ekaniga qarab javob o‘zgaradi.",
+      "correct_answer": "A",
+      "answer_status": "source_repaired",
+      "note": "z=-i nuqta |z|=1 aylana ustida bo‘lgani uchun odatiy kontur integrali aniqlanmagan.",
       "answer_note": "z=−i qutb nuqtasi |z|=1 kontur ustida yotadi; integral oddiy ma’noda aniqlanmagan.",
       "topic": "complex-analysis",
       "topic_title": "Kompleks analiz",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "id": 312,
